@@ -25,6 +25,7 @@ export const SectionListItemsPlugin = {
       const templateNames = {
         accordion: 'Accordion',
         banner: 'Banner',
+        cta: 'Call To Action',
         cards: 'Cards',
         embed: 'Embed',
         eventSchedule: 'Event Schedule',

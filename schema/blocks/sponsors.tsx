@@ -16,14 +16,23 @@ export const sponsorsBlockSchema: any = {
   ui: {
     defaultItem: {
       style: {
-        padding: "pt-20 pb-20 pr-20 pl-20",
-        headlineStyles: "text-black",
+        padding: 'pt-20 pb-20 pr-20 pl-20 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5',
+        headlineStyles: 'text-white mg-headline-medium undefined'
       },
       background: {
+        fillStyles: "opacity-100",
+        src: "/uploads/bg-sponsors.jpg",
         style: "bg-cover",
         position: "bg-center",
       },
-      items: [defaultCard, defaultCard, defaultCard],
+      partners: [
+        {
+          src: "/uploads/protocol.svg"
+        },
+        {
+          src: "/uploads/filecoin-foundation.svg"
+        }
+      ],
     },
   },
   fields: [

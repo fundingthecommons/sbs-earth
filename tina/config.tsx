@@ -6,6 +6,7 @@ import { backgroundSchema } from "../schema/background"
 // Blocks
 import { featureBlockSchema } from "../schema/blocks/feature";
 import { cardsBlockSchema } from "../schema/blocks/cards";
+import { ctaBlockSchema } from "../schema/blocks/cta";
 import { accordionBlockSchema } from "../schema/blocks/accordion";
 import { embedBlockSchema } from "../schema/blocks/embed";
 import { speakersBlockSchema } from "../schema/blocks/speakers";
@@ -81,6 +82,7 @@ const config = defineStaticConfig({
             templates: [
               featureBlockSchema,
               cardsBlockSchema,
+              ctaBlockSchema,
               accordionBlockSchema,
               embedBlockSchema,
               speakersBlockSchema,
