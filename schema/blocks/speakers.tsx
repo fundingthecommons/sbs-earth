@@ -12,7 +12,7 @@ export const speakersBlockSchema: any = {
   ui: {
     defaultItem: {
       label: "",
-      headline: "Previous Speakers",
+      headline: "Speakers",
       subhead: "",
       body: {
         type: 'root',
