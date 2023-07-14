@@ -393,6 +393,7 @@ blocks:
         label: ''
         headline: "Magenta\tCeiba"
         subhead: Bloom Network
+        body: ''
       - image:
           src: /uploads/Screenshot 2023-07-12 at 4.00.55 PM.png
         label: ''
@@ -452,6 +453,132 @@ blocks:
         label: ''
         headline: Jim Jiang
         subhead: SXX Data Future
+        body: ''
+    _template: speakers
+  - style:
+      alignment: flex-col-reverse items-center gap-12
+      padding: 'pt-20 pb-20 pr-10 pl-10 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
+      featureContent: w-full min-h-0 text-center
+      labelStyles: text-black undefined undefined
+      headlineStyles: text-accent3 mg-headline-medium mb-16
+      subheadStyles: text-black undefined undefined
+      textStyles: text-white mg-copy undefined
+    cardStyle:
+      fillStyles: bg-white opacity-100
+      grid: 'grid-cols-4 justify-start gap-4 sm:grid-cols-2 sm:justify-start sm:gap-4'
+      alignment: flex-col items-center  text-center
+      labelStyles: text-black mg-copy mb-0
+      headlineStyles: text-black mg-card-name mb-9
+      subheadStyles: text-black mg-card-title mb-0
+      textStyles: text-black mg-copy undefined
+    background:
+      fillStyles: ' opacity-100'
+      wrapFillStyles: ' opacity-100'
+      src: ''
+      style: bg-cover
+      position: bg-center
+      ornaments:
+        - src: /uploads/blue-blur.svg
+          alignment: top
+          xOffset: '700'
+          yOffset: '200'
+          animationType: scroll
+          duration: '2500'
+          scrollOffset: '-500'
+          startOpacity: '0.7'
+          startScale: '.8'
+          endOffsetY: 5-
+          endOffsetX: '50'
+          endScale: '1.5'
+        - src: /uploads/green-blur.svg
+          alignment: top
+          xOffset: '750'
+          yOffset: '-100'
+          animationType: scroll
+          duration: '2500'
+          scrollOffset: ''
+          startOffsetY: '0'
+          startOffsetX: '0'
+          startOpacity: '0.8'
+          startScale: '.7'
+          startRotation: '0'
+          endOffsetX: '-200'
+          endScale: '1.4'
+          endRotation: '10'
+        - src: /uploads/carnation.webp
+          alignment: top
+          xOffset: '600'
+          yOffset: '250'
+          animationType: scroll
+          duration: '2500'
+          scrollOffset: '-500'
+          startOffsetY: ''
+          startScale: '.9'
+          startRotation: '0'
+          endOffsetY: '-100'
+          endScale: '1'
+          endRotation: '-10'
+        - src: /uploads/blue-blur.svg
+          alignment: bottom
+          xOffset: '-750'
+    label: ''
+    headline: Content Committee
+    subhead: ''
+    body: >
+      The SBS Earth Content Committee features both Web3 and Sustainability
+      experts that play a critical role in shaping SBS Earth content and
+      programming. Committee members were chosen based on their substantial
+      contributions and leadership in the ReFi space and beyond.
+    items:
+      - image:
+          src: /uploads/twitter image-min.jpg
+        label: ''
+        headline: Saudamini Sharma
+        subhead: Thallo
+        body: ''
+      - image:
+          src: /uploads/Me.jpeg
+        label: ''
+        headline: Adrian Wons
+        subhead: Senken
+        body: ''
+      - image:
+          src: /uploads/Screenshot 2023-07-12 at 4.05.29 PM.png
+        label: ''
+        headline: Lyndon Burford
+        subhead: PATH Collective
+        body: ''
+      - image:
+          src: /uploads/IMG_1401.jpeg
+        label: ''
+        headline: Ester Silva
+        subhead: EthBrasil
+        body: ''
+      - image:
+          src: /uploads/Screenshot 2023-07-12 at 4.04.23 PM.png
+        label: ''
+        headline: Simeon Max
+        subhead: GainForest
+        body: ''
+      - image:
+          src: /uploads/Adelaine Headshot.jpg
+          alt: Adelaine B.
+        label: ''
+        headline: Adelaine Bhattacharjee
+        subhead: Topl
+        body: ''
+      - image:
+          src: /uploads/Screenshot 2023-07-12 at 4.07.10 PM.png
+        label: ''
+        headline: René Pinnell
+        subhead: Artizen
+        body: ''
+      - image:
+          src: /uploads/Screenshot 2023-07-12 at 3.53.50 PM.png
+        label: ''
+        headline: Kendra Leong
+        subhead: She256
+        body: ''
     _template: speakers
   - style:
       alignment: 'flex-col items-center '
@@ -530,6 +657,8 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
+
 
 
 
