@@ -525,10 +525,7 @@ blocks:
     headline: Content Committee
     subhead: ''
     body: >
-      The SBS Earth Content Committee features both Web3 and Sustainability
-      experts that play a critical role in shaping SBS Earth content and
-      programming. Committee members were chosen based on their substantial
-      contributions and leadership in the ReFi space and beyond.
+      The SBS Earth Content Committee features both Web3 and Sustainability experts that play a critical role in shaping SBS Earth content and programming. Committee members were chosen based on their substantial contributions and leadership in the ReFi space and beyond.
     items:
       - image:
           src: /uploads/twitter image-min.jpg
