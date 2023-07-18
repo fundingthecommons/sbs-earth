@@ -219,10 +219,16 @@ blocks:
       fillStyles: bg-white opacity-100
       grid: 'grid-cols-4 justify-start gap-4 sm:grid-cols-2 sm:justify-start sm:gap-4'
       alignment: flex-col items-center  text-center
+      image: wpx-160 hpx-160 object-center object-cover
+      imagePadding: pt-7 pb-7 pr-7 pl-7
+      contentPadding: undefined pb-7 pr-5 pl-5
+      borderStyles: border-white border-0
       labelStyles: text-black mg-copy mb-0
       headlineStyles: text-black mg-card-name mb-9
       subheadStyles: text-black mg-card-title mb-0
       textStyles: text-black mg-copy undefined
+      buttonLayout: undefined
+      buttonWidth: undefined
     background:
       fillStyles: ' opacity-100'
       wrapFillStyles: ' opacity-100'
@@ -464,68 +470,33 @@ blocks:
       subheadStyles: text-black undefined undefined
       textStyles: text-white mg-copy undefined
     cardStyle:
-      fillStyles: bg-white opacity-100
-      grid: 'grid-cols-4 justify-start gap-4 sm:grid-cols-2 sm:justify-start sm:gap-4'
-      alignment: flex-col items-center  text-center
+      fillStyles: ' opacity-100'
+      grid: 'grid-cols-3 justify-start gap-4 sm:grid-cols-1 sm:justify-start sm:gap-4'
+      alignment: flex-row items-start gap-4 text-left
+      image: wpx-90 hpx-90 object-center object-cover
+      imagePadding: undefined undefined undefined undefined
+      contentPadding: pt-5 undefined undefined undefined
+      borderStyles: border-white border-0
       labelStyles: text-black mg-copy mb-0
-      headlineStyles: text-black mg-card-name mb-9
-      subheadStyles: text-black mg-card-title mb-0
+      headlineStyles: text-white mg-copy mb-0
+      subheadStyles: text-white mg-card-title mb-0
       textStyles: text-black mg-copy undefined
+      buttonLayout: undefined
+      buttonWidth: undefined
     background:
       fillStyles: ' opacity-100'
       wrapFillStyles: ' opacity-100'
       src: ''
-      style: bg-cover
+      style: bg-repeat
       position: bg-center
-      ornaments:
-        - src: /uploads/blue-blur.svg
-          alignment: top
-          xOffset: '700'
-          yOffset: '200'
-          animationType: scroll
-          duration: '2500'
-          scrollOffset: '-500'
-          startOpacity: '0.7'
-          startScale: '.8'
-          endOffsetY: 5-
-          endOffsetX: '50'
-          endScale: '1.5'
-        - src: /uploads/green-blur.svg
-          alignment: top
-          xOffset: '750'
-          yOffset: '-100'
-          animationType: scroll
-          duration: '2500'
-          scrollOffset: ''
-          startOffsetY: '0'
-          startOffsetX: '0'
-          startOpacity: '0.8'
-          startScale: '.7'
-          startRotation: '0'
-          endOffsetX: '-200'
-          endScale: '1.4'
-          endRotation: '10'
-        - src: /uploads/carnation.webp
-          alignment: top
-          xOffset: '600'
-          yOffset: '250'
-          animationType: scroll
-          duration: '2500'
-          scrollOffset: '-500'
-          startOffsetY: ''
-          startScale: '.9'
-          startRotation: '0'
-          endOffsetY: '-100'
-          endScale: '1'
-          endRotation: '-10'
-        - src: /uploads/blue-blur.svg
-          alignment: bottom
-          xOffset: '-750'
     label: ''
     headline: Content Committee
     subhead: ''
     body: >
-      The SBS Earth Content Committee features both Web3 and Sustainability experts that play a critical role in shaping SBS Earth content and programming. Committee members were chosen based on their substantial contributions and leadership in the ReFi space and beyond.
+      The SBS Earth Content Committee features both Web3 and Sustainability
+      experts that play a critical role in shaping SBS Earth content and
+      programming. Committee members were chosen based on their substantial
+      contributions and leadership in the ReFi space and beyond.
     items:
       - image:
           src: /uploads/twitter image-min.jpg
@@ -654,6 +625,10 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
+
+
+
 
 
 
