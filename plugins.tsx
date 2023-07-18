@@ -32,6 +32,7 @@ export const SectionListItemsPlugin = {
         feature: 'Feature',
         speakers: 'Speakers',
         sponsors: 'Sponsors',
+        timeline: 'Timeline',
         tailwindCards: 'Cards TW',
         tailwindFeature: 'Feature TW',
       }

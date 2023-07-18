@@ -20,7 +20,7 @@ export const Background = ({
       {background?.wrapFillStyles !== "" && (
         <div className={`background absolute left-1/2 transform -translate-x-1/2 max-w-desktop-full w-full h-full -z-2 ${background?.wrapFillStyles}`}></div>
       )}
-      {background.animatedBackground && (
+      {background?.animatedBackground && (
         <div className="absolute inset-0 -z-2 overflow-hidden text-center">
           <div className="inline-block">
             <BackgroundWarp image={`/static/${background.animatedBackground}`} />

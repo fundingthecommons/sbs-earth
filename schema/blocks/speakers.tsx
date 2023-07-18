@@ -122,6 +122,14 @@ export const speakersBlockSchema: any = {
           }
         },
         {
+          type: "string",
+          label: "Image Border",
+          name: "imageBorderStyles",
+          ui: {
+            component: "borderControl"
+          }
+        },
+        {
           label: "Image Padding",
           name: "imagePadding",
           type: "string",

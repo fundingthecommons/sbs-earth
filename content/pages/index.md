@@ -219,7 +219,10 @@ blocks:
       fillStyles: bg-white opacity-100
       grid: 'grid-cols-4 justify-start gap-4 sm:grid-cols-2 sm:justify-start sm:gap-4'
       alignment: flex-col items-center  text-center
-      image: wpx-160 hpx-160 object-center object-cover
+      image: >-
+        wpx-160 hpx-160 object-center object-cover sm:wpx-160 sm:hpx-160
+        sm:object-center sm:object-cover
+      imageBorderStyles: border-accent2 border-4
       imagePadding: pt-7 pb-7 pr-7 pl-7
       contentPadding: undefined pb-7 pr-5 pl-5
       borderStyles: border-white border-0
@@ -239,7 +242,7 @@ blocks:
         - src: /uploads/clematis.webp
           alignment: bottom
           xOffset: '-600'
-          yOffset: '-550'
+          yOffset: '-600'
           animationType: scroll
           duration: '2500'
           scrollOffset: '-600'
@@ -473,7 +476,10 @@ blocks:
       fillStyles: ' opacity-100'
       grid: 'grid-cols-3 justify-start gap-4 sm:grid-cols-1 sm:justify-start sm:gap-4'
       alignment: flex-row items-start gap-4 text-left
-      image: wpx-90 hpx-90 object-center object-cover
+      image: >-
+        wpx-90 hpx-90 object-center object-cover sm:wpx-90 sm:hpx-90
+        sm:object-center sm:object-cover
+      imageBorderStyles: border-primary border-3
       imagePadding: undefined undefined undefined undefined
       contentPadding: pt-5 undefined undefined undefined
       borderStyles: border-white border-0
@@ -484,7 +490,7 @@ blocks:
       buttonLayout: undefined
       buttonWidth: undefined
     background:
-      fillStyles: ' opacity-100'
+      fillStyles: bg-accent4 opacity-100
       wrapFillStyles: ' opacity-100'
       src: ''
       style: bg-repeat
@@ -549,22 +555,98 @@ blocks:
         body: ''
     _template: speakers
   - style:
-      alignment: 'flex-col items-center '
-      padding: pt-16 pb-32 pr-10 pl-10
-      featureImage: '  mx-auto'
+      alignment: 'flex-col-reverse items-center '
+      padding: pt-20 pb-10 pr-10 pl-10
       featureContent: w-full min-h-0 text-center
-      buttonsLayout: 'flex-row  '
       labelStyles: text-black undefined undefined
-      headlineStyles: text-black mg-hidden undefined
+      headlineStyles: text-accent3 mg-headline-medium undefined
       subheadStyles: text-black undefined undefined
       textStyles: text-black undefined undefined
-    background:
-      style: bg-cover
-      position: bg-center
-    headline: Speak at SBS Earth
-    subhead: ''
+    timelineStyle:
+      labelStyles: text-white mg-copy-small mb-0
+      headlineStyles: text-white mg-copy-large mb-2.5
+      subheadStyles: 'text-accent2 undefined '
+      textStyles: text-gray mg-card-title mb-0
+    headline: Agenda
     body: ''
-    _template: feature
+    timelines:
+      - headline: Morning
+        body: ''
+        events:
+          - time: '8:00'
+            headline: Lorem Ipsum
+            subhead: >-
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              imperdiet.
+          - time: '8:00'
+            headline: Lorem Ipsum
+            subhead: >-
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              imperdiet.
+          - time: '8:00'
+            headline: Lorem Ipsum
+            subhead: >-
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              imperdiet.
+          - time: '8:00'
+            headline: Lorem Ipsum
+            subhead: >-
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              imperdiet.
+          - time: '8:00'
+            headline: Lorem Ipsum
+            subhead: >-
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              imperdiet.
+          - time: '8:00'
+            headline: Lorem Ipsum
+            subhead: >-
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              imperdiet.
+          - time: '8:00'
+            headline: Lorem Ipsum
+            subhead: >-
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              imperdiet.
+      - headline: Afternoon
+        body: ''
+        events:
+          - time: '12:00'
+            headline: Lorem Ipsum
+            subhead: >-
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              imperdiet.
+          - time: '12:00'
+            headline: Lorem Ipsum
+            subhead: >-
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              imperdiet.
+          - time: '12:00'
+            headline: Lorem Ipsum
+            subhead: >-
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              imperdiet.
+          - time: '12:00'
+            headline: Lorem Ipsum
+            subhead: >-
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              imperdiet.
+          - time: '12:00'
+            headline: Lorem Ipsum
+            subhead: >-
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              imperdiet.
+          - time: '12:00'
+            headline: Lorem Ipsum
+            subhead: >-
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              imperdiet.
+          - time: '12:00'
+            headline: Lorem Ipsum
+            subhead: >-
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              imperdiet.
+    _template: timeline
   - style:
       padding: 'pt-20 pb-20 pr-20 pl-20 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
       headlineStyles: text-white mg-headline-medium undefined
@@ -625,6 +707,12 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
+
+
+
+
+
 
 
 

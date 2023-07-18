@@ -20,15 +20,18 @@ const wrapClasses = (style) => {
 
 const cardImgStyles = (cardStyle, isMobile: boolean) => {
   const classes: [string] = cardStyle?.image?.split(' ') || []
-  let imageWidth
-  let imageHeight
-  if (isMobile) {
+  let imageWidth = classes.find(item => item.substring(0, 4) === 'wpx-')?.replace(`wpx-`, '')
+  let imageHeight = classes.find(item => item.substring(0, 4) === 'hpx-')?.replace(`hpx-`, '')
+  
+  const imageWidthMobile = classes.find(item => item.substring(0, 7) === 'sm:wpx-')?.replace(`sm:wpx-`, '')
+  const imageHeightMobile = classes.find(item => item.substring(0, 7) === 'sm:hpx-')?.replace(`sm:wpx-`, '')
+  if (isMobile && imageWidthMobile) {
     imageWidth = classes.find(item => item.substring(0, 7) === 'sm:wpx-')?.replace(`sm:wpx-`, '')
-    imageHeight = classes.find(item => item.substring(0, 7) === 'sm:hpx-')?.replace(`sm:wpx-`, '')
-  } else {
-    imageWidth = classes.find(item => item.substring(0, 4) === 'wpx-')?.replace(`wpx-`, '')
-    imageHeight = classes.find(item => item.substring(0, 4) === 'hpx-')?.replace(`hpx-`, '')
   }
+  if (isMobile && imageHeightMobile) {
+    imageHeight = classes.find(item => item.substring(0, 7) === 'sm:hpx-')?.replace(`sm:wpx-`, '')
+  }
+  
   return {
     width: imageWidth ? `${imageWidth}px` : '100%',
     height: imageHeight ? `${imageHeight}px` : '100%'
@@ -50,36 +53,6 @@ interface SpeakerProps {
   parentField?: string;
 }
 
-// export const Speaker = forwardRef<HTMLDivElement, SpeakerProps>(({ data, cardstyle, index, parentField = "" }, ref) => (
-//   <div ref={ref} className={`relative w-full flex py-7 ${cardstyle?.alignment}`} data-tinafield={`${parentField}.${index}`}>
-//     <div className={`${cardstyle?.fillStyles} absolute inset-0 -z-1`} />
-//     {data.image?.src && (
-//       <div className="w-full px-4">
-//         <div className="relative mx-auto w-full" style={{ maxWidth: "160px" }}>
-//           <div className="rounded-full bg-accent2" style={{ paddingBottom: "100%" }}></div>
-//           <img
-//             className={`absolute top-0 left-0 w-full h-full rounded-full p-1 object-cover`}
-//             alt={data.image.alt || data.headline}
-//             src={data.image.src}
-//             data-tinafield={`${parentField}.image`}
-//           />
-//         </div>
-//       </div>
-//     )}
-//     <div className="flex-1 h-full flex flex-col mt-6 px-4" >
-//       <Content
-//         data={data}
-//         alignment={``}
-//         buttonsLayout={cardstyle.buttonsLayout}
-//         styles={cardstyle}
-//         width="w-full"
-//         parentField={parentField}
-//         className="h-full justify-between"
-//       />
-//     </div>
-//   </div>
-// ))
-
 export const Speaker = forwardRef<HTMLDivElement, SpeakerProps>(({ data, cardstyle, index, parentField = "" }, ref) => (
   <div ref={ref} className={`relative w-full flex ${cardstyle?.alignment} ${cardstyle?.borderStyles}`} data-tinafield={`${parentField}.${index}`}>
     <div className={`${cardstyle?.fillStyles} absolute inset-0 -z-1`} />
@@ -91,7 +64,7 @@ export const Speaker = forwardRef<HTMLDivElement, SpeakerProps>(({ data, cardsty
         <div className={`${cardstyle?.imagePadding} sm:hidden`}>
           <div style={cardImgStyles(cardstyle, false)}>
             <img
-              className={`sm:hidden rounded-full border-4 border-accent2 ${cardImgClasses(cardstyle, false)}`}
+              className={`sm:hidden rounded-full ${cardstyle?.imageBorderStyles} ${cardImgClasses(cardstyle, false)}`}
               style={cardImgStyles(cardstyle, false)}
               alt={data.image.alt || data.headline}
               src={data.image.src}
@@ -102,7 +75,7 @@ export const Speaker = forwardRef<HTMLDivElement, SpeakerProps>(({ data, cardsty
         <div className={`${cardstyle?.imagePadding} hidden sm:block`}>
           <div style={cardImgStyles(cardstyle, true)}>
             <img
-              className={`hidden sm:block  ${cardImgClasses(cardstyle, true)}`}
+              className={`hidden sm:block rounded-full ${cardstyle?.imageBorderStyles} ${cardImgClasses(cardstyle, true)}`}
               style={cardImgStyles(cardstyle, true)}
               alt={data.image.alt || data.headline}
               src={data.image.src}
@@ -142,6 +115,7 @@ export const Speakers = ({ data, parentField = "" }) => {
   const style = data.style || {}
   const rowCount = Math.ceil(data.items.length / 4)
   const rows = []
+  const colCount = Number(data.cardStyle.grid.split(' ').find(item => item.includes('grid-cols-')).replace('grid-cols-', ''))
   let i = 0
   while (++i <= rowCount) rows.push(i);
 
@@ -165,7 +139,7 @@ export const Speakers = ({ data, parentField = "" }) => {
                   stagger={0.2}
                   duration={1}
                 >
-                  {data.items.slice((row - 1) * 4, row * 4).map((block, index) => (
+                  {data.items.slice((row - 1) * colCount, row * colCount).map((block, index) => (
                     <Speaker key={index} index={index} data={block} cardstyle={data.cardStyle} parentField={`${parentField}.items`} />
                   ))}
                 </Tween>
