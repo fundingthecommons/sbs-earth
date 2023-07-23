@@ -345,11 +345,21 @@ blocks:
         subhead: Topl
         body: ''
       - image:
+          src: /uploads/Beltran_Profile_informal_1920x1555.jpg
+        label: ''
+        headline: Beltran Berrocal
+        subhead: Zero Labs
+      - image:
           src: /uploads/Screenshot 2023-07-12 at 4.07.10 PM.png
         label: ''
         headline: René Pinnell
         subhead: Artizen
         body: ''
+      - image:
+          src: /uploads/marcus_copy.jpg
+        label: ''
+        headline: Marcus Aurelius
+        subhead: KlimaDAO
       - image:
           src: /uploads/Foto2022.jpeg
           alt: Juan G.
@@ -393,6 +403,7 @@ blocks:
         label: ''
         headline: "Magenta\tCeiba"
         subhead: Bloom Network
+        body: ''
       - image:
           src: /uploads/Screenshot 2023-07-12 at 4.00.55 PM.png
         label: ''
@@ -417,6 +428,11 @@ blocks:
         headline: Laura Angel
         subhead: Zondax
         body: ''
+      - image:
+          src: /uploads/407854.jpeg
+        label: ''
+        headline: "Clay\tGraham"
+        subhead: Centigrade
       - image:
           src: /uploads/maguire.webp
         label: ''
@@ -452,6 +468,12 @@ blocks:
         label: ''
         headline: Jim Jiang
         subhead: SXX Data Future
+        body: ''
+      - image:
+          src: /uploads/Screenshot 2023-07-23 at 7.01.29 PM.png
+        label: ''
+        headline: Ben Stamm
+        subhead: EY Blockchain
     _template: speakers
   - style:
       alignment: 'flex-col items-center '
@@ -530,6 +552,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
