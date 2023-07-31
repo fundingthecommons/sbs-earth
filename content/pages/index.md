@@ -349,6 +349,7 @@ blocks:
         label: ''
         headline: Beltran Berrocal
         subhead: Zero Labs
+        body: ''
       - image:
           src: /uploads/Screenshot 2023-07-12 at 4.07.10 PM.png
         label: ''
@@ -360,6 +361,7 @@ blocks:
         label: ''
         headline: Marcus Aurelius
         subhead: KlimaDAO
+        body: ''
       - image:
           src: /uploads/Foto2022.jpeg
           alt: Juan G.
@@ -432,7 +434,8 @@ blocks:
           src: /uploads/407854.jpeg
         label: ''
         headline: "Clay\tGraham"
-        subhead: Centigrade
+        subhead: Stealth
+        body: ''
       - image:
           src: /uploads/maguire.webp
         label: ''
@@ -474,6 +477,7 @@ blocks:
         label: ''
         headline: Ben Stamm
         subhead: EY Blockchain
+        body: ''
     _template: speakers
   - style:
       alignment: 'flex-col items-center '
@@ -552,6 +556,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
