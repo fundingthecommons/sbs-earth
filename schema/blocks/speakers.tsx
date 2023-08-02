@@ -1,6 +1,7 @@
 import { backgroundSchema } from "../background"
 import { buttonsSchema } from "../buttons"
 import { contentSchema } from "../content"
+import { iconOptions } from "../options"
 import { imageSchema } from '../image';
 import { navigationLabelSchema } from "../navigation-label";
 import { typographySchema } from "../typography"
@@ -112,7 +113,96 @@ export const speakersBlockSchema: any = {
             component: "cardAlignmentControl",
           },
         },
-        ...typographySchema
+        {
+          label: "Image",
+          name: "image",
+          type: "string",
+          ui: {
+            component: "imageControl",
+          }
+        },
+        {
+          type: "string",
+          label: "Image Border",
+          name: "imageBorderStyles",
+          ui: {
+            component: "borderControl"
+          }
+        },
+        {
+          label: "Image Padding",
+          name: "imagePadding",
+          type: "string",
+          ui: {
+            component: "paddingControl",
+          }
+        },
+        {
+          label: "Content Padding",
+          name: "contentPadding",
+          type: "string",
+          ui: {
+            component: "paddingControl",
+          }
+        },
+        {
+          type: "string",
+          label: "Border",
+          name: "borderStyles",
+          ui: {
+            component: "borderControl"
+          }
+        },
+        ...typographySchema,
+        {
+          label: "Button",
+          name: "buttonTitle",
+          type: "string",
+          ui: {
+            component: "ruledTitle",
+          },
+        },
+        {
+          type: "string",
+          label: "Button Style",
+          name: "buttonType",
+          ui: {
+            component: "buttonControl",
+          },
+        },
+        {
+          type: "string",
+          label: "Button Icon",
+          name: "buttonIcon",
+          ui: {
+            component: "select",
+          },
+          options: iconOptions,
+        },
+        {
+          label: "Layout",
+          name: "buttonLayout",
+          type: "string",
+          ui: {
+            component: "selectField",
+          },
+          options: [
+            { label: "Under Content", value: "justify-start" },
+            { label: "Bottom", value: "justify-between" },
+          ],
+        },
+        {
+          label: "Width",
+          name: "buttonWidth",
+          type: "string",
+          ui: {
+            component: "selectField",
+          },
+          options: [
+            { label: "Auto", value: "w-auto" },
+            { label: "Full", value: "w-full" },
+          ],
+        },
       ],
     },
     backgroundSchema,

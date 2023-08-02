@@ -219,10 +219,19 @@ blocks:
       fillStyles: bg-white opacity-100
       grid: 'grid-cols-4 justify-start gap-4 sm:grid-cols-2 sm:justify-start sm:gap-4'
       alignment: flex-col items-center  text-center
+      image: >-
+        wpx-160 hpx-160 object-center object-cover sm:wpx-160 sm:hpx-160
+        sm:object-center sm:object-cover
+      imageBorderStyles: border-accent2 border-4
+      imagePadding: pt-7 pb-7 pr-7 pl-7
+      contentPadding: undefined pb-7 pr-5 pl-5
+      borderStyles: border-white border-0
       labelStyles: text-black mg-copy mb-0
       headlineStyles: text-black mg-card-name mb-9
       subheadStyles: text-black mg-card-title mb-0
       textStyles: text-black mg-copy undefined
+      buttonLayout: undefined
+      buttonWidth: undefined
     background:
       fillStyles: ' opacity-100'
       wrapFillStyles: ' opacity-100'
@@ -233,7 +242,7 @@ blocks:
         - src: /uploads/clematis.webp
           alignment: bottom
           xOffset: '-600'
-          yOffset: '-550'
+          yOffset: '-600'
           animationType: scroll
           duration: '2500'
           scrollOffset: '-600'
@@ -472,30 +481,97 @@ blocks:
         headline: Jim Jiang
         subhead: SXX Data Future
         body: ''
-      - image:
-          src: /uploads/Screenshot 2023-07-23 at 7.01.29 PM.png
-        label: ''
-        headline: Ben Stamm
-        subhead: EY Blockchain
-        body: ''
     _template: speakers
   - style:
-      alignment: 'flex-col items-center '
-      padding: pt-16 pb-32 pr-10 pl-10
-      featureImage: '  mx-auto'
+      alignment: flex-col-reverse items-center gap-12
+      padding: 'pt-20 pb-20 pr-10 pl-10 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
       featureContent: w-full min-h-0 text-center
-      buttonsLayout: 'flex-row  '
       labelStyles: text-black undefined undefined
-      headlineStyles: text-black mg-hidden undefined
+      headlineStyles: text-accent3 mg-headline-medium mb-16
       subheadStyles: text-black undefined undefined
-      textStyles: text-black undefined undefined
+      textStyles: text-white mg-copy undefined
+    cardStyle:
+      fillStyles: ' opacity-100'
+      grid: 'grid-cols-3 justify-start gap-4 sm:grid-cols-1 sm:justify-start sm:gap-4'
+      alignment: flex-row items-start gap-4 text-left
+      image: >-
+        wpx-90 hpx-90 object-center object-cover sm:wpx-90 sm:hpx-90
+        sm:object-center sm:object-cover
+      imageBorderStyles: border-primary border-3
+      imagePadding: undefined undefined undefined undefined
+      contentPadding: pt-5 undefined undefined undefined
+      borderStyles: border-white border-0
+      labelStyles: text-black mg-copy mb-0
+      headlineStyles: text-white mg-copy mb-0
+      subheadStyles: text-white mg-card-title mb-0
+      textStyles: text-black mg-copy undefined
+      buttonLayout: undefined
+      buttonWidth: undefined
     background:
-      style: bg-cover
+      fillStyles: bg-accent4 opacity-100
+      wrapFillStyles: ' opacity-100'
+      src: ''
+      style: bg-repeat
       position: bg-center
-    headline: Speak at SBS Earth
+    label: ''
+    headline: Content Committee
     subhead: ''
-    body: ''
-    _template: feature
+    body: >
+      The SBS Earth Content Committee features both Web3 and Sustainability
+      experts that play a critical role in shaping SBS Earth content and
+      programming. Committee members were chosen based on their substantial
+      contributions and leadership in the ReFi space and beyond.
+    items:
+      - image:
+          src: /uploads/twitter image-min.jpg
+        label: ''
+        headline: Saudamini Sharma
+        subhead: Thallo
+        body: ''
+      - image:
+          src: /uploads/Me.jpeg
+        label: ''
+        headline: Adrian Wons
+        subhead: Senken
+        body: ''
+      - image:
+          src: /uploads/Screenshot 2023-07-12 at 4.05.29 PM.png
+        label: ''
+        headline: Lyndon Burford
+        subhead: PATH Collective
+        body: ''
+      - image:
+          src: /uploads/IMG_1401.jpeg
+        label: ''
+        headline: Ester Silva
+        subhead: EthBrasil
+        body: ''
+      - image:
+          src: /uploads/Screenshot 2023-07-12 at 4.04.23 PM.png
+        label: ''
+        headline: Simeon Max
+        subhead: GainForest
+        body: ''
+      - image:
+          src: /uploads/Adelaine Headshot.jpg
+          alt: Adelaine B.
+        label: ''
+        headline: Adelaine Bhattacharjee
+        subhead: Topl
+        body: ''
+      - image:
+          src: /uploads/Screenshot 2023-07-12 at 4.07.10 PM.png
+        label: ''
+        headline: René Pinnell
+        subhead: Artizen
+        body: ''
+      - image:
+          src: /uploads/Screenshot 2023-07-12 at 3.53.50 PM.png
+        label: ''
+        headline: Kendra Leong
+        subhead: She256
+        body: ''
+    _template: speakers
   - style:
       padding: 'pt-20 pb-20 pr-20 pl-20 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
       headlineStyles: text-white mg-headline-medium undefined
@@ -556,58 +632,4 @@ background:
   style: bg-repeat
   position: bg-center
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
