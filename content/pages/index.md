@@ -33,7 +33,7 @@ blocks:
     image:
       src: /uploads/logo-sbs-earth-vert-light-tall.svg
     label: ''
-    headline: The Sustainable Blockchain Summit
+    headline: ''
     subhead: ''
     body: ''
     _template: feature
@@ -626,6 +626,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
