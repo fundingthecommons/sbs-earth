@@ -450,6 +450,7 @@ blocks:
         label: ''
         headline: Justin Baird
         subhead: Blue Carbon S2C
+        body: ''
       - image:
           src: /uploads/maguire.webp
         label: ''
@@ -528,53 +529,41 @@ blocks:
       contributions and leadership in the ReFi space and beyond.
     items:
       - image:
-          src: /uploads/twitter image-min.jpg
+          src: /uploads/johnx-bw.png
         label: ''
-        headline: Saudamini Sharma
-        subhead: Thallo
+        headline: John X
+        subhead: 'Toucan Protocol '
         body: ''
       - image:
-          src: /uploads/Me.jpeg
+          src: /uploads/Screenshot 2023-08-03 at 9.38.58 AM.png
         label: ''
-        headline: Adrian Wons
-        subhead: Senken
+        headline: Alan Ransil
+        subhead: Filecoin Green
         body: ''
       - image:
-          src: /uploads/Screenshot 2023-07-12 at 4.05.29 PM.png
+          src: /uploads/Screenshot 2023-08-03 at 9.40.58 AM.png
         label: ''
-        headline: Lyndon Burford
-        subhead: PATH Collective
+        headline: Isha Varshney
+        subhead: Celo Foundation
         body: ''
       - image:
-          src: /uploads/IMG_1401.jpeg
+          src: /uploads/Screenshot 2023-08-03 at 9.42.55 AM.png
         label: ''
-        headline: Ester Silva
-        subhead: EthBrasil
+        headline: Alex Paris
+        subhead: UNFCCC
         body: ''
       - image:
-          src: /uploads/Screenshot 2023-07-12 at 4.04.23 PM.png
+          src: /uploads/Simge Sandal.jpeg
         label: ''
-        headline: Simeon Max
+        headline: Simge Sandal
         subhead: GainForest
         body: ''
       - image:
-          src: /uploads/Adelaine Headshot.jpg
+          src: /uploads/IMG_4670.jpg
           alt: Adelaine B.
         label: ''
-        headline: Adelaine Bhattacharjee
-        subhead: Topl
-        body: ''
-      - image:
-          src: /uploads/Screenshot 2023-07-12 at 4.07.10 PM.png
-        label: ''
-        headline: René Pinnell
-        subhead: Artizen
-        body: ''
-      - image:
-          src: /uploads/Screenshot 2023-07-12 at 3.53.50 PM.png
-        label: ''
-        headline: Kendra Leong
-        subhead: She256
+        headline: Caitlin Moore
+        subhead: Filecoin Green
         body: ''
     _template: speakers
   - style:
@@ -637,5 +626,6 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
