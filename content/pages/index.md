@@ -657,6 +657,7 @@ blocks:
       position: bg-center
     partners:
       - src: /uploads/protocol.svg
+      - src: /uploads/IMG_5194.png
       - src: /uploads/filecoin-foundation.svg
     _template: sponsors
   - style:
@@ -705,6 +706,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
