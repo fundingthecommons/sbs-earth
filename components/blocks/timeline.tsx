@@ -7,19 +7,19 @@ const TimelineItem = ({ timeline, style,  isActive, index, parentField = ""  }) 
   const activeClass = !isActive ? 'hidden sm:block' : ''
   return (
     <div className={`timeline mb-10 ${activeClass}`}>
-      <h3 className={style.headlineStyles}>{timeline.headline}</h3>
-      <div className={style.subheadStyles}>{timeline.subhead}</div>
+      <h3 className={style?.headlineStyles}>{timeline.headline}</h3>
+      <div className={style?.subheadStyles}>{timeline.subhead}</div>
       {timeline.events && (
         <div className="relative divide-gray-dark divide-y-1">
           { timeline.events.map(function (event, index) {
             return <div key={index} className="pt-2 pb-4">
               <div className="flex sm:block gap-8 text-white text-md font-bold">
-                <div className={`${style.labelStyles} relative w-20 text-left sm:inline-block`}>
+                <div className={`${style?.labelStyles} relative w-20 text-left sm:inline-block`}>
                   {event.time}
                 </div>
-                <div className={style.labelStyles}>{event.headline}</div>
+                <div className={style?.labelStyles}>{event.headline}</div>
               </div>
-              <div className={`pl-28 sm:pl-0 ${style.textStyles}`}>{event.subhead}</div>
+              <div className={`pl-28 sm:pl-0 ${style?.textStyles}`}>{event.subhead}</div>
             </div>
           })}
         </div>

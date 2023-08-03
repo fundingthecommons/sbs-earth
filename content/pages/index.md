@@ -567,6 +567,35 @@ blocks:
         body: ''
     _template: speakers
   - style:
+      alignment: 'flex-col-reverse items-center '
+      padding: pt-20 pb-10 pr-10 pl-10
+      featureContent: w-full min-h-0 text-center
+      labelStyles: text-black undefined undefined
+      headlineStyles: text-accent3 mg-headline-medium undefined
+      subheadStyles: text-black undefined undefined
+      textStyles: text-black undefined undefined
+    timelineStyle:
+      labelStyles: text-white mg-copy-small mb-0
+      headlineStyles: text-white mg-copy-large mb-2.5
+      subheadStyles: 'text-accent2 undefined '
+      textStyles: text-gray mg-card-title mb-0
+    headline: Agenda
+    body: ''
+    timelines:
+      - headline: Morning
+        body: ''
+        events:
+          - time: '8:00'
+            headline: Coming Soon!
+            subhead: ''
+      - headline: Afternoon
+        body: ''
+        events:
+          - time: '12:00'
+            headline: Coming Soon!
+            subhead: ''
+    _template: timeline
+  - style:
       padding: 'pt-20 pb-20 pr-20 pl-20 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
       headlineStyles: text-white mg-headline-medium undefined
     background:
@@ -626,6 +655,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 

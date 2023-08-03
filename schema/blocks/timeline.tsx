@@ -4,6 +4,12 @@ import { typographySchema } from "../typography"
 
 const defaultCard = {
   headline: "Headline",
+  style: {
+    labelStyles: "text-black",
+    headlineStyles: "text-black",
+    subheadStyles: "text-black",
+    textStyles: "text-black",
+  },
 };
 
 export const timelineBlockSchema: any = {
