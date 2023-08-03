@@ -588,7 +588,7 @@ blocks:
         body: ''
         events:
           - time: '10:00 AM'
-            headline: 'Opening Remarks | Welcome to SBS Earth! '
+            headline: Opening Remarks
             subhead: 'Marc Johnson, Filecoin Green'
           - time: '10:21 AM'
             headline: 'Panel: ReFi in India'
@@ -706,6 +706,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
