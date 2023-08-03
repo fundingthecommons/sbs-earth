@@ -446,6 +446,11 @@ blocks:
         subhead: Stealth
         body: ''
       - image:
+          src: /uploads/Justin Baird 4k.jpg
+        label: ''
+        headline: Justin Baird
+        subhead: Blue Carbon S2C
+      - image:
           src: /uploads/maguire.webp
         label: ''
         headline: Angie Maguire
@@ -632,4 +637,5 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
