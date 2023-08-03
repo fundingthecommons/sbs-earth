@@ -4,7 +4,8 @@
   "fathomSiteId": "",
   "theme": "content/themes/microgen.md",
   "logo": {
-    "logoTypeStyle": "",
+    "logoType": "The Sustainable Blockchain Summit",
+    "logoTypeStyle": "text-white mg-copy-small ",
     "image": ""
   },
   "nav": {
