@@ -641,7 +641,7 @@ blocks:
           - time: '1:19 PM'
             headline: Fireside Chat
             subhead: 'Kevin Owocki, Gitcoin & Caitlin Moore, Filecoin Green'
-          - time: '1:39'
+          - time: '1:39 PM'
             headline: Closing Remarks
             subhead: 'Marc Johnson, Filecoin Green'
     _template: timeline
@@ -705,6 +705,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
