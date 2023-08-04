@@ -317,6 +317,12 @@ blocks:
       carbon management, and leaders in web3 and ReFi projects.
     items:
       - image:
+          src: /uploads/Screenshot 2023-08-04 at 8.52.41 AM.png
+        label: ''
+        headline: Anna Lerner
+        subhead: Climate Collective
+        body: ''
+      - image:
           src: /uploads/Me.jpeg
         label: ''
         headline: Adrian Wons
@@ -333,12 +339,6 @@ blocks:
         label: ''
         headline: Saudamini Sharma
         subhead: Thallo
-        body: ''
-      - image:
-          src: /uploads/Screenshot 2023-08-04 at 8.52.41 AM.png
-        label: ''
-        headline: Anna Lerner
-        subhead: Climate Collective
         body: ''
       - image:
           src: /uploads/IMG_1401.jpeg
@@ -776,6 +776,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
