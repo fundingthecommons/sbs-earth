@@ -645,7 +645,7 @@ blocks:
     timelines:
       - label: ''
         headline: ''
-        subhead: SBS Earth will be broadcasted in Eastern Standard Time (EST)
+        subhead: SBS Earth will be broadcasted in Eastern Time (ET).
         body: ''
         events:
           - time: '10:00 AM'
@@ -768,6 +768,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
