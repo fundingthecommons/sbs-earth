@@ -317,12 +317,6 @@ blocks:
       carbon management, and leaders in web3 and ReFi projects.
     items:
       - image:
-          src: /uploads/twitter image-min.jpg
-        label: ''
-        headline: Saudamini Sharma
-        subhead: Thallo
-        body: ''
-      - image:
           src: /uploads/Me.jpeg
         label: ''
         headline: Adrian Wons
@@ -333,6 +327,12 @@ blocks:
         label: ''
         headline: Lyndon Burford
         subhead: PATH Collective
+        body: ''
+      - image:
+          src: /uploads/twitter image-min.jpg
+        label: ''
+        headline: Saudamini Sharma
+        subhead: Thallo
         body: ''
       - image:
           src: /uploads/IMG_1401.jpeg
@@ -353,6 +353,16 @@ blocks:
         headline: Adelaine Bhattacharjee
         subhead: Topl
         body: ''
+      - image:
+          src: /uploads/RyIbnZLl_400x400.jpg
+        label: ''
+        headline: Brad Van Voorhees
+        subhead: Sustainable Bitcoin Protocol
+      - image:
+          src: /uploads/Headshot (2).jpg
+        label: ''
+        headline: Julia Benz
+        subhead: Decentralized Futures Council
       - image:
           src: /uploads/Beltran_Profile_informal_1920x1555.jpg
         label: ''
@@ -398,16 +408,20 @@ blocks:
         subhead: Filecoin Green
         body: ''
       - image:
+          src: /uploads/IMG_8023.jpeg
+        label: ''
+        headline: Eric Tang
+        subhead: Livepeer
+      - image:
+          src: /uploads/Screenshot 2023-08-04 at 8.38.52 AM.png
+        label: ''
+        headline: Jon Trask
+        subhead: Dimitra
+      - image:
           src: /uploads/Screenshot 2023-07-12 at 3.56.08 PM.png
         label: ''
         headline: Ben Towne
         subhead: PREPchain
-        body: ''
-      - image:
-          src: /uploads/Screenshot 2023-07-12 at 3.58.50 PM.png
-        label: ''
-        headline: Utkarsh Patel
-        subhead: Solarpunk Dao
         body: ''
       - image:
           src: /uploads/signal-2023-01-15-135954.png
@@ -422,16 +436,26 @@ blocks:
         subhead: Dione Protocol
         body: ''
       - image:
+          src: /uploads/Screenshot 2023-08-04 at 8.44.53 AM.png
+        label: ''
+        headline: Ana Maria Mahecha
+        subhead: KOKO DAO
+      - image:
+          src: /uploads/CMosella.png
+        label: ''
+        headline: Cristian Mosella
+        subhead: EnergyLab
+      - image:
           src: /uploads/Screenshot 2023-07-12 at 4.02.17 PM.png
         label: ''
         headline: "Tobias\tKuhlmann"
         subhead: Mento Labs
         body: ''
       - image:
-          src: /uploads/moore.webp
+          src: /uploads/Justin Baird 4k.jpg
         label: ''
-        headline: Caitlin Moore
-        subhead: Filecoin Green
+        headline: Justin Baird
+        subhead: Blue Carbon S2C
         body: ''
       - image:
           src: /uploads/Screenshot 2023-07-12 at 4.03.40 PM.png
@@ -446,10 +470,22 @@ blocks:
         subhead: Stealth
         body: ''
       - image:
-          src: /uploads/Justin Baird 4k.jpg
+          src: /uploads/Screenshot 2023-07-12 at 3.58.50 PM.png
         label: ''
-        headline: Justin Baird
-        subhead: Blue Carbon S2C
+        headline: Utkarsh Patel
+        subhead: Solarpunk Dao
+        body: ''
+      - image:
+          src: /uploads/moore.webp
+        label: ''
+        headline: Caitlin Moore
+        subhead: Filecoin Green
+        body: ''
+      - image:
+          src: /uploads/Screenshot 2023-07-12 at 3.53.50 PM.png
+        label: ''
+        headline: Kendra Leong
+        subhead: She256
         body: ''
       - image:
           src: /uploads/maguire.webp
@@ -470,11 +506,10 @@ blocks:
         subhead: Blockchain Laboratories
         body: ''
       - image:
-          src: /uploads/Screenshot 2023-07-12 at 3.53.50 PM.png
+          src: /uploads/headshot.jpg
         label: ''
-        headline: Kendra Leong
-        subhead: She256
-        body: ''
+        headline: Tony Ushe
+        subhead: JobCrypt
       - image:
           src: /uploads/johnson.webp
         label: ''
@@ -487,6 +522,11 @@ blocks:
         headline: Jim Jiang
         subhead: SXX Data Future
         body: ''
+      - image:
+          src: /uploads/0.png
+        label: ''
+        headline: Tolga Yaz
+        subhead: RegenWise
     _template: speakers
   - style:
       alignment: flex-col-reverse items-center gap-12
@@ -706,6 +746,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
