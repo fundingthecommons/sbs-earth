@@ -335,6 +335,11 @@ blocks:
         subhead: Thallo
         body: ''
       - image:
+          src: /uploads/Screenshot 2023-08-04 at 8.52.41 AM.png
+        label: ''
+        headline: Anna Lerner
+        subhead: Climate Collective
+      - image:
           src: /uploads/IMG_1401.jpeg
         label: ''
         headline: Ester Silva
@@ -751,6 +756,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
