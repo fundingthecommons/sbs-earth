@@ -655,7 +655,7 @@ blocks:
             headline: Keynote
             subhead: 'Anna Lerner, Climate Collective'
           - time: '10:21 AM'
-            headline: 'Panel: ReFi in India'
+            headline: ReFi Panel
           - time: '10:46 AM'
             headline: 'Equity and Governance '
             subhead: 'Kendra Leong, she256'
@@ -776,6 +776,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
