@@ -9,7 +9,7 @@
     "image": ""
   },
   "nav": {
-    "padding": "pt-7 pb-10 pr-10 pl-8",
+    "padding": "pt-0 pb-0 pr-10 pl-8",
     "navBackgroundColor": "bg-accent4 opacity-100",
     "navAlignment": "text-right",
     "navTypeStyle": "text-accent2 mg-body-sm  sm:text-accent3 sm:mg-body-sm sm:",
