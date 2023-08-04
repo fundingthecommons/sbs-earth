@@ -339,6 +339,7 @@ blocks:
         label: ''
         headline: Anna Lerner
         subhead: Climate Collective
+        body: ''
       - image:
           src: /uploads/IMG_1401.jpeg
         label: ''
@@ -363,11 +364,13 @@ blocks:
         label: ''
         headline: Brad Van Voorhees
         subhead: Sustainable Bitcoin Protocol
+        body: ''
       - image:
           src: /uploads/Headshot (2).jpg
         label: ''
         headline: Julia Benz
         subhead: Decentralized Futures Council
+        body: ''
       - image:
           src: /uploads/Beltran_Profile_informal_1920x1555.jpg
         label: ''
@@ -417,11 +420,13 @@ blocks:
         label: ''
         headline: Eric Tang
         subhead: Livepeer
+        body: ''
       - image:
           src: /uploads/Screenshot 2023-08-04 at 8.38.52 AM.png
         label: ''
         headline: Jon Trask
         subhead: Dimitra
+        body: ''
       - image:
           src: /uploads/Screenshot 2023-07-12 at 3.56.08 PM.png
         label: ''
@@ -445,11 +450,13 @@ blocks:
         label: ''
         headline: Ana Maria Mahecha
         subhead: KOKO DAO
+        body: ''
       - image:
           src: /uploads/CMosella.png
         label: ''
         headline: Cristian Mosella
         subhead: EnergyLab
+        body: ''
       - image:
           src: /uploads/Screenshot 2023-07-12 at 4.02.17 PM.png
         label: ''
@@ -515,6 +522,7 @@ blocks:
         label: ''
         headline: Tony Ushe
         subhead: JobCrypt
+        body: ''
       - image:
           src: /uploads/johnson.webp
         label: ''
@@ -532,11 +540,14 @@ blocks:
         label: ''
         headline: Tolga Yaz
         subhead: RegenWise
+        body: ''
       - image:
           src: /uploads/Screenshot 2023-08-04 at 8.50.02 AM.png
         label: ''
         headline: Akshay Yeleswarapu
         subhead: ostrom
+        body: ''
+    navigationLabel: Speakers
     _template: speakers
   - style:
       alignment: flex-col-reverse items-center gap-12
@@ -694,6 +705,7 @@ blocks:
           - time: '1:39 PM'
             headline: Closing Remarks
             subhead: 'Marc Johnson, Filecoin Green'
+    navigationLabel: Agenda
     _template: timeline
   - style:
       padding: 'pt-20 pb-20 pr-20 pl-20 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
@@ -756,6 +768,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
