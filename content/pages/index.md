@@ -697,15 +697,20 @@ blocks:
               Bitcoin: A Potential Solution for Energy Poverty, Financial
               Exclusion, and the Digital Divide
             subhead: 'Elliot David, Sustainable Bitcoin Protocol'
-          - time: '12:54 PM'
+          - time: '12:51 PM'
+            headline: >-
+              An IWA Persistence and Tokenization Pattern for Blockchain Based
+              CO2 Auditing and Monetization
+            subhead: 'Clay Graham, Stealth'
+          - time: '1:05 PM'
             headline: 'Panel: Community, Governance, and ReFi '
             subhead: >-
               John Ellison, ReFi DAO | Magenta Ceiba, Bloom Network | Juan
               Giraldo, ReFi Medellín | Ester Silva, EthereumBrasil
-          - time: '1:19 PM'
+          - time: '1:30 PM'
             headline: Fireside Chat
             subhead: 'Kevin Owocki, Gitcoin & Caitlin Moore, Filecoin Green'
-          - time: '1:39 PM'
+          - time: '1:50 PM'
             headline: Closing Remarks
             subhead: 'Marc Johnson, Filecoin Green'
     navigationLabel: Agenda
@@ -771,6 +776,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
