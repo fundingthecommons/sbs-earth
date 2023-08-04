@@ -10,9 +10,15 @@
   },
   "nav": {
     "padding": "pt-7 pb-10 pr-10 pl-8",
-    "navBackgroundColor": " opacity-100",
-    "navAlignment": "text-right",
-    "navTypeStyle": "text-accent2 mg-body-sm "
+    "navBackgroundColor": "bg-accent4 opacity-100",
+    "navAlignment": "text-left",
+    "navTypeStyle": "text-accent2 mg-body-sm ",
+    "navItems": [
+      {
+        "label": "Tickets",
+        "link": "https://www.eventbrite.com/e/sustainable-blockchain-summit-earth-registration-636837918357"
+      }
+    ]
   },
   "favicon": "/uploads/favicon-64.png",
   "analytics": "plausible"
