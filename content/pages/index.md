@@ -527,6 +527,11 @@ blocks:
         label: ''
         headline: Tolga Yaz
         subhead: RegenWise
+      - image:
+          src: /uploads/Screenshot 2023-08-04 at 8.50.02 AM.png
+        label: ''
+        headline: Akshay Yeleswarapu
+        subhead: ostrom
     _template: speakers
   - style:
       alignment: flex-col-reverse items-center gap-12
@@ -746,6 +751,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
