@@ -11,7 +11,7 @@
   "nav": {
     "padding": "pt-7 pb-10 pr-10 pl-8",
     "navBackgroundColor": "bg-accent4 opacity-100",
-    "navAlignment": "text-left",
+    "navAlignment": "text-right",
     "navTypeStyle": "text-accent2 mg-body-sm ",
     "navItems": [
       {
