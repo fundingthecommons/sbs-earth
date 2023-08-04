@@ -23,7 +23,7 @@ const cardImgStyles = (cardStyle, isMobile:boolean) => {
   let imageHeight
   if (isMobile) {
     imageWidth = classes.find(item => item.substring(0,7) === 'sm:wpx-')?.replace(`sm:wpx-`, '')
-    imageHeight = classes.find(item => item.substring(0,7) === 'sm:hpx-')?.replace(`sm:wpx-`, '')
+    imageHeight = classes.find(item => item.substring(0,7) === 'sm:hpx-')?.replace(`sm:hpx-`, '')
   } else {
     imageWidth = classes.find(item => item.substring(0,4) === 'wpx-')?.replace(`wpx-`, '')
     imageHeight = classes.find(item => item.substring(0,4) === 'hpx-')?.replace(`hpx-`, '')
