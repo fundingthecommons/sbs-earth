@@ -5,7 +5,7 @@ blocks:
       padding: pt-11 pb-0 pr-10 pl-8
       featureImage: 'wpx-132 hpx-200 mr-auto sm:wpx-90 sm:hpx- sm:mr-auto'
       featureContent: 'w-1/2 min-h-0 text-right sm:w-3/4 sm:min-h-0 sm:text-right'
-      buttonsLayout: 'flex-row  '
+      buttonsLayout: 'flex-wrap gap-0 '
       labelStyles: 'text-accent3 mg-headline-small '
       headlineStyles: 'text-white mg-copy  sm:text-white undefined sm:mb-24'
       subheadStyles: 'text-white mg-headline-small '
@@ -768,6 +768,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
