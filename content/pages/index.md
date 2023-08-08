@@ -394,7 +394,7 @@ blocks:
           alt: Juan G.
         label: ''
         headline: Juan Giraldo
-        subhead: ReFi Medellín
+        subhead: ReFi Medellín & Green Digital Guardians
         body: ''
       - image:
           src: /uploads/Elliot_David.jpg
@@ -776,6 +776,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
