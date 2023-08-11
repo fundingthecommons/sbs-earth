@@ -15,6 +15,7 @@ import { tailwindFeatureBlockSchema } from "../schema/blocks/tailwind-feature"
 import { tailwindCardsBlockSchema } from "../schema/blocks/tailwind-cards"
 import { eventScheduleBlockSchema } from "../schema/blocks/event-schedule"
 import { eventTimelineBlockSchema } from "../schema/blocks/event-timeline"
+import { videoPlayerBlockSchema } from "../schema/blocks/video-player"
 
 // Collections
 import { eventCollectionSchema } from "../schema/collections/events"
@@ -87,6 +88,7 @@ const config = defineStaticConfig({
               speakersBlockSchema,
               sponsorsBlockSchema,
               timelineBlockSchema,
+              videoPlayerBlockSchema,
               tailwindFeatureBlockSchema,
               tailwindCardsBlockSchema,
               eventScheduleBlockSchema,

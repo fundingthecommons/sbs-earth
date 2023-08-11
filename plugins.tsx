@@ -35,6 +35,7 @@ export const SectionListItemsPlugin = {
         timeline: 'Timeline',
         tailwindCards: 'Cards TW',
         tailwindFeature: 'Feature TW',
+        videoPlayer: 'Video Player',
       }
       const sectionName = item.headline || item.subhead || item.label || item.title || ''
       const sectionNameShort = sectionName.match(/^.{24}\w*/)

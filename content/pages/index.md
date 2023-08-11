@@ -207,6 +207,65 @@ blocks:
       Register now for this virtual adventure and join the movement to harness
       blockchain's potential for a cleaner, more sustainable tomorrow.
     _template: feature
+  - background:
+      style: bg-cover
+      position: bg-center
+    items:
+      - image:
+          src: /uploads/video-thumb.jpg
+        title: Project Name
+        city: City Name
+        description: Lorem ipsum dolor
+        video: GS18H-3YFGw
+        time: '10:34'
+        top: 25
+        left: 25
+      - image:
+          src: /uploads/video-thumb.jpg
+        title: Project Name
+        city: City Name
+        description: Lorem ipsum dolor
+        video: sDr0D7nNXb0
+        time: '10:34'
+        top: 36
+        left: 22
+      - image:
+          src: /uploads/video-thumb.jpg
+        title: Project Name
+        city: City Name
+        description: Lorem ipsum dolor
+        video: GS18H-3YFGw
+        time: '10:34'
+        top: 53
+        left: 31
+      - image:
+          src: /uploads/video-thumb.jpg
+        title: Project Name
+        city: City Name
+        description: Lorem ipsum dolor
+        video: sDr0D7nNXb0
+        time: '10:34'
+        top: 36
+        left: 43
+      - image:
+          src: /uploads/video-thumb.jpg
+        title: Project Name
+        city: City Name
+        description: Lorem ipsum dolor
+        video: GS18H-3YFGw
+        time: '10:34'
+        top: 50
+        left: 64
+      - image:
+          src: /uploads/video-thumb.jpg
+        title: Project Name
+        city: City Name
+        description: Lorem ipsum dolor
+        video: sDr0D7nNXb0
+        time: '10:34'
+        top: 31
+        left: 46
+    _template: videoPlayer
   - style:
       alignment: flex-col-reverse items-center gap-12
       padding: 'pt-20 pb-20 pr-10 pl-10 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
@@ -776,6 +835,18 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

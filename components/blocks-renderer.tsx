@@ -10,6 +10,7 @@ import { TailwindCards } from "./blocks/tailwind-cards";
 import { Timeline } from "./blocks/timeline";
 import { EventSchedule } from "./blocks/event-schedule";
 import { EventTimeline } from "./blocks/event-timeline";
+import { VideoPlayer } from "./blocks/video-player";
 
 export const Blocks = (props: any) => {
   return (
@@ -103,6 +104,14 @@ export const Blocks = (props: any) => {
                   key={i + block.__typename}
                 >
                   <Timeline data={block} />
+                </div>
+              );
+            case "PageBlocksVideoPlayer":
+              return (
+                <div
+                  key={i + block.__typename}
+                >
+                  <VideoPlayer data={block} />
                 </div>
               );
             default:

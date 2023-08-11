@@ -125,8 +125,8 @@ export const Speakers = ({ data, parentField = "" }) => {
       <div className={`relative flex w-full max-w-site-full mx-auto ${style?.padding} ${style?.alignment}`}>
         <div id="speaker-cards" className={`${wrapClasses(style)}`}>
           <div className={`grid ${data.cardStyle.grid}`}>
-            {rows.map((row) => (
-              <Reveal>
+            {rows.map((row, index) => (
+              <Reveal key={index}>
                 <Tween
                   from={{
                     opacity: 0,
