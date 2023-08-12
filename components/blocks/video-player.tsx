@@ -31,7 +31,7 @@ const Pin = ({ top=0, left=0, city="", onMouseEnter, onMouseLeave, onClick, isHo
 const Card = ({ data, onMouseEnter, onMouseLeave, onClick, isHovered }) => {
   return (    
     <div
-      className={`relative flex-col w-48 h-full bg-accent4 cursor-pointer`}
+      className={`relative flex-none flex-col w-44 h-full bg-accent4 cursor-pointer`}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
       onClick={onClick}
@@ -90,17 +90,19 @@ export const VideoPlayer = ({ data }) => {
             })
           }
         </div>
-        <div className="flex gap-0.5 -mt-8">
-          {data.items &&
-            data.items.map(function (block, index) {
-              return <Card
-                key={index} data={block} isHovered={hovered === index}
-                onMouseEnter={ () => {setHovered(index)} }
-                onMouseLeave={ () => {setHovered(null)} }
-                onClick={ () => {setVideo(block.video)} }
-              />;
-            })
-          }
+        <div className="-mt-8 overflow-x-scroll">
+          <div className="flex gap-0.5">
+            {data.items &&
+              data.items.map(function (block, index) {
+                return <Card
+                  key={index} data={block} isHovered={hovered === index}
+                  onMouseEnter={ () => {setHovered(index)} }
+                  onMouseLeave={ () => {setHovered(null)} }
+                  onClick={ () => {setVideo(block.video)} }
+                />;
+              })
+            }
+          </div>
         </div>
       </div>
         {video && (

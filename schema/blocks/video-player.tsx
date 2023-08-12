@@ -29,7 +29,7 @@ export const videoPlayerBlockSchema: any = {
       name: "items",
       list: true,
       itemProps: (item) => ({
-        label: item.headline,
+        label: item.title,
       }),
       fields: [
         imageSchema,
