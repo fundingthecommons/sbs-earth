@@ -213,7 +213,7 @@ blocks:
     items:
       - image:
           src: /uploads/video-thumb.jpg
-        title: Project Name B
+        title: Project Name
         city: City Name
         description: Lorem ipsum dolor
         video: GS18H-3YFGw
@@ -838,8 +838,6 @@ background:
   style: bg-repeat
   position: bg-center
 ---
-
-
 
 
 
