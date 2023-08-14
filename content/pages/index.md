@@ -687,91 +687,94 @@ blocks:
         body: ''
     _template: speakers
   - style:
-      alignment: 'flex-col-reverse items-center '
+      alignment: "flex-col-reverse items-center "
       padding: pt-20 pb-10 pr-10 pl-10
       featureContent: w-full min-h-0 text-center
       labelStyles: text-black undefined undefined
-      headlineStyles: text-accent3 mg-headline-medium undefined
-      subheadStyles: text-black undefined undefined
+      headlineStyles: text-accent3 mg-headline-medium mb-2.5
+      subheadStyles: text-white undefined mb-5
       textStyles: text-black undefined undefined
     timelineStyle:
       labelStyles: text-white mg-copy-small mb-0
       headlineStyles: text-white mg-copy-large mb-2.5
-      subheadStyles: 'text-accent2 undefined '
+      subheadStyles: "text-accent2 undefined "
       textStyles: text-gray mg-card-title mb-0
     headline: Agenda
-    body: ''
+    subhead: SBS Earth will be broadcasted in Eastern Time (ET).
+    body: ""
     timelines:
-      - label: ''
-        headline: ''
-        subhead: SBS Earth will be broadcasted in Eastern Time (ET).
-        body: ''
+      - label: ""
+        headline: Morning
+        subhead: ""
+        body: ""
         events:
-          - time: '10:00 AM'
+          - time: "10:00"
             headline: Opening Remarks
-            subhead: 'Marc Johnson, Filecoin Green'
-          - time: '10:06 AM'
+            subhead: "Marc Johnson, Filecoin Green"
+          - time: "10:06"
             headline: Keynote
-            subhead: 'Anna Lerner, Climate Collective'
-          - time: '10:21 AM'
+            subhead: "Anna Lerner, Climate Collective"
+          - time: "10:21"
             headline: ReFi Panel
-          - time: '10:46 AM'
-            headline: 'Equity and Governance '
-            subhead: 'Kendra Leong, she256'
-          - time: '11:08 AM'
+          - time: "10:46"
+            headline: "Equity and Governance "
+            subhead: "Kendra Leong, she256"
+          - time: "11:08"
             headline: How Can OpsChainESG Help Corporates On Their Journey to Net-Zero
-            subhead: 'Ben Stamm, EY Blockchain'
-          - time: '11:18 AM'
+            subhead: "Ben Stamm, EY Blockchain"
+          - time: "11:18"
             headline: Peer2Peer Energy Trading and Renewable Powered Blockchains
             subhead: "Stefan\tKermer, Dione Protocol"
-          - time: '11:28 AM'
+          - time: "11:28"
             headline: >-
               Digital MRVs - Environmental Assets Tokenization For Regenerative
-              Finance 
-            subhead: 'Cristian Mosella, EnergyLab'
-          - time: '11:41 AM'
+              Finance
+            subhead: "Cristian Mosella, EnergyLab"
+          - time: "11:41"
             headline: Citizen Science for Rainforest Conservation
-            subhead: 'Simeon Max, Gainforest'
-          - time: '11:51 AM'
+            subhead: "Simeon Max, Gainforest"
+          - time: "11:51"
             headline: >-
               Verity Carbon - Web3 Enabled Digital MRV for Carbon and Co-Benefit
               Projects at Scale
-            subhead: 'Justin Baird, Blue Carbon S2C'
-          - time: '12:01 PM'
+            subhead: "Justin Baird, Blue Carbon S2C"
+      - headline: Afternoon
+        events:
+          - time: "12:01"
             headline: Transform.Storage for ReFi
             subhead: "Alan\tRansil, Protocol Labs"
-          - time: '12:11 PM'
+          - time: "12:11"
             headline: >-
               Leveraging Blockchain to Bring Accountability and Integrity to
               Corporate Climate Action
-            subhead: 'Saudamini Sharma, Thallo'
-          - time: '12:21 PM'
+            subhead: "Saudamini Sharma, Thallo"
+          - time: "12:21"
             headline: A Stable Asset Backed by Nature
             subhead: "Tobias\tKuhlmann, Mento Labs"
-          - time: '12:31 PM'
+          - time: "12:31"
             headline: AI's Role in Stopping Deforestation
-            subhead: 'Jon Trask, Dimitra'
-          - time: '12:41 PM'
+            subhead: "Jon Trask, Dimitra"
+          - time: "12:41"
             headline: >-
               Bitcoin: A Potential Solution for Energy Poverty, Financial
               Exclusion, and the Digital Divide
-            subhead: 'Elliot David, Sustainable Bitcoin Protocol'
-          - time: '12:51 PM'
+            subhead: "Elliot David, Sustainable Bitcoin Protocol"
+          - time: "12:51"
             headline: >-
               An IWA Persistence and Tokenization Pattern for Blockchain Based
               CO2 Auditing and Monetization
-            subhead: 'Clay Graham, Stealth'
-          - time: '1:05 PM'
-            headline: 'Panel: Community, Governance, and ReFi '
+            subhead: "Clay Graham, Stealth"
+          - time: "1:05"
+            headline: "Panel: Community, Governance, and ReFi "
             subhead: >-
               John Ellison, ReFi DAO | Magenta Ceiba, Bloom Network | Juan
               Giraldo, ReFi Medellín | Ester Silva, EthereumBrasil
-          - time: '1:30 PM'
+          - time: "1:30"
             headline: Fireside Chat
-            subhead: 'Kevin Owocki, Gitcoin & Caitlin Moore, Filecoin Green'
-          - time: '1:50 PM'
+            subhead: "Kevin Owocki, Gitcoin & Caitlin Moore, Filecoin Green"
+          - time: "1:50"
             headline: Closing Remarks
-            subhead: 'Marc Johnson, Filecoin Green'
+            subhead: "Marc Johnson, Filecoin Green"
     navigationLabel: Agenda
     _template: timeline
   - style:
