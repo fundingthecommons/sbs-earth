@@ -211,8 +211,7 @@ blocks:
     items:
       - image:
           src: >-
-            /uploads/Speaker Cards with talk info card - Ankita Bhattacharjee
-            (1).jpg
+            /uploads/vod_ankita_bhattacharjee.webp
         title: Topl
         city: Texas
         description: 'The Next Frontier in Impact Funding: Impact Tokens'
@@ -222,8 +221,7 @@ blocks:
         left: 25
       - image:
           src: >-
-            /uploads/Speaker Cards with talk info card - Beltran Berrocal
-            (1).jpg
+            /uploads/vod_beltran_berrocal.webp
         title: Zero Labs Green
         city: Spain
         description: 'Casting Spells with the Green Wizard '
@@ -233,7 +231,7 @@ blocks:
         top: 37
         left: 43
       - image:
-          src: /uploads/Speaker Cards VOD Content  - Jim Jiang (1).jpg
+          src: /uploads/vod_jim_jiang.webp
         title: SXX Future Data
         city: China
         description: FVM Makes the Whole Ecosystem Fairer and More Dynamic
@@ -242,7 +240,7 @@ blocks:
         top: 43
         left: 66
       - image:
-          src: /uploads/Speaker Cards with talk info card - Julia Benz (2).jpg
+          src: /uploads/vod_julia_benz.webp
         title: Decentralized Futures Council
         city: San Francisco
         description: >-
@@ -254,17 +252,17 @@ blocks:
         top: 36
         left: 20
       - image:
-          src: /uploads/Speaker Cards with talk info card - Laura Angel (1).jpg
+          src: /uploads/vod_laura_angel.webp
         title: Zondax
         city: Mexico
-        description: 'Zondax''s green data center, from Zurich to the world'
+        description: 'Zondaxs green data center, from Zurich to the world'
         link: ''
         video: 3UwWpNFaqNc
         time: '7:06'
         top: 44
         left: 23
       - image:
-          src: /uploads/Speaker Cards with talk info card - Lyndon Burford (1).jpg
+          src: /uploads/vod_lyndon_burford.webp
         title: PATH Collective
         city: United Kingdom
         description: 'Decentralized security: blockchain in nuclear disarmament'
@@ -273,7 +271,7 @@ blocks:
         top: 31
         left: 43
       - image:
-          src: /uploads/Speaker Cards VOD Content  - W. Ben Towne (1).jpg
+          src: /uploads/vod_ben_towne.webp
         title: PREPchain
         city: Pennsylvania
         description: Proof of Renewable Electricity Production
@@ -283,7 +281,7 @@ blocks:
         top: 31
         left: 30
       - image:
-          src: /uploads/Speaker Cards with talk info card - Utkarsh  Patel (1).jpg
+          src: /uploads/vod_utkarsh_patel.webp
         title: Solarpunk Dao
         city: Bangalore
         description: Leveraging web3 to Create the Solarpunk Paradigm
@@ -292,7 +290,7 @@ blocks:
         top: 47
         left: 59
       - image:
-          src: /uploads/Speaker Cards VOD Content - Tolga Yaz (1).jpg
+          src: /uploads/vod_tolga_yaz.webp
         title: RegenWise
         city: Istanbul
         description: What Should We Do RegenWise?
@@ -302,7 +300,7 @@ blocks:
         top: 37
         left: 49
       - image:
-          src: /uploads/Speaker Cards with talk info card - Stenver Jerkku (1).jpg
+          src: /uploads/vod_stenver_jerkku.webp
         title: Solid World
         city: Estonia
         description: Revolutionizing Access to Commodity Production Financing
@@ -311,7 +309,7 @@ blocks:
         top: 29
         left: 48
       - image:
-          src: /uploads/Speaker Cards with talk info card - Peace Bello (2).jpg
+          src: /uploads/vod_peace_bello.webp
         title: 'Chemotronix Limited '
         city: Nigeria
         description: Developing Voluntary Carbon Markets for Africa
@@ -320,7 +318,7 @@ blocks:
         top: 49
         left: 44
       - image:
-          src: /uploads/Speaker Cards with talk info card - Marcus Aurelius (1).jpg
+          src: /uploads/vod_marcus_aurelius.webp
         title: KlimaDAO
         city: Florida
         description: Murphy's Law for Carbon Credit Methodologies
