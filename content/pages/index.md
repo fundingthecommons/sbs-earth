@@ -210,6 +210,18 @@ blocks:
       position: bg-center
     items:
       - image:
+          src: >-
+            /uploads/Speaker Cards with talk info card - Beltran Berrocal
+            (1).jpg
+        title: Zero Labs Green
+        city: Spain
+        description: 'Casting Spells with the Green Wizard '
+        link: ''
+        video: sW-CRHEUeKA
+        time: '10:22'
+        top: 37
+        left: 43
+      - image:
           src: /uploads/Speaker Cards VOD Content  - Jim Jiang (1).jpg
         title: SXX Future Data
         city: China
@@ -892,6 +904,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
