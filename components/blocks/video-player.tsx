@@ -46,7 +46,7 @@ const Pin = ({
 const Card = ({ data, onMouseEnter, onMouseLeave, onClick, isHovered }) => {
   return (
     <div
-      className={`relative flex-none flex-col w-1/5 sm:w-1/2 mx-px h-full cursor-pointer`}
+      className={`relative flex-none w-1/5 sm:w-1/2 mx-px cursor-pointer`}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
       onClick={onClick}
@@ -69,7 +69,7 @@ const Card = ({ data, onMouseEnter, onMouseLeave, onClick, isHovered }) => {
       <div className={`flex-1 h-full bg-accent4 text-white mg-card-title p-3`}>
         <h3 className="mg-copy-small leading-snug mb-0">{data.title}</h3>
         <h4 className="mg-copy-small leading-snug mb-0">{data.city}</h4>
-        <p>{data.description}</p>
+        <p style={{ fontSize: "14px", opacity: "60%" }}>{data.description}</p>
         <div>
           {data.link && (
             <a href={data.link} className="">
@@ -77,7 +77,7 @@ const Card = ({ data, onMouseEnter, onMouseLeave, onClick, isHovered }) => {
             </a>
           )}
         </div>
-        <p className="mg-copy-footer">{data.time}</p>
+        {/* <p className="mg-copy-footer">{data.time}</p> */}
       </div>
     </div>
   );
@@ -125,10 +125,10 @@ export const VideoPlayer = ({ data }) => {
       navigationLabel={data.navigationLabel}
     >
       <div className={`relative max-w-site-full mx-auto py-10 px-10 sm:px-0`}>
-        <h2 className="text-accent3 mg-headline-medium text-center mt-12 sm:mb-2">
+        <h2 className="text-accent3 mg-headline-medium text-center mt-12 mb-0 sm:mb-2">
           Explore Projects
         </h2>
-        <div className="relative">
+        <div className="relative -mt-6">
           <img src="./sbs-earth/map.png" alt="map" className="w-full" />
           {data.items &&
             data.items.map(function (block, index) {
@@ -152,9 +152,9 @@ export const VideoPlayer = ({ data }) => {
               );
             })}
         </div>
-        <div className="relative sm:mt-3">
+        <div className="relative -mt-8 sm:mt-3">
           <div className={`embla overflow-hidden px-1`} ref={emblaRef}>
-            <div className="embla__container flex">
+            <div className="embla__container flex items-stretch">
               {data.items &&
                 data.items.map(function (block, index) {
                   return (
