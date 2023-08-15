@@ -38,10 +38,10 @@ blocks:
     body: ''
     _template: feature
   - style:
-      alignment: flex-col items-start gap-4
+      alignment: 'flex-row-reverse items-start gap-4 sm:flex-col sm:items-start sm:gap-8'
       padding: 'pt-10 pb-14 pr-10 pl-10 sm:pt-10 sm:pb-14 sm:pr-5 sm:pl-5'
       featureImage: '  mr-auto'
-      featureContent: 'w-2/3 min-h-0 text-left sm:w-full sm:min-h-0 sm:text-left'
+      featureContent: 'w-3/5 min-h-0 text-left sm:w-full sm:min-h-0 sm:text-left'
       buttonsLayout: 'flex-wrap gap-4  sm:flex-col sm:gap-4 sm:w-60'
       labelStyles: text-accent3 mg-copy mb-2.5
       headlineStyles: text-white mg-headline-large undefined
@@ -52,18 +52,8 @@ blocks:
       wrapFillStyles: ' opacity-100'
       style: bg-cover
       position: bg-center
-      ornaments:
-        - src: /uploads/earth.webp
-          alignment: center
-          xOffset: '600'
-          yOffset: '-50'
-          animationType: none
-          duration: '2500'
-          scrollOffset: '-500'
-          startRotation: ''
-          endRotation: ''
-    image:
-      src: /uploads/virtual-label.svg
+    videoId: sDr0D7nNXb0
+    liveLink: 'https://protocol.ai'
     label: ''
     headline: Join us to shape a sustainable future
     subhead: 'August 16, 2023'
@@ -75,9 +65,9 @@ blocks:
       a greener and more equitable world.
     buttons:
       - label: Explore Projects
-        link: "#explore-projects"
+        link: '#explore-projects'
         buttonStyle: outline
-    _template: feature
+    _template: hero
   - style:
       alignment: 'flex-col-reverse items-center '
       padding: 'pt-20 pb-14 pr-20 pl-20 sm:pt-10 sm:pb-9 sm:pr-5 sm:pl-5'
@@ -684,7 +674,7 @@ blocks:
         body: ''
     _template: speakers
   - style:
-      alignment: "flex-col-reverse items-center "
+      alignment: 'flex-col-reverse items-center '
       padding: pt-20 pb-10 pr-10 pl-10
       featureContent: w-full min-h-0 text-center
       labelStyles: text-black undefined undefined
@@ -694,84 +684,85 @@ blocks:
     timelineStyle:
       labelStyles: text-white mg-copy-small mb-0
       headlineStyles: text-white mg-copy-large mb-2.5
-      subheadStyles: "text-accent2 undefined "
+      subheadStyles: 'text-accent2 undefined '
       textStyles: text-gray mg-card-title mb-0
     headline: Agenda
     subhead: SBS Earth will be broadcasted in Eastern Time (ET).
-    body: ""
+    body: ''
     timelines:
-      - label: ""
+      - label: ''
         headline: Morning
-        subhead: ""
-        body: ""
+        subhead: ''
+        body: ''
         events:
-          - time: "10:00"
+          - time: '10:00'
             headline: Opening Remarks
-            subhead: "Marc Johnson, Filecoin Green"
-          - time: "10:06"
+            subhead: 'Marc Johnson, Filecoin Green'
+          - time: '10:06'
             headline: Keynote
-            subhead: "Anna Lerner, Climate Collective"
-          - time: "10:21"
+            subhead: 'Anna Lerner, Climate Collective'
+          - time: '10:21'
             headline: ReFi Panel
-          - time: "10:46"
-            headline: "Equity and Governance "
-            subhead: "Kendra Leong, she256"
-          - time: "11:08"
+          - time: '10:46'
+            headline: 'Equity and Governance '
+            subhead: 'Kendra Leong, she256'
+          - time: '11:08'
             headline: How Can OpsChainESG Help Corporates On Their Journey to Net-Zero
-            subhead: "Ben Stamm, EY Blockchain"
-          - time: "11:18"
+            subhead: 'Ben Stamm, EY Blockchain'
+          - time: '11:18'
             headline: Peer2Peer Energy Trading and Renewable Powered Blockchains
             subhead: "Stefan\tKermer, Dione Protocol"
-          - time: "11:28"
+          - time: '11:28'
             headline: >-
               Digital MRVs - Environmental Assets Tokenization For Regenerative
               Finance
-            subhead: "Cristian Mosella, EnergyLab"
-          - time: "11:41"
+            subhead: 'Cristian Mosella, EnergyLab'
+          - time: '11:41'
             headline: Citizen Science for Rainforest Conservation
-            subhead: "Simeon Max, Gainforest"
-          - time: "11:51"
+            subhead: 'Simeon Max, Gainforest'
+          - time: '11:51'
             headline: >-
               Verity Carbon - Web3 Enabled Digital MRV for Carbon and Co-Benefit
               Projects at Scale
-            subhead: "Justin Baird, Blue Carbon S2C"
+            subhead: 'Justin Baird, Blue Carbon S2C'
       - headline: Afternoon
+        body: ''
         events:
-          - time: "12:01"
+          - time: '12:01'
             headline: Transform.Storage for ReFi
             subhead: "Alan\tRansil, Protocol Labs"
-          - time: "12:11"
+          - time: '12:11'
             headline: >-
               Leveraging Blockchain to Bring Accountability and Integrity to
               Corporate Climate Action
-            subhead: "Saudamini Sharma, Thallo"
-          - time: "12:21"
+            subhead: 'Saudamini Sharma, Thallo'
+          - time: '12:21'
             headline: A Stable Asset Backed by Nature
             subhead: "Tobias\tKuhlmann, Mento Labs"
-          - time: "12:31"
+          - time: '12:31'
             headline: AI's Role in Stopping Deforestation
-            subhead: "Jon Trask, Dimitra"
-          - time: "12:41"
+            subhead: 'Jon Trask, Dimitra'
+          - time: '12:41'
             headline: >-
               Bitcoin: A Potential Solution for Energy Poverty, Financial
               Exclusion, and the Digital Divide
-            subhead: "Elliot David, Sustainable Bitcoin Protocol"
-          - time: "12:51"
+            subhead: 'Elliot David, Sustainable Bitcoin Protocol'
+          - time: '12:51'
             headline: >-
               An IWA Persistence and Tokenization Pattern for Blockchain Based
               CO2 Auditing and Monetization
-            subhead: "Clay Graham, Stealth"
-          - time: "1:05"
-            headline: "Panel: Community, Governance, and ReFi "
+            subhead: 'Clay Graham, Stealth'
+          - time: '1:05'
+            headline: 'Panel: Community, Governance, and ReFi '
             subhead: >-
               John Ellison, ReFi DAO | Magenta Ceiba, Bloom Network | Juan
               Giraldo, ReFi Medellín | Ester Silva, EthereumBrasil
-          - time: "1:30"
+          - time: '1:30'
             headline: Fireside Chat
-            subhead: "Kevin Owocki, Gitcoin & Caitlin Moore, Filecoin Green"
-          - time: "1:50"
+            subhead: 'Kevin Owocki, Gitcoin & Caitlin Moore, Filecoin Green'
+          - time: '1:50'
             headline: Closing Remarks
-            subhead: "Marc Johnson, Filecoin Green"
+            subhead: 'Marc Johnson, Filecoin Green'
     navigationLabel: Agenda
     _template: timeline
   - style:
@@ -835,6 +826,11 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
+
+
+
+
 
 
 

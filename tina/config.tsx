@@ -8,6 +8,7 @@ import { featureBlockSchema } from "../schema/blocks/feature";
 import { cardsBlockSchema } from "../schema/blocks/cards";
 import { accordionBlockSchema } from "../schema/blocks/accordion";
 import { embedBlockSchema } from "../schema/blocks/embed";
+import { heroBlockSchema } from "../schema/blocks/hero";
 import { speakersBlockSchema } from "../schema/blocks/speakers";
 import { sponsorsBlockSchema } from "../schema/blocks/sponsors";
 import { timelineBlockSchema } from "../schema/blocks/timeline"
@@ -85,6 +86,7 @@ const config = defineStaticConfig({
               cardsBlockSchema,
               accordionBlockSchema,
               embedBlockSchema,
+              heroBlockSchema,
               speakersBlockSchema,
               sponsorsBlockSchema,
               timelineBlockSchema,
@@ -194,7 +196,7 @@ const config = defineStaticConfig({
     import("../plugins").then(({ typographyControlFieldPlugin }) => {
       cms.plugins.add(typographyControlFieldPlugin);
     });
-    
+
     return cms
   }
 });

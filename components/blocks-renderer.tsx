@@ -3,6 +3,7 @@ import { Feature } from "./blocks/feature";
 import { Cards } from "./blocks/cards";
 import { Accordion } from "./blocks/accordion";
 import { Embed } from "./blocks/embed";
+import { Hero } from "./blocks/hero";
 import { Speakers } from "./blocks/speakers";
 import { Sponsors } from "./blocks/sponsors";
 import { TailwindFeature } from "./blocks/tailwind-feature";
@@ -112,6 +113,14 @@ export const Blocks = (props: any) => {
                   key={i + block.__typename}
                 >
                   <VideoPlayer data={block} />
+                </div>
+              );
+            case "PageBlocksHero":
+              return (
+                <div
+                  key={i + block.__typename}
+                >
+                  <Hero data={block} />
                 </div>
               );
             default:
