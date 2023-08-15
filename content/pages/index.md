@@ -249,7 +249,7 @@ blocks:
           How blockchain’s intersection with sustainability is giving power back
           to the people
         link: ''
-        video: 'https://youtu.be/ldOwKRtdcVY'
+        video: ldOwKRtdcVY
         time: '8:17'
         top: 36
         left: 20
