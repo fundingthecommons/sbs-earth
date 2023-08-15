@@ -237,7 +237,7 @@ blocks:
         title: SXX Future Data
         city: China
         description: FVM Makes the Whole Ecosystem Fairer and More Dynamic
-        video: 'https://youtu.be/hg_k3sv6epE'
+        video: hg_k3sv6epE
         time: '7:45'
         top: 43
         left: 66
