@@ -762,6 +762,9 @@ blocks:
             headline: 'Zondax''s green data center, from Zurich to the world'
             subhead: 'Laura Angel, Zondax'
           - time: '10:44'
+            headline: The Autonomous and Transparent Future of Biodiversity and MRV
+            subhead: 'Kristy Deiner, SimplexDNA | David Dao, GainForest'
+          - time: '11:04'
             headline: 'Equity and Governance '
             subhead: 'Kendra Leong, she256'
           - time: '11:08'
