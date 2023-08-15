@@ -770,9 +770,9 @@ blocks:
           - time: '11:13'
             headline: How Can OpsChainESG Help Corporates On Their Journey to Net-Zero
             subhead: 'Ben Stamm, EY Blockchain'
-          - time: '11:18'
-            headline: Peer2Peer Energy Trading and Renewable Powered Blockchains
-            subhead: "Stefan\tKermer, Dione Protocol"
+          - time: '11:22'
+            headline: 'Proof of Renewable Electricity Production '
+            subhead: "W. Ben\tTowne, PREPchain"
           - time: '11:28'
             headline: >-
               Digital MRVs - Environmental Assets Tokenization For Regenerative
