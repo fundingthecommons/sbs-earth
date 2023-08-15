@@ -767,7 +767,7 @@ blocks:
           - time: '11:04'
             headline: 'Equity and Governance '
             subhead: 'Kendra Leong, she256'
-          - time: '11:08'
+          - time: '11:13'
             headline: How Can OpsChainESG Help Corporates On Their Journey to Net-Zero
             subhead: 'Ben Stamm, EY Blockchain'
           - time: '11:18'
