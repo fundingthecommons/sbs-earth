@@ -125,11 +125,11 @@ export const VideoPlayer = ({ data }) => {
       navigationLabel={data.navigationLabel}
     >
       <div className={`relative max-w-site-full mx-auto py-10 px-10 sm:px-0`}>
-        <h2 className="text-accent3 mg-headline-medium text-center mt-8 sm:mb-2">
-          Projects
+        <h2 className="text-accent3 mg-headline-medium text-center mt-12 sm:mb-2">
+          Explore Projects
         </h2>
         <div className="relative">
-          <img src="./sbs-earth/map.svg" alt="map" className="w-full" />
+          <img src="./sbs-earth/map.png" alt="map" className="w-full" />
           {data.items &&
             data.items.map(function (block, index) {
               return (
