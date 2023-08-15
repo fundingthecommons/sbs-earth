@@ -817,7 +817,7 @@ blocks:
             headline: 'Panel: Community, Governance, and ReFi '
             subhead: >-
               John Ellison, ReFi DAO | Magenta Ceiba, Bloom Network | Juan
-              Giraldo, ReFi Medellín | Ester Silva, EthereumBrasil
+              Giraldo, ReFi Medellín | Ester Silva, AgroChain & ETHBrasil
           - time: '1:30'
             headline: Fireside Chat
             subhead: 'Kevin Owocki, Gitcoin & Caitlin Moore, Filecoin Green'
