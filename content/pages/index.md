@@ -808,7 +808,7 @@ blocks:
               Bitcoin: A Potential Solution for Energy Poverty, Financial
               Exclusion, and the Digital Divide
             subhead: 'Elliot David, Sustainable Bitcoin Protocol'
-          - time: '12:51'
+          - time: '12:53'
             headline: >-
               An IWA Persistence and Tokenization Pattern for Blockchain Based
               CO2 Auditing and Monetization
