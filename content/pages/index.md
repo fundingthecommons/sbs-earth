@@ -268,7 +268,7 @@ blocks:
         title: PATH Collective
         city: United Kingdom
         description: 'Decentralized security: blockchain in nuclear disarmament'
-        video: 'https://youtu.be/KYFxl1_ALF0'
+        video: KYFxl1_ALF0
         time: '7:23'
         top: 31
         left: 43
