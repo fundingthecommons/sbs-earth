@@ -51,11 +51,11 @@ const WarpedImage = ({
       vertices.set(updatedVertices);
     };
 
-    // ticker.add(tick);
+    ticker.add(tick);
 
-    // return () => {
-    //   ticker.remove(tick);
-    // };
+    return () => {
+      ticker.remove(tick);
+    };
   }, [app.ticker, count, vertices]);
 
   return (
