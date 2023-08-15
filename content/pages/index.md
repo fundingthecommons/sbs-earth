@@ -74,12 +74,8 @@ blocks:
       sustainability enthusiasts to explore the power of blockchain in promoting
       a greener and more equitable world.
     buttons:
-      - label: Register
-        link: >-
-          https://www.eventbrite.com/e/sustainable-blockchain-summit-earth-registration-636837918357
-        buttonStyle: outline
-      - label: Sponsor SBS
-        link: 'https://airtable.com/shr27EigZgmYiOizE'
+      - label: Explore Projects
+        link: "#explore-projects"
         buttonStyle: outline
     _template: feature
   - style:
@@ -265,6 +261,7 @@ blocks:
         time: '10:34'
         top: 31
         left: 46
+    navigationLabel: Explore Projects
     _template: videoPlayer
   - style:
       alignment: flex-col-reverse items-center gap-12
