@@ -819,7 +819,7 @@ blocks:
               John Ellison, ReFi DAO | Magenta Ceiba, Bloom Network | Juan
               Giraldo, ReFi Medellín | Ester Silva, AgroChain & ETHBrasil
           - time: '1:30'
-            headline: Fireside Chat
+            headline: 'Fireside Chat: Solving Real World Problems with Kevin Owocki'
             subhead: 'Kevin Owocki, Gitcoin & Caitlin Moore, Filecoin Green'
           - time: '1:50'
             headline: Closing Remarks
