@@ -600,10 +600,10 @@ blocks:
         subhead: She256
         body: ''
       - image:
-          src: /uploads/maguire.webp
+          src: /uploads/David dao linked in.jpeg
         label: ''
-        headline: Angie Maguire
-        subhead: Protocol Labs
+        headline: David Dao
+        subhead: GainForest
         body: ''
       - image:
           src: /uploads/Screenshot 2023-07-12 at 3.52.12 PM.png
