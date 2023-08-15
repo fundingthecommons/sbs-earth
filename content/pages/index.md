@@ -315,7 +315,7 @@ blocks:
         title: 'Chemotronix Limited '
         city: Nigeria
         description: Developing Voluntary Carbon Markets for Africa
-        video: 'https://youtu.be/Dlbk5T83e_Y'
+        video: Dlbk5T83e_Y
         time: '4:29'
         top: 49
         left: 44
