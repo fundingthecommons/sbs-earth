@@ -12,11 +12,11 @@
     "padding": "pt-0 pb-0 pr-10 pl-8",
     "navBackgroundColor": "bg-accent4 opacity-100",
     "navAlignment": "text-right",
-    "navTypeStyle": "text-accent2 mg-body-sm  sm:text-accent3 sm:mg-body-sm sm:",
+    "navTypeStyle": "text-gray-light mg-body-sm  sm:text-accent3 sm:mg-body-sm sm:",
     "navItems": [
       {
-        "label": "Tickets",
-        "link": "https://www.eventbrite.com/e/sustainable-blockchain-summit-earth-registration-636837918357"
+        "label": "Join Live",
+        "link": "#"
       }
     ]
   },
