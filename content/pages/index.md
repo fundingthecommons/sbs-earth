@@ -306,7 +306,7 @@ blocks:
         title: Solid World
         city: Estonia
         description: Revolutionizing Access to Commodity Production Financing
-        video: 'https://youtu.be/Q5B_HRtbXZA'
+        video: Q5B_HRtbXZA
         time: '10:34'
         top: 29
         left: 48
@@ -915,6 +915,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
