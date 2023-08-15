@@ -66,7 +66,7 @@ blocks:
       src: /uploads/virtual-label.svg
     label: ''
     headline: Join us to shape a sustainable future
-    subhead: 'Today! August 16, 2023'
+    subhead: 'August 16, 2023'
     body: >
       Welcome to the inaugural virtual Sustainable Blockchain Summit, where
       technology meets sustainability in a groundbreaking digital experience!
@@ -749,14 +749,15 @@ blocks:
         subhead: ''
         body: ''
         events:
-          - time: '10:00'
+          - time: '10:15'
             headline: Opening Remarks
             subhead: 'Marc Johnson, Filecoin Green'
-          - time: '10:06'
-            headline: Keynote
-            subhead: 'Anna Lerner, Climate Collective'
           - time: '10:21'
-            headline: ReFi Panel
+            headline: 'Keynote: Current State of ReFi'
+            subhead: 'Anna Lerner, Climate Collective'
+          - time: '10:32'
+            headline: Leveraging Web3 to Create the Solarpunk Paradigm
+            subhead: 'Utkarsh Patel, Solarpunk Dao'
           - time: '10:46'
             headline: 'Equity and Governance '
             subhead: 'Kendra Leong, she256'
