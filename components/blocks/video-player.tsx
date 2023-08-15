@@ -151,7 +151,7 @@ export const VideoPlayer = ({ data }) => {
             })}
         </div>
         <div className="relative">
-          <div className={`embla overflow-hidden`} ref={emblaRef}>
+          <div className={`embla overflow-hidden px-1`} ref={emblaRef}>
             <div className="embla__container flex">
               {data.items &&
                 data.items.map(function (block, index) {
