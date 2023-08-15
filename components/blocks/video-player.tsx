@@ -1,7 +1,6 @@
 import { useEffect, useState, useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { Section } from "../section";
-import { FaIcon } from "../icons/fa-icon";
 
 const Pin = ({
   top = 0,
@@ -19,7 +18,7 @@ const Pin = ({
   };
   return (
     <div
-      className="absolute w-6 h-8 cursor-pointer"
+      className="absolute w-5 sm:w-4 cursor-pointer"
       style={styles}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
@@ -47,7 +46,7 @@ const Pin = ({
 const Card = ({ data, onMouseEnter, onMouseLeave, onClick, isHovered }) => {
   return (
     <div
-      className={`relative flex-none flex-col w-1/5 mx-px h-full cursor-pointer`}
+      className={`relative flex-none flex-col w-1/5 sm:w-1/2 mx-px h-full cursor-pointer`}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
       onClick={onClick}
@@ -125,7 +124,10 @@ export const VideoPlayer = ({ data }) => {
       background={data.background}
       navigationLabel={data.navigationLabel}
     >
-      <div className={`relative max-w-site-full mx-auto py-10 px-10`}>
+      <div className={`relative max-w-site-full mx-auto py-10 px-10 sm:px-0`}>
+        <h2 className="text-accent3 mg-headline-medium text-center mt-8 sm:mb-2">
+          Projects
+        </h2>
         <div className="relative">
           <img src="./sbs-earth/map.svg" alt="map" className="w-full" />
           {data.items &&
@@ -150,7 +152,7 @@ export const VideoPlayer = ({ data }) => {
               );
             })}
         </div>
-        <div className="relative">
+        <div className="relative sm:mt-3">
           <div className={`embla overflow-hidden px-1`} ref={emblaRef}>
             <div className="embla__container flex">
               {data.items &&
@@ -226,7 +228,7 @@ export const VideoPlayer = ({ data }) => {
               setVideo(null);
             }}
           />
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 px-10 w-full">
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 px-10 sm:px-0 w-full">
             <div className="w-full" style={{ aspectRatio: "16/9" }}>
               <iframe
                 width="100%"
