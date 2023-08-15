@@ -226,19 +226,18 @@ export const VideoPlayer = ({ data }) => {
               setVideo(null);
             }}
           />
-          <div
-            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20"
-            style={{ width: "1000px", height: "563px" }}
-          >
-            <iframe
-              width="100%"
-              height="100%"
-              src={`https://www.youtube.com/embed/${video}`}
-              title="YouTube video player"
-              frame-border="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allow-fullscreen
-            ></iframe>
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 px-10 w-full">
+            <div className="w-full" style={{ aspectRatio: "16/9" }}>
+              <iframe
+                width="100%"
+                height="100%"
+                src={`https://www.youtube.com/embed/${video}`}
+                title="YouTube video player"
+                frame-border="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allow-fullscreen
+              ></iframe>
+            </div>
           </div>
         </div>
       )}
