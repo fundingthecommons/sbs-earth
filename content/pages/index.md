@@ -214,7 +214,7 @@ blocks:
         title: SXX Future Data
         city: China
         description: FVM Makes the Whole Ecosystem Fairer and More Dynamic
-        video: 'hg_k3sv6epE'
+        video: 'https://youtu.be/hg_k3sv6epE'
         time: '7:45'
         top: 43
         left: 66
@@ -226,7 +226,7 @@ blocks:
           How blockchain’s intersection with sustainability is giving power back
           to the people
         link: ''
-        video: 'ldOwKRtdcVY'
+        video: 'https://youtu.be/ldOwKRtdcVY'
         time: '8:17'
         top: 36
         left: 20
@@ -236,7 +236,7 @@ blocks:
         city: Mexico
         description: 'Zondax''s green data center, from Zurich to the world'
         link: ''
-        video: '3UwWpNFaqNc'
+        video: 'https://youtu.be/3UwWpNFaqNc'
         time: '7:06'
         top: 44
         left: 23
@@ -245,7 +245,7 @@ blocks:
         title: PATH Collective
         city: United Kingdom
         description: 'Decentralized security: blockchain in nuclear disarmament'
-        video: 'KYFxl1_ALF0'
+        video: 'https://youtu.be/KYFxl1_ALF0'
         time: '7:23'
         top: 31
         left: 43
@@ -255,7 +255,7 @@ blocks:
         city: Pennsylvania
         description: Proof of Renewable Electricity Production
         link: ''
-        video: '5X6p-GKsIGU'
+        video: 'https://youtu.be/5X6p-GKsIGU'
         time: '8:28'
         top: 31
         left: 30
@@ -264,7 +264,7 @@ blocks:
         title: Solarpunk Dao
         city: Bangalore
         description: Leveraging web3 to Create the Solarpunk Paradigm
-        video: 'ERLwogTNjsA'
+        video: 'https://youtu.be/ERLwogTNjsA'
         time: '4:33'
         top: 47
         left: 59
@@ -274,7 +274,7 @@ blocks:
         city: Istanbul
         description: What Should We Do RegenWise?
         link: ''
-        video: 'GoIhr35BMyk'
+        video: 'https://youtu.be/GoIhr35BMyk'
         time: '4:49'
         top: 37
         left: 49
@@ -283,7 +283,7 @@ blocks:
         title: Solid World
         city: Estonia
         description: Revolutionizing Access to Commodity Production Financing
-        video: 'Q5B_HRtbXZA'
+        video: 'https://youtu.be/Q5B_HRtbXZA'
         time: '10:34'
         top: 29
         left: 48
@@ -292,7 +292,7 @@ blocks:
         title: 'Chemotronix Limited '
         city: Nigeria
         description: Developing Voluntary Carbon Markets for Africa
-        video: 'Dlbk5T83e_Y'
+        video: 'https://youtu.be/Dlbk5T83e_Y'
         time: '4:29'
         top: 49
         left: 44
@@ -301,7 +301,7 @@ blocks:
         title: KlimaDAO
         city: Florida
         description: Murphy's Law for Carbon Credit Methodologies
-        video: 'GI8QUBnq9FY'
+        video: 'https://youtu.be/GI8QUBnq9FY'
         time: '7:14'
         top: 41
         left: 27
@@ -758,7 +758,10 @@ blocks:
           - time: '10:32'
             headline: Leveraging Web3 to Create the Solarpunk Paradigm
             subhead: 'Utkarsh Patel, Solarpunk Dao'
-          - time: '10:46'
+          - time: '10:37'
+            headline: 'Zondax''s green data center, from Zurich to the world'
+            subhead: 'Laura Angel, Zondax'
+          - time: '10:44'
             headline: 'Equity and Governance '
             subhead: 'Kendra Leong, she256'
           - time: '11:08'
