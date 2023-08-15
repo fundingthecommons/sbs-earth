@@ -789,10 +789,10 @@ blocks:
       - headline: Afternoon
         body: ''
         events:
-          - time: '12:01'
+          - time: '12:03'
             headline: Transform.Storage for ReFi
             subhead: "Alan\tRansil, Protocol Labs"
-          - time: '12:11'
+          - time: '12:14'
             headline: >-
               Leveraging Blockchain to Bring Accountability and Integrity to
               Corporate Climate Action
