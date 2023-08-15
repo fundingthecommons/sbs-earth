@@ -821,7 +821,7 @@ blocks:
           - time: '1:30'
             headline: 'Fireside Chat: Solving Real World Problems with Kevin Owocki'
             subhead: 'Kevin Owocki, Gitcoin & Caitlin Moore, Filecoin Green'
-          - time: '1:50'
+          - time: '1:55'
             headline: Closing Remarks
             subhead: 'Marc Johnson, Filecoin Green'
     navigationLabel: Agenda
