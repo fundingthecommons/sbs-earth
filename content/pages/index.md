@@ -444,7 +444,7 @@ blocks:
           src: /uploads/IMG_1401.jpeg
         label: ''
         headline: Ester Silva
-        subhead: EthBrasil
+        subhead: AgroChain & ETHBrasil
         body: ''
       - image:
           src: /uploads/Screenshot 2023-07-12 at 4.04.23 PM.png
