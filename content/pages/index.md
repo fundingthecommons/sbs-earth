@@ -830,15 +830,15 @@ blocks:
               An IWA Persistence and Tokenization Pattern for Blockchain Based
               CO2 Auditing and Monetization
             subhead: 'Clay Graham, Stealth'
-          - time: '1:05'
+          - time: '1:06'
             headline: 'Panel: Community, Governance, and ReFi '
             subhead: >-
               John Ellison, ReFi DAO | Magenta Ceiba, Bloom Network | Juan
               Giraldo, ReFi Medellín | Ester Silva, AgroChain & ETHBrasil
-          - time: '1:30'
+          - time: '1:31'
             headline: 'Fireside Chat: Solving Real World Problems with Kevin Owocki'
             subhead: 'Kevin Owocki, Gitcoin & Caitlin Moore, Filecoin Green'
-          - time: '1:55'
+          - time: '1:53'
             headline: Closing Remarks
             subhead: 'Marc Johnson, Filecoin Green'
     navigationLabel: Agenda
@@ -904,6 +904,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
