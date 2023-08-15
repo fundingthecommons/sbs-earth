@@ -778,7 +778,7 @@ blocks:
               Digital MRVs - Environmental Assets Tokenization For Regenerative
               Finance
             subhead: 'Cristian Mosella, EnergyLab'
-          - time: '11:41'
+          - time: '11:44'
             headline: Citizen Science for Rainforest Conservation
             subhead: 'Simeon Max, Gainforest'
           - time: '11:51'
