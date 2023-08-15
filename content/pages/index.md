@@ -297,7 +297,7 @@ blocks:
         city: Istanbul
         description: What Should We Do RegenWise?
         link: ''
-        video: 'https://youtu.be/GoIhr35BMyk'
+        video: GoIhr35BMyk
         time: '4:49'
         top: 37
         left: 49
