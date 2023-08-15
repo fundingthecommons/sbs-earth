@@ -259,7 +259,7 @@ blocks:
         city: Mexico
         description: 'Zondax''s green data center, from Zurich to the world'
         link: ''
-        video: 'https://youtu.be/3UwWpNFaqNc'
+        video: 3UwWpNFaqNc
         time: '7:06'
         top: 44
         left: 23
@@ -915,6 +915,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
