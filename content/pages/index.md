@@ -797,7 +797,7 @@ blocks:
               Leveraging Blockchain to Bring Accountability and Integrity to
               Corporate Climate Action
             subhead: 'Saudamini Sharma, Thallo'
-          - time: '12:21'
+          - time: '12:24'
             headline: A Stable Asset Backed by Nature
             subhead: "Tobias\tKuhlmann, Mento Labs"
           - time: '12:31'
