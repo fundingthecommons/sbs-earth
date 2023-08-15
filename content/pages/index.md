@@ -773,7 +773,7 @@ blocks:
           - time: '11:22'
             headline: 'Proof of Renewable Electricity Production '
             subhead: "W. Ben\tTowne, PREPchain"
-          - time: '11:28'
+          - time: '11:31'
             headline: >-
               Digital MRVs - Environmental Assets Tokenization For Regenerative
               Finance
