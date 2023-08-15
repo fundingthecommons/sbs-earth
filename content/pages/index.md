@@ -278,7 +278,7 @@ blocks:
         city: Pennsylvania
         description: Proof of Renewable Electricity Production
         link: ''
-        video: 'https://youtu.be/5X6p-GKsIGU'
+        video: 5X6p-GKsIGU
         time: '8:28'
         top: 31
         left: 30
