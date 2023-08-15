@@ -38,18 +38,32 @@ blocks:
     body: ''
     _template: feature
   - style:
-      alignment: flex-row-reverse items-start gap-4
+      alignment: flex-col items-start gap-4
       padding: 'pt-10 pb-14 pr-10 pl-10 sm:pt-10 sm:pb-14 sm:pr-5 sm:pl-5'
       featureImage: '  mr-auto'
-      featureContent: 'w-3/5 min-h-0 text-left sm:w-full sm:min-h-0 sm:text-left'
+      featureContent: 'w-2/3 min-h-0 text-left sm:w-full sm:min-h-0 sm:text-left'
       buttonsLayout: 'flex-wrap gap-4  sm:flex-col sm:gap-4 sm:w-60'
       labelStyles: text-accent3 mg-copy mb-2.5
       headlineStyles: text-white mg-headline-large undefined
       subheadStyles: text-white mg-headline-small mb-20
       textStyles: text-white mg-copy-small mb-12
     background:
+      fillStyles: ' opacity-100'
+      wrapFillStyles: ' opacity-100'
       style: bg-cover
       position: bg-center
+      ornaments:
+        - src: /uploads/earth.webp
+          alignment: center
+          xOffset: '600'
+          yOffset: '-50'
+          animationType: none
+          duration: '2500'
+          scrollOffset: '-500'
+          startRotation: ''
+          endRotation: ''
+    image:
+      src: /uploads/virtual-label.svg
     label: ''
     headline: Join us to shape a sustainable future
     subhead: 'August 16, 2023'
@@ -63,7 +77,7 @@ blocks:
       - label: Explore Projects
         link: '#explore-projects'
         buttonStyle: outline
-    _template: hero
+    _template: feature
   - style:
       alignment: 'flex-col-reverse items-center '
       padding: 'pt-20 pb-14 pr-20 pl-20 sm:pt-10 sm:pb-9 sm:pr-5 sm:pl-5'
@@ -197,6 +211,17 @@ blocks:
     items:
       - image:
           src: >-
+            /uploads/Speaker Cards with talk info card - Ankita Bhattacharjee
+            (1).jpg
+        title: Topl
+        city: Texas
+        description: 'The Next Frontier in Impact Funding: Impact Tokens'
+        video: wGMHQi1XqQ4
+        time: '8:59'
+        top: 39
+        left: 25
+      - image:
+          src: >-
             /uploads/Speaker Cards with talk info card - Beltran Berrocal
             (1).jpg
         title: Zero Labs Green
@@ -212,7 +237,7 @@ blocks:
         title: SXX Future Data
         city: China
         description: FVM Makes the Whole Ecosystem Fairer and More Dynamic
-        video: 'hg_k3sv6epE'
+        video: hg_k3sv6epE
         time: '7:45'
         top: 43
         left: 66
@@ -224,7 +249,7 @@ blocks:
           How blockchain’s intersection with sustainability is giving power back
           to the people
         link: ''
-        video: 'ldOwKRtdcVY'
+        video: ldOwKRtdcVY
         time: '8:17'
         top: 36
         left: 20
@@ -234,7 +259,7 @@ blocks:
         city: Mexico
         description: 'Zondax''s green data center, from Zurich to the world'
         link: ''
-        video: '3UwWpNFaqNc'
+        video: 3UwWpNFaqNc
         time: '7:06'
         top: 44
         left: 23
@@ -243,7 +268,7 @@ blocks:
         title: PATH Collective
         city: United Kingdom
         description: 'Decentralized security: blockchain in nuclear disarmament'
-        video: 'KYFxl1_ALF0'
+        video: KYFxl1_ALF0
         time: '7:23'
         top: 31
         left: 43
@@ -253,7 +278,7 @@ blocks:
         city: Pennsylvania
         description: Proof of Renewable Electricity Production
         link: ''
-        video: '5X6p-GKsIGU'
+        video: 5X6p-GKsIGU
         time: '8:28'
         top: 31
         left: 30
@@ -262,7 +287,7 @@ blocks:
         title: Solarpunk Dao
         city: Bangalore
         description: Leveraging web3 to Create the Solarpunk Paradigm
-        video: 'ERLwogTNjsA'
+        video: ERLwogTNjsA
         time: '4:33'
         top: 47
         left: 59
@@ -272,7 +297,7 @@ blocks:
         city: Istanbul
         description: What Should We Do RegenWise?
         link: ''
-        video: 'GoIhr35BMyk'
+        video: GoIhr35BMyk
         time: '4:49'
         top: 37
         left: 49
@@ -281,7 +306,7 @@ blocks:
         title: Solid World
         city: Estonia
         description: Revolutionizing Access to Commodity Production Financing
-        video: 'Q5B_HRtbXZA'
+        video: Q5B_HRtbXZA
         time: '10:34'
         top: 29
         left: 48
@@ -290,7 +315,7 @@ blocks:
         title: 'Chemotronix Limited '
         city: Nigeria
         description: Developing Voluntary Carbon Markets for Africa
-        video: 'Dlbk5T83e_Y'
+        video: Dlbk5T83e_Y
         time: '4:29'
         top: 49
         left: 44
@@ -299,7 +324,7 @@ blocks:
         title: KlimaDAO
         city: Florida
         description: Murphy's Law for Carbon Credit Methodologies
-        video: 'GI8QUBnq9FY'
+        video: GI8QUBnq9FY
         time: '7:14'
         top: 41
         left: 27
@@ -506,7 +531,6 @@ blocks:
         label: ''
         headline: "Kristy\tDeiner"
         subhead: SimplexDNA
-        body: ''
       - image:
           src: /uploads/Screenshot 2023-07-12 at 3.59.57 PM.png
         label: ''
@@ -891,6 +915,9 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
+
+
 
 
 
