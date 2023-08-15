@@ -287,7 +287,7 @@ blocks:
         title: Solarpunk Dao
         city: Bangalore
         description: Leveraging web3 to Create the Solarpunk Paradigm
-        video: 'https://youtu.be/ERLwogTNjsA'
+        video: ERLwogTNjsA
         time: '4:33'
         top: 47
         left: 59
