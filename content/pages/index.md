@@ -504,6 +504,11 @@ blocks:
         subhead: Sustainable Bitcoin Protocol
         body: ''
       - image:
+          src: /uploads/Screenshot 2023-08-15 at 11.46.40 AM.png
+        label: ''
+        headline: "Kristy\tDeiner"
+        subhead: SimplexDNA
+      - image:
           src: /uploads/Screenshot 2023-07-12 at 3.59.57 PM.png
         label: ''
         headline: Stenver Jerkku
