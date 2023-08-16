@@ -85,15 +85,6 @@ blocks:
       position: bg-center
     items:
       - image:
-          src: /uploads/Speaker Cards with talk info card - Tobias Kuhlmann.jpg
-        title: Germany
-        city: Mento Labs
-        description: A Stable Asset backed by Nature
-        video: g0qQsYDQanY
-        time: '9:53'
-        top: 35
-        left: 47
-      - image:
           src: /uploads/Speaker Cards with talk info card - Kendra Leong.jpg
         title: Australia
         city: she256
@@ -202,25 +193,6 @@ blocks:
         top: 53
         left: 64
       - image:
-          src: /uploads/vod_ben_towne.webp
-        title: Pennsylvania
-        city: PREPchain
-        description: Proof of Renewable Electricity Production
-        link: ''
-        video: 5X6p-GKsIGU
-        time: '8:28'
-        top: 32
-        left: 30
-      - image:
-          src: /uploads/vod_utkarsh_patel.webp
-        title: Bangalore
-        city: Solarpunk Dao
-        description: Leveraging web3 to Create the Solarpunk Paradigm
-        video: ERLwogTNjsA
-        time: '4:33'
-        top: 47
-        left: 59
-      - image:
           src: /uploads/vod_tolga_yaz.webp
         title: Istanbul
         city: RegenWise
@@ -230,6 +202,43 @@ blocks:
         time: '4:49'
         top: 38
         left: 49
+      - image:
+          src: /uploads/Speaker Cards with talk info card - Tobias Kuhlmann.jpg
+        title: Germany
+        city: Mento Labs
+        description: A Stable Asset backed by Nature
+        video: g0qQsYDQanY
+        time: '9:53'
+        top: 35
+        left: 47
+      - image:
+          src: /uploads/Speaker Cards with talk info card - W. Ben Towne (1).jpg
+        title: Pennsylvania
+        city: PREPchain
+        description: Proof of Renewable Electricity Production
+        link: ''
+        video: 5X6p-GKsIGU
+        time: '8:28'
+        top: 32
+        left: 30
+      - image:
+          src: /uploads/Speaker Cards with talk info card - Jon Trask.jpg
+        title: Canada
+        city: Dimitra
+        description: AI's Role in Stopping Deforestation
+        video: jdxFDENv96Y
+        time: '9:14'
+        top: 28
+        left: 24
+      - image:
+          src: /uploads/vod_utkarsh_patel.webp
+        title: Bangalore
+        city: Solarpunk Dao
+        description: Leveraging web3 to Create the Solarpunk Paradigm
+        video: ERLwogTNjsA
+        time: '4:33'
+        top: 47
+        left: 59
       - image:
           src: /uploads/vod_jim_jiang.webp
         title: China
@@ -257,15 +266,6 @@ blocks:
         time: '4:29'
         top: 49
         left: 44
-      - image:
-          src: /uploads/Speaker Cards with talk info card - Jon Trask.jpg
-        title: Canada
-        city: Dimitra
-        description: AI's Role in Stopping Deforestation
-        video: jdxFDENv96Y
-        time: '9:14'
-        top: 28
-        left: 24
       - image:
           src: /uploads/vod_marcus_aurelius.webp
         title: Florida
@@ -863,6 +863,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
