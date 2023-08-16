@@ -54,7 +54,7 @@ blocks:
     liveLink: 'https://protocol.zoom.us/j/99205832561'
     label: ''
     headline: Join us to shape a sustainable future
-    subhead: "Today, 10 AM Eastern!"
+    subhead: "Today, 10:15 AM Eastern!"
     body: >
       Welcome to the inaugural virtual Sustainable Blockchain Summit, where
       technology meets sustainability in a groundbreaking digital experience!
