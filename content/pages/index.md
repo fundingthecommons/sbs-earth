@@ -177,8 +177,8 @@ blocks:
         left: 49
       - image:
           src: /uploads/vod_stenver_jerkku.webp
-        title: Solid World
-        city: Estonia
+        title: Estonia
+        city: Solid World
         description: Revolutionizing Access to Commodity Production Financing
         video: Q5B_HRtbXZA
         time: '10:34'
@@ -790,6 +790,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
