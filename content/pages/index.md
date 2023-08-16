@@ -184,6 +184,15 @@ blocks:
         top: 31
         left: 43
       - image:
+          src: /uploads/vod_stenver_jerkku.webp
+        title: Estonia
+        city: Solid World
+        description: Revolutionizing Access to Commodity Production Financing
+        video: Q5B_HRtbXZA
+        time: '10:34'
+        top: 29
+        left: 48
+      - image:
           src: /uploads/Speaker Cards with talk info card - Justin Baird.jpg
         title: Singapore
         city: Blue Carbon S2C
@@ -212,15 +221,14 @@ blocks:
         top: 35
         left: 47
       - image:
-          src: /uploads/Speaker Cards with talk info card - W. Ben Towne (1).jpg
-        title: Pennsylvania
-        city: PREPchain
-        description: Proof of Renewable Electricity Production
-        link: ''
-        video: 5X6p-GKsIGU
-        time: '8:28'
-        top: 32
-        left: 30
+          src: /uploads/vod_utkarsh_patel.webp
+        title: Bangalore
+        city: Solarpunk Dao
+        description: Leveraging web3 to Create the Solarpunk Paradigm
+        video: ERLwogTNjsA
+        time: '4:33'
+        top: 47
+        left: 59
       - image:
           src: /uploads/Speaker Cards with talk info card - Jon Trask.jpg
         title: Canada
@@ -231,15 +239,6 @@ blocks:
         top: 28
         left: 24
       - image:
-          src: /uploads/vod_utkarsh_patel.webp
-        title: Bangalore
-        city: Solarpunk Dao
-        description: Leveraging web3 to Create the Solarpunk Paradigm
-        video: ERLwogTNjsA
-        time: '4:33'
-        top: 47
-        left: 59
-      - image:
           src: /uploads/vod_jim_jiang.webp
         title: China
         city: SXX Future Data
@@ -249,23 +248,15 @@ blocks:
         top: 43
         left: 66
       - image:
-          src: /uploads/vod_stenver_jerkku.webp
-        title: Estonia
-        city: Solid World
-        description: Revolutionizing Access to Commodity Production Financing
-        video: Q5B_HRtbXZA
-        time: '10:34'
-        top: 29
-        left: 48
-      - image:
-          src: /uploads/vod_peace_bello.webp
-        title: Nigeria
-        city: 'Chemotronix Limited '
-        description: Developing Voluntary Carbon Markets for Africa
-        video: Dlbk5T83e_Y
-        time: '4:29'
-        top: 49
-        left: 44
+          src: /uploads/Speaker Cards with talk info card - W. Ben Towne (1).jpg
+        title: Pennsylvania
+        city: PREPchain
+        description: Proof of Renewable Electricity Production
+        link: ''
+        video: 5X6p-GKsIGU
+        time: '8:28'
+        top: 32
+        left: 30
       - image:
           src: /uploads/vod_marcus_aurelius.webp
         title: Florida
@@ -275,6 +266,15 @@ blocks:
         time: '7:14'
         top: 41
         left: 27
+      - image:
+          src: /uploads/vod_peace_bello.webp
+        title: Nigeria
+        city: 'Chemotronix Limited '
+        description: Developing Voluntary Carbon Markets for Africa
+        video: Dlbk5T83e_Y
+        time: '4:29'
+        top: 49
+        left: 44
     navigationLabel: 'Watch SBS Earth Content '
     _template: videoPlayer
   - style:
@@ -863,6 +863,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
