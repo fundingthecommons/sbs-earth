@@ -273,8 +273,8 @@ blocks:
         left: 43
       - image:
           src: /uploads/vod_ben_towne.webp
-        title: PREPchain
-        city: Pennsylvania
+        title: Pennsylvania
+        city: PREPchain
         description: Proof of Renewable Electricity Production
         link: ''
         video: 5X6p-GKsIGU
@@ -915,6 +915,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
