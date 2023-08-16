@@ -128,7 +128,7 @@ export const VideoPlayer = ({ data }) => {
         <h2 className="text-accent3 mg-headline-medium text-center mt-12 mb-16 sm:mb-2">
           Explore SBS Earth Content
         </h2>
-        <p className="text-white text-center mg-copy">SBS Earth featured talks from industry leaders, innovators, and sustainability enthusiasts from all around the globe. Be sure to check out the replays on the interactive map below, a first of its kind feature!</p>
+        <p className="text-white text-center mg-copy">SBS Earth featured talks from industry leaders, innovators, and sustainability enthusiasts from all around the globe. Be sure to check out the video replays on the interactive map below, a first of its kind feature!</p>
         <div className="relative -mt-6">
           <img src="./sbs-earth/map.png" alt="map" className="w-full" />
           {data.items &&
