@@ -69,10 +69,7 @@ blocks:
     subhead: 'August 16, 2023'
     body: >
       Welcome to the inaugural virtual Sustainable Blockchain Summit, where
-      technology meets sustainability in a groundbreaking digital experience!
-      This pioneering event unites industry leaders, innovators, and
-      sustainability enthusiasts to explore the power of blockchain in promoting
-      a greener and more equitable world.
+      technology meets sustainability in a groundbreaking digital experience! 
     buttons:
       - label: Livestream Replay
         link: 'https://www.youtube.com/live/1nuMk72bytg?'
@@ -790,6 +787,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
