@@ -66,13 +66,10 @@ blocks:
       src: /uploads/virtual-label.svg
     label: ''
     headline: Join us to shape a sustainable future
-    subhead: "August 16, 2023"
+    subhead: 'August 16, 2023'
     body: >
       Welcome to the inaugural virtual Sustainable Blockchain Summit, where
       technology meets sustainability in a groundbreaking digital experience!
-      This pioneering event unites industry leaders, innovators, and
-      sustainability enthusiasts to explore the power of blockchain in promoting
-      a greener and more equitable world.
     buttons:
       - label: Livestream Replay
         link: 'https://www.youtube.com/live/1nuMk72bytg?'
@@ -81,131 +78,6 @@ blocks:
         link: 'https://mailchi.mp/90fdbff26d90/sustainable-blockchain-summit'
         buttonStyle: outline
     _template: feature
-  - style:
-      alignment: 'flex-col-reverse items-center '
-      padding: 'pt-20 pb-14 pr-20 pl-20 sm:pt-10 sm:pb-9 sm:pr-5 sm:pl-5'
-      featureImage: '  mx-auto'
-      featureContent: w-full min-h-0 text-left
-      labelStyles: text-black undefined undefined
-      headlineStyles: text-black undefined undefined
-      subheadStyles: text-black undefined undefined
-      textStyles: text-white mg-copy-large mb-3.5
-    background:
-      fillStyles: ' opacity-100'
-      wrapFillStyles: ' opacity-100'
-      animatedBackground: bg-lead-in.jpg
-      src: ''
-      style: bg-cover
-      position: bg-center
-      ornaments:
-        - src: /uploads/dandelions.webp
-          alignment: bottom
-          xOffset: '-608'
-        - src: /uploads/dandelion-seed-1.webp
-          alignment: bottom
-          height: '54'
-          xOffset: '-380'
-          yOffset: '-365'
-          animationType: scroll
-          duration: '2000'
-          scrollOffset: '0'
-          endOffsetY: '-200'
-          endOffsetX: '50'
-          endRotation: '25'
-        - src: /uploads/dandelion-seed-2.webp
-          alignment: bottom
-          height: '54'
-          xOffset: '-293'
-          yOffset: '-325'
-          animationType: scroll
-          duration: '2000'
-          scrollOffset: '0'
-          startRotation: ''
-          endOffsetY: '-160'
-          endOffsetX: '50'
-          endRotation: '45'
-        - src: /uploads/dandelion-seed-2.webp
-          alignment: bottom
-          xOffset: '-380'
-          yOffset: '-430'
-          animationType: scroll
-          duration: '2000'
-          scrollOffset: '0'
-          startOffsetY: '0'
-          startOffsetX: '0'
-          startRotation: '-110'
-          endOffsetY: '-180'
-          endOffsetX: '-40'
-        - src: /uploads/dandelion-seed-1.webp
-          alignment: bottom
-          xOffset: '-380'
-          yOffset: '-260'
-          animationType: scroll
-          duration: '2000'
-          startRotation: '50'
-          endOffsetY: '-160'
-          endOffsetX: '-20'
-        - src: /uploads/dandelion-seed-2.webp
-          alignment: bottom
-          xOffset: '-360'
-          yOffset: '-250'
-          animationType: scroll
-          duration: '2000'
-          startRotation: '45'
-          endOffsetY: '-120'
-          endOffsetX: '20'
-          endRotation: '90'
-        - src: /uploads/dandelion-seed-2.webp
-          alignment: bottom
-          xOffset: '-420'
-          yOffset: '-320'
-          animationType: scroll
-          duration: '2000'
-          startRotation: '10'
-          endOffsetY: '-90'
-          endOffsetX: '40'
-          endRotation: '70'
-        - src: /uploads/dandelion-seed-1.webp
-          alignment: bottom
-          xOffset: '-440'
-          yOffset: '-300'
-          animationType: scroll
-          duration: '2000'
-          endOffsetY: '-120'
-          endOffsetX: '-20'
-          endRotation: '-50'
-        - src: /uploads/dandelion-seed-1.webp
-          alignment: bottom
-          xOffset: '-490'
-          yOffset: '-280'
-          animationType: scroll
-          duration: '2000'
-          startOffsetY: ''
-          startOffsetX: ''
-          startRotation: '-20'
-          endOffsetY: '-100'
-          endOffsetX: '-10'
-          endRotation: '-50'
-        - src: /uploads/dandelion-seed-2.webp
-          alignment: bottom
-          xOffset: '-430'
-          yOffset: '-270'
-          animationType: scroll
-          duration: '2000'
-          endOffsetY: '-130'
-          endOffsetX: '10'
-          endScale: '1.2'
-          endRotation: '25'
-    headline: ''
-    subhead: ''
-    body: >
-      Engage with inspiring keynotes and interactive panels of global experts,
-      and discover how sustainable blockchain solutions can reshape our future.
-
-
-      Register now for this virtual adventure and join the movement to harness
-      blockchain's potential for a cleaner, more sustainable tomorrow.
-    _template: feature
   - background:
       fillStyles: ' opacity-100'
       wrapFillStyles: ' opacity-100'
@@ -213,18 +85,36 @@ blocks:
       position: bg-center
     items:
       - image:
+          src: /uploads/Speaker Cards with talk info card - Kendra Leong.jpg
+        title: Australia
+        city: she256
+        description: 'Equity and Governance: The Role'
+        video: FIbc_mX8BOE
+        time: '8:31'
+        top: 65
+        left: 73
+      - image:
           src: /uploads/vod_ankita_bhattacharjee.webp
-        title: Topl
-        city: Texas
+        title: Texas
+        city: Topl
         description: 'The Next Frontier in Impact Funding: Impact Tokens'
         video: wGMHQi1XqQ4
         time: '8:59'
         top: 39
         left: 25
       - image:
+          src: /uploads/Speaker Cards with talk info card - Simeon Max.jpg
+        title: Switzerland
+        city: GainForest
+        description: Citizen Science for Rainforest Conservation
+        video: tMochgiToow
+        time: '8:40'
+        top: 36
+        left: 45
+      - image:
           src: /uploads/vod_beltran_berrocal.webp
-        title: Zero Labs Green
-        city: Spain
+        title: Spain
+        city: Zero Labs Green
         description: 'Casting Spells with the Green Wizard '
         link: ''
         video: sW-CRHEUeKA
@@ -232,18 +122,19 @@ blocks:
         top: 37
         left: 43
       - image:
-          src: /uploads/vod_jim_jiang.webp
-        title: SXX Future Data
-        city: China
-        description: FVM Makes the Whole Ecosystem Fairer and More Dynamic
-        video: hg_k3sv6epE
-        time: '7:45'
-        top: 43
-        left: 66
+          src: /uploads/Speaker Cards with talk info card - Ben Stamm (2).jpg
+        title: 'New York '
+        city: EY Blockchain
+        description: How Can OpsChainESG Help Corporates On Their Journey to Net-Zero
+        link: ''
+        video: fkcH_Zv62yw
+        time: '8:57'
+        top: 33
+        left: 32
       - image:
           src: /uploads/vod_julia_benz.webp
-        title: Decentralized Futures Council
-        city: San Francisco
+        title: San Francisco
+        city: Decentralized Futures Council
         description: >-
           How blockchain’s intersection with sustainability is giving power back
           to the people
@@ -253,9 +144,18 @@ blocks:
         top: 36
         left: 20
       - image:
+          src: /uploads/Speaker Cards with talk info card - Clay Graham (1).jpg
+        title: Oregon
+        city: Stealth
+        description: An IWA Persistence and Tokenization Pattern for Blockchain
+        video: N0bJnvGLY8Q
+        time: '10:26'
+        top: 32
+        left: 20
+      - image:
           src: /uploads/vod_laura_angel.webp
-        title: Zondax
-        city: Mexico
+        title: Mexico
+        city: Zondax
         description: 'Zondaxs green data center, from Zurich to the world'
         link: ''
         video: 3UwWpNFaqNc
@@ -263,71 +163,119 @@ blocks:
         top: 44
         left: 23
       - image:
+          src: /uploads/Speaker Cards with talk info card - Elliot David.jpg
+        title: Florida
+        city: Sustainable Bitcoin Protocol
+        description: >-
+          Bitcoin: A Potential Solution for Energy Poverty, Financial Exclusion,
+          and the Digital Divide
+        link: ''
+        video: qAG2ABfW_LA
+        time: '12:28'
+        top: 44
+        left: 27
+      - image:
           src: /uploads/vod_lyndon_burford.webp
-        title: PATH Collective
-        city: United Kingdom
+        title: United Kingdom
+        city: PATH Collective
         description: 'Decentralized security: blockchain in nuclear disarmament'
         video: KYFxl1_ALF0
         time: '7:23'
         top: 31
         left: 43
       - image:
-          src: /uploads/vod_ben_towne.webp
-        title: PREPchain
-        city: Pennsylvania
-        description: Proof of Renewable Electricity Production
-        link: ''
-        video: 5X6p-GKsIGU
-        time: '8:28'
-        top: 31
-        left: 30
-      - image:
-          src: /uploads/vod_utkarsh_patel.webp
-        title: Solarpunk Dao
-        city: Bangalore
-        description: Leveraging web3 to Create the Solarpunk Paradigm
-        video: ERLwogTNjsA
-        time: '4:33'
-        top: 47
-        left: 59
-      - image:
-          src: /uploads/vod_tolga_yaz.webp
-        title: RegenWise
-        city: Istanbul
-        description: What Should We Do RegenWise?
-        link: ''
-        video: GoIhr35BMyk
-        time: '4:49'
-        top: 37
-        left: 49
-      - image:
           src: /uploads/vod_stenver_jerkku.webp
-        title: Solid World
-        city: Estonia
+        title: Estonia
+        city: Solid World
         description: Revolutionizing Access to Commodity Production Financing
         video: Q5B_HRtbXZA
         time: '10:34'
         top: 29
         left: 48
       - image:
-          src: /uploads/vod_peace_bello.webp
-        title: 'Chemotronix Limited '
-        city: Nigeria
-        description: Developing Voluntary Carbon Markets for Africa
-        video: Dlbk5T83e_Y
-        time: '4:29'
-        top: 49
-        left: 44
+          src: /uploads/Speaker Cards with talk info card - Justin Baird.jpg
+        title: Singapore
+        city: Blue Carbon S2C
+        description: Verity Carbon - Web3 Enabled Digital MRV for Carbon Projects
+        video: majT6PbLaWE
+        time: '9:58'
+        top: 53
+        left: 64
+      - image:
+          src: /uploads/vod_tolga_yaz.webp
+        title: Istanbul
+        city: RegenWise
+        description: What Should We Do RegenWise?
+        link: ''
+        video: GoIhr35BMyk
+        time: '4:49'
+        top: 38
+        left: 49
+      - image:
+          src: /uploads/Speaker Cards with talk info card - Tobias Kuhlmann.jpg
+        title: Germany
+        city: Mento Labs
+        description: A Stable Asset backed by Nature
+        video: g0qQsYDQanY
+        time: '9:53'
+        top: 35
+        left: 47
+      - image:
+          src: /uploads/vod_utkarsh_patel.webp
+        title: Bangalore
+        city: Solarpunk Dao
+        description: Leveraging web3 to Create the Solarpunk Paradigm
+        video: ERLwogTNjsA
+        time: '4:33'
+        top: 47
+        left: 59
+      - image:
+          src: /uploads/Speaker Cards with talk info card - Jon Trask.jpg
+        title: Canada
+        city: Dimitra
+        description: AI's Role in Stopping Deforestation
+        video: jdxFDENv96Y
+        time: '9:14'
+        top: 28
+        left: 24
+      - image:
+          src: /uploads/vod_jim_jiang.webp
+        title: China
+        city: SXX Future Data
+        description: FVM Makes the Whole Ecosystem Fairer and More Dynamic
+        video: hg_k3sv6epE
+        time: '7:45'
+        top: 43
+        left: 66
+      - image:
+          src: /uploads/Speaker Cards with talk info card - W. Ben Towne (1).jpg
+        title: Pennsylvania
+        city: PREPchain
+        description: Proof of Renewable Electricity Production
+        link: ''
+        video: 5X6p-GKsIGU
+        time: '8:28'
+        top: 32
+        left: 30
       - image:
           src: /uploads/vod_marcus_aurelius.webp
-        title: KlimaDAO
-        city: Florida
+        title: Florida
+        city: KlimaDAO
         description: Murphy's Law for Carbon Credit Methodologies
         video: GI8QUBnq9FY
         time: '7:14'
         top: 41
         left: 27
-    navigationLabel: Explore Projects
+      - image:
+          src: /uploads/vod_peace_bello.webp
+        title: Nigeria
+        city: 'Chemotronix Limited '
+        description: Developing Voluntary Carbon Markets for Africa
+        video: Dlbk5T83e_Y
+        time: '4:29'
+        top: 49
+        left: 44
+    navigationLabel: 'Watch SBS Earth Content '
     _template: videoPlayer
   - style:
       alignment: flex-col-reverse items-center gap-12
@@ -434,7 +382,7 @@ blocks:
     headline: Speakers
     subhead: ''
     body: >
-      SBS Earth will feature a dynamic group of speakers, featuring prominent
+      SBS Earth featured a dynamic group of speakers, featuring prominent
       figures from the legacy energy industry, influential NGOs, experts in
       carbon management, and leaders in web3 and ReFi projects.
     items:
@@ -475,17 +423,18 @@ blocks:
         subhead: GainForest
         body: ''
       - image:
+          src: /uploads/elliot_david.webp
+          alt: Elliott D.
+        label: ''
+        headline: Elliot David
+        subhead: Sustainable Bitcoin Protocol
+        body: ''
+      - image:
           src: /uploads/adelaine_bhattacharjee.webp
           alt: Adelaine B.
         label: ''
         headline: Adelaine Bhattacharjee
         subhead: Topl
-        body: ''
-      - image:
-          src: /uploads/brad_van_voorhees.webp
-        label: ''
-        headline: Brad Van Voorhees
-        subhead: Sustainable Bitcoin Protocol
         body: ''
       - image:
           src: /uploads/julia_benz.webp
@@ -517,13 +466,6 @@ blocks:
         label: ''
         headline: Juan Giraldo
         subhead: ReFi Medellín & Green Digital Guardians
-        body: ''
-      - image:
-          src: /uploads/elliot_david.webp
-          alt: Elliott D.
-        label: ''
-        headline: Elliot David
-        subhead: Sustainable Bitcoin Protocol
         body: ''
       - image:
           src: /uploads/kristy_deiner.webp
@@ -669,12 +611,6 @@ blocks:
         headline: Tolga Yaz
         subhead: RegenWise
         body: ''
-      - image:
-          src: /uploads/akshay_yeleswarapu.webp
-        label: ''
-        headline: Akshay Yeleswarapu
-        subhead: ostrom
-        body: ''
     navigationLabel: Speakers
     _template: speakers
   - style:
@@ -769,7 +705,7 @@ blocks:
       subheadStyles: 'text-accent2 undefined '
       textStyles: text-gray mg-card-title mb-0
     headline: Agenda
-    subhead: SBS Earth will be broadcasted in Eastern Time (ET).
+    subhead: 'SBS Earth was livestreamed on August 16, 2023'
     body: ''
     timelines:
       - label: ''
@@ -915,6 +851,30 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
