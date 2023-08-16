@@ -132,15 +132,6 @@ blocks:
         top: 33
         left: 32
       - image:
-          src: /uploads/vod_jim_jiang.webp
-        title: China
-        city: SXX Future Data
-        description: FVM Makes the Whole Ecosystem Fairer and More Dynamic
-        video: hg_k3sv6epE
-        time: '7:45'
-        top: 43
-        left: 66
-      - image:
           src: /uploads/vod_julia_benz.webp
         title: San Francisco
         city: Decentralized Futures Council
@@ -171,6 +162,18 @@ blocks:
         time: '7:06'
         top: 44
         left: 23
+      - image:
+          src: /uploads/Speaker Cards with talk info card - Elliot David.jpg
+        title: Florida
+        city: Sustainable Bitcoin Protocol
+        description: >-
+          Bitcoin: A Potential Solution for Energy Poverty, Financial Exclusion,
+          and the Digital Divide
+        link: ''
+        video: qAG2ABfW_LA
+        time: '12:28'
+        top: 44
+        left: 27
       - image:
           src: /uploads/vod_lyndon_burford.webp
         title: United Kingdom
@@ -209,6 +212,15 @@ blocks:
         time: '4:49'
         top: 37
         left: 49
+      - image:
+          src: /uploads/vod_jim_jiang.webp
+        title: China
+        city: SXX Future Data
+        description: FVM Makes the Whole Ecosystem Fairer and More Dynamic
+        video: hg_k3sv6epE
+        time: '7:45'
+        top: 43
+        left: 66
       - image:
           src: /uploads/vod_stenver_jerkku.webp
         title: Estonia
@@ -824,6 +836,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
