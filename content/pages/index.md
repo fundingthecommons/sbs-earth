@@ -264,8 +264,8 @@ blocks:
         left: 23
       - image:
           src: /uploads/vod_lyndon_burford.webp
-        title: PATH Collective
-        city: United Kingdom
+        title: United Kingdom
+        city: PATH Collective
         description: 'Decentralized security: blockchain in nuclear disarmament'
         video: KYFxl1_ALF0
         time: '7:23'
@@ -915,6 +915,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
