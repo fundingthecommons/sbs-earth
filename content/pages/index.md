@@ -195,8 +195,8 @@ blocks:
         left: 44
       - image:
           src: /uploads/vod_marcus_aurelius.webp
-        title: KlimaDAO
-        city: Florida
+        title: Florida
+        city: KlimaDAO
         description: Murphy's Law for Carbon Credit Methodologies
         video: GI8QUBnq9FY
         time: '7:14'
@@ -790,6 +790,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
