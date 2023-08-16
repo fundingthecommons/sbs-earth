@@ -66,7 +66,7 @@ blocks:
       src: /uploads/virtual-label.svg
     label: ''
     headline: Join us to shape a sustainable future
-    subhead: "August 16, 2023"
+    subhead: 'August 16, 2023'
     body: >
       Welcome to the inaugural virtual Sustainable Blockchain Summit, where
       technology meets sustainability in a groundbreaking digital experience!
@@ -214,8 +214,8 @@ blocks:
     items:
       - image:
           src: /uploads/vod_ankita_bhattacharjee.webp
-        title: Topl
-        city: Texas
+        title: Texas
+        city: Topl
         description: 'The Next Frontier in Impact Funding: Impact Tokens'
         video: wGMHQi1XqQ4
         time: '8:59'
@@ -223,8 +223,8 @@ blocks:
         left: 25
       - image:
           src: /uploads/vod_beltran_berrocal.webp
-        title: Zero Labs Green
-        city: Spain
+        title: Spain
+        city: Zero Labs Green
         description: 'Casting Spells with the Green Wizard '
         link: ''
         video: sW-CRHEUeKA
@@ -915,6 +915,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
