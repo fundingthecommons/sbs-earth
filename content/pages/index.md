@@ -167,8 +167,8 @@ blocks:
         left: 59
       - image:
           src: /uploads/vod_tolga_yaz.webp
-        title: RegenWise
-        city: Istanbul
+        title: Istanbul
+        city: RegenWise
         description: What Should We Do RegenWise?
         link: ''
         video: GoIhr35BMyk
@@ -790,6 +790,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
