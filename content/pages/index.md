@@ -84,13 +84,15 @@ blocks:
       style: bg-cover
       position: bg-center
     items:
-      - title: Switzerland
-        city: GainForest
-        description: Citizen Science for Rainforest Conservation
-        video: tMochgiToow
-        time: '8:40'
-        top: 36
-        left: 45
+      - image:
+          src: /uploads/Speaker Cards with talk info card - Kendra Leong.jpg
+        title: Australia
+        city: she256
+        description: 'Equity and Governance: The Role'
+        video: FIbc_mX8BOE
+        time: '8:31'
+        top: 65
+        left: 73
       - image:
           src: /uploads/vod_ankita_bhattacharjee.webp
         title: Texas
@@ -100,6 +102,15 @@ blocks:
         time: '8:59'
         top: 39
         left: 25
+      - image:
+          src: /uploads/Speaker Cards with talk info card - Simeon Max.jpg
+        title: Switzerland
+        city: GainForest
+        description: Citizen Science for Rainforest Conservation
+        video: tMochgiToow
+        time: '8:40'
+        top: 36
+        left: 45
       - image:
           src: /uploads/vod_beltran_berrocal.webp
         title: Spain
@@ -794,6 +805,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
