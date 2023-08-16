@@ -424,238 +424,238 @@ blocks:
       carbon management, and leaders in web3 and ReFi projects.
     items:
       - image:
-          src: /uploads/Screenshot 2023-08-04 at 8.52.41 AM.png
+          src: /uploads/anna_lerner.webp
         label: ''
         headline: Anna Lerner
         subhead: Climate Collective
         body: ''
       - image:
-          src: /uploads/Me.jpeg
+          src: /uploads/adrian_wons.webp
         label: ''
         headline: Adrian Wons
         subhead: Senken
         body: ''
       - image:
-          src: /uploads/Screenshot 2023-07-12 at 4.05.29 PM.png
+          src: /uploads/lyndon_burford.webp
         label: ''
         headline: Lyndon Burford
         subhead: PATH Collective
         body: ''
       - image:
-          src: /uploads/twitter image-min.jpg
+          src: /uploads/saudamini_sharma.webp
         label: ''
         headline: Saudamini Sharma
         subhead: Thallo
         body: ''
       - image:
-          src: /uploads/IMG_1401.jpeg
+          src: /uploads/ester_silva.webp
         label: ''
         headline: Ester Silva
         subhead: AgroChain & ETHBrasil
         body: ''
       - image:
-          src: /uploads/Screenshot 2023-07-12 at 4.04.23 PM.png
+          src: /uploads/simeon_max.webp
         label: ''
         headline: Simeon Max
         subhead: GainForest
         body: ''
       - image:
-          src: /uploads/Adelaine Headshot.jpg
+          src: /uploads/adelaine_bhattacharjee.webp
           alt: Adelaine B.
         label: ''
         headline: Adelaine Bhattacharjee
         subhead: Topl
         body: ''
       - image:
-          src: /uploads/RyIbnZLl_400x400.jpg
+          src: /uploads/brad_van_voorhees.webp
         label: ''
         headline: Brad Van Voorhees
         subhead: Sustainable Bitcoin Protocol
         body: ''
       - image:
-          src: /uploads/Headshot (2).jpg
+          src: /uploads/julia_benz.webp
         label: ''
         headline: Julia Benz
         subhead: Decentralized Futures Council
         body: ''
       - image:
-          src: /uploads/Beltran_Profile_informal_1920x1555.jpg
+          src: /uploads/beltran_berrocal.webp
         label: ''
         headline: Beltran Berrocal
         subhead: Zero Labs
         body: ''
       - image:
-          src: /uploads/Screenshot 2023-07-12 at 4.07.10 PM.png
+          src: /uploads/rene_pinnell.webp
         label: ''
         headline: René Pinnell
         subhead: Artizen
         body: ''
       - image:
-          src: /uploads/marcus_copy.jpg
+          src: /uploads/marcus_aurelius.webp
         label: ''
         headline: Marcus Aurelius
         subhead: KlimaDAO
         body: ''
       - image:
-          src: /uploads/Foto2022.jpeg
+          src: /uploads/juan_giraldo.webp
           alt: Juan G.
         label: ''
         headline: Juan Giraldo
         subhead: ReFi Medellín & Green Digital Guardians
         body: ''
       - image:
-          src: /uploads/Elliot_David.jpg
+          src: /uploads/elliot_david.webp
           alt: Elliott D.
         label: ''
         headline: Elliot David
         subhead: Sustainable Bitcoin Protocol
         body: ''
       - image:
-          src: /uploads/Screenshot 2023-08-15 at 11.46.40 AM.png
+          src: /uploads/kristy_deiner.webp
         label: ''
         headline: "Kristy\tDeiner"
         subhead: SimplexDNA
         body: ''
       - image:
-          src: /uploads/Screenshot 2023-07-12 at 3.59.57 PM.png
+          src: /uploads/stenver_jerkku.webp
         label: ''
         headline: Stenver Jerkku
         subhead: Solid World
         body: ''
       - image:
-          src: /uploads/ransil.webp
+          src: /uploads/alan_ransil.webp
         label: ''
         headline: Alan Ransil
         subhead: Filecoin Green
         body: ''
       - image:
-          src: /uploads/IMG_8023.jpeg
+          src: /uploads/eric_tang.webp
         label: ''
         headline: Eric Tang
         subhead: Livepeer
         body: ''
       - image:
-          src: /uploads/Screenshot 2023-08-04 at 8.38.52 AM.png
+          src: /uploads/jon_trask.webp
         label: ''
         headline: Jon Trask
         subhead: Dimitra
         body: ''
       - image:
-          src: /uploads/Screenshot 2023-07-12 at 3.56.08 PM.png
+          src: /uploads/ben_towne.webp
         label: ''
         headline: Ben Towne
         subhead: PREPchain
         body: ''
       - image:
-          src: /uploads/signal-2023-01-15-135954.png
+          src: /uploads/magenta_ceiba.webp
         label: ''
         headline: "Magenta\tCeiba"
         subhead: Bloom Network
         body: ''
       - image:
-          src: /uploads/Screenshot 2023-07-12 at 4.00.55 PM.png
+          src: /uploads/stefan_kermer.webp
         label: ''
         headline: "Stefan\tKermer"
         subhead: Dione Protocol
         body: ''
       - image:
-          src: /uploads/Screenshot 2023-08-04 at 8.44.53 AM.png
+          src: /uploads/ana_maria_mahecha.webp
         label: ''
         headline: Ana Maria Mahecha
         subhead: KOKO DAO
         body: ''
       - image:
-          src: /uploads/CMosella.png
+          src: /uploads/cristian_mosella.webp
         label: ''
         headline: Cristian Mosella
         subhead: EnergyLab
         body: ''
       - image:
-          src: /uploads/Screenshot 2023-07-12 at 4.02.17 PM.png
+          src: /uploads/tobias_kuhlmann.webp
         label: ''
         headline: "Tobias\tKuhlmann"
         subhead: Mento Labs
         body: ''
       - image:
-          src: /uploads/Justin Baird 4k.jpg
+          src: /uploads/justin_baird.webp
         label: ''
         headline: Justin Baird
         subhead: Blue Carbon S2C
         body: ''
       - image:
-          src: /uploads/Screenshot 2023-07-12 at 4.03.40 PM.png
+          src: /uploads/laura_angel.webp
         label: ''
         headline: Laura Angel
         subhead: Zondax
         body: ''
       - image:
-          src: /uploads/407854.jpeg
+          src: /uploads/clay_graham.webp
         label: ''
         headline: "Clay\tGraham"
         subhead: Stealth
         body: ''
       - image:
-          src: /uploads/Screenshot 2023-07-12 at 3.58.50 PM.png
+          src: /uploads/utkarsh_patel.webp
         label: ''
         headline: Utkarsh Patel
         subhead: Solarpunk Dao
         body: ''
       - image:
-          src: /uploads/moore.webp
+          src: /uploads/caitlin_moore.webp
         label: ''
         headline: Caitlin Moore
         subhead: Filecoin Green
         body: ''
       - image:
-          src: /uploads/Screenshot 2023-07-12 at 3.53.50 PM.png
+          src: /uploads/kendra_leong.webp
         label: ''
         headline: Kendra Leong
         subhead: She256
         body: ''
       - image:
-          src: /uploads/David dao linked in.jpeg
+          src: /uploads/david_dao.webp
         label: ''
         headline: David Dao
         subhead: GainForest
         body: ''
       - image:
-          src: /uploads/Screenshot 2023-07-12 at 3.52.12 PM.png
+          src: /uploads/peace_bello.webp
         label: ''
         headline: Peace Bello
         subhead: Chemotronix Limited
         body: ''
       - image:
-          src: /uploads/Screenshot 2023-07-12 at 4.06.21 PM.png
+          src: /uploads/boone_bergsma.webp
         label: ''
         headline: Boone Bergsma
         subhead: Blockchain Laboratories
         body: ''
       - image:
-          src: /uploads/headshot.jpg
+          src: /uploads/tony_ushe.webp
         label: ''
         headline: Tony Ushe
         subhead: JobCrypt
         body: ''
       - image:
-          src: /uploads/johnson.webp
+          src: /uploads/marc_johnson.webp
         label: ''
         headline: Marc Johnson
         subhead: Filecoin Green
         body: ''
       - image:
-          src: /uploads/headshot.png
+          src: /uploads/jim_jiang.webp
         label: ''
         headline: Jim Jiang
         subhead: SXX Data Future
         body: ''
       - image:
-          src: /uploads/0.png
+          src: /uploads/tolga_yaz.webp
         label: ''
         headline: Tolga Yaz
         subhead: RegenWise
         body: ''
       - image:
-          src: /uploads/Screenshot 2023-08-04 at 8.50.02 AM.png
+          src: /uploads/akshay_yeleswarapu.webp
         label: ''
         headline: Akshay Yeleswarapu
         subhead: ostrom
@@ -703,38 +703,38 @@ blocks:
       contributions and leadership in the ReFi space and beyond.
     items:
       - image:
-          src: /uploads/johnx-bw.png
+          src: /uploads/committee_john_x.webp
         label: ''
         headline: John X
         subhead: 'Toucan Protocol '
         body: ''
       - image:
-          src: /uploads/Screenshot 2023-08-03 at 9.38.58 AM.png
+          src: /uploads/committee_alan_ransil.webp
         label: ''
         headline: Alan Ransil
         subhead: Filecoin Green
         body: ''
       - image:
-          src: /uploads/Screenshot 2023-08-03 at 9.40.58 AM.png
+          src: /uploads/committee_isha_varshney.webp
         label: ''
         headline: Isha Varshney
         subhead: Celo Foundation
         body: ''
       - image:
-          src: /uploads/Screenshot 2023-08-03 at 9.42.55 AM.png
+          src: /uploads/committee_alex_paris.webp
         label: ''
         headline: Alex Paris
         subhead: UNFCCC
         body: ''
       - image:
-          src: /uploads/Simge Sandal.jpeg
+          src: /uploads/committee_simge_sandal.webp
         label: ''
         headline: Simge Sandal
         subhead: GainForest
         body: ''
       - image:
-          src: /uploads/IMG_4670.jpg
-          alt: Adelaine B.
+          src: /uploads/committee_caitlin_moore.webp
+          alt: Caitlin Moore
         label: ''
         headline: Caitlin Moore
         subhead: Filecoin Green
