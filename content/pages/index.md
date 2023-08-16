@@ -306,7 +306,7 @@ blocks:
     headline: Speakers
     subhead: ''
     body: >
-      SBS Earth will feature a dynamic group of speakers, featuring prominent
+      SBS Earth featured a dynamic group of speakers, featuring prominent
       figures from the legacy energy industry, influential NGOs, experts in
       carbon management, and leaders in web3 and ReFi projects.
     items:
@@ -787,6 +787,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
