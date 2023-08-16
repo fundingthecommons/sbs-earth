@@ -153,6 +153,15 @@ blocks:
         top: 36
         left: 20
       - image:
+          src: /uploads/Speaker Cards with talk info card - Clay Graham (1).jpg
+        title: Oregon
+        city: Stealth
+        description: An IWA Persistence and Tokenization Pattern for Blockchain
+        video: N0bJnvGLY8Q
+        time: '10:26'
+        top: 32
+        left: 20
+      - image:
           src: /uploads/vod_laura_angel.webp
         title: Mexico
         city: Zondax
@@ -815,6 +824,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
