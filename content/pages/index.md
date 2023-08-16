@@ -38,20 +38,32 @@ blocks:
     body: ''
     _template: feature
   - style:
-      alignment: 'flex-row-reverse items-start gap-4 sm:flex-col sm:items-start sm:gap-4'
+      alignment: flex-col items-start gap-4
       padding: 'pt-10 pb-14 pr-10 pl-10 sm:pt-10 sm:pb-14 sm:pr-5 sm:pl-5'
       featureImage: '  mr-auto'
-      featureContent: 'w-3/5 min-h-0 text-left sm:w-full sm:min-h-0 sm:text-left'
+      featureContent: 'w-2/3 min-h-0 text-left sm:w-full sm:min-h-0 sm:text-left'
       buttonsLayout: 'flex-wrap gap-4  sm:flex-col sm:gap-4 sm:w-60'
       labelStyles: text-accent3 mg-copy mb-2.5
       headlineStyles: text-white mg-headline-large undefined
       subheadStyles: text-white mg-headline-small mb-20
       textStyles: text-white mg-copy-small mb-12
     background:
+      fillStyles: ' opacity-100'
+      wrapFillStyles: ' opacity-100'
       style: bg-cover
       position: bg-center
-    videoId: 1nuMk72bytg
-    liveLink: 'https://protocol.zoom.us/j/99205832561'
+      ornaments:
+        - src: /uploads/earth.webp
+          alignment: center
+          xOffset: '600'
+          yOffset: '-50'
+          animationType: none
+          duration: '2500'
+          scrollOffset: '-500'
+          startRotation: ''
+          endRotation: ''
+    image:
+      src: /uploads/virtual-label.svg
     label: ''
     headline: Join us to shape a sustainable future
     subhead: 'August 16, 2023'
@@ -65,7 +77,10 @@ blocks:
       - label: Explore Projects
         link: '#explore-projects'
         buttonStyle: outline
-    _template: hero
+      - label: Get Notified About Future SBS Events
+        link: 'https://mailchi.mp/90fdbff26d90/sustainable-blockchain-summit'
+        buttonStyle: outline
+    _template: feature
   - style:
       alignment: 'flex-col-reverse items-center '
       padding: 'pt-20 pb-14 pr-20 pl-20 sm:pt-10 sm:pb-9 sm:pr-5 sm:pl-5'
@@ -900,6 +915,9 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
+
+
 
 
 

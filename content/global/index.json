@@ -9,16 +9,10 @@
     "image": ""
   },
   "nav": {
-    "padding": "pt-0 pb-0 pr-10 pl-8",
+    "padding": "pt-4 pb-0 pr-8 pl-8",
     "navBackgroundColor": "bg-accent4 opacity-100",
     "navAlignment": "text-right",
-    "navTypeStyle": "text-gray-light mg-body-sm  sm:text-accent3 sm:mg-body-sm sm:",
-    "navItems": [
-      {
-        "label": "Join Live",
-        "link": "https://protocol.zoom.us/j/99205832561"
-      }
-    ]
+    "navTypeStyle": "text-gray-light mg-body-sm  sm:text-accent3 sm:mg-body-sm sm:"
   },
   "favicon": "/uploads/favicon-64.png",
   "analytics": "plausible"
