@@ -122,6 +122,16 @@ blocks:
         top: 37
         left: 43
       - image:
+          src: /uploads/Speaker Cards with talk info card - Ben Stamm (2).jpg
+        title: 'New York '
+        city: EY Blockchain
+        description: How Can OpsChainESG Help Corporates On Their Journey to Net-Zero
+        link: ''
+        video: fkcH_Zv62yw
+        time: '8:57'
+        top: 33
+        left: 32
+      - image:
           src: /uploads/vod_jim_jiang.webp
         title: China
         city: SXX Future Data
@@ -169,7 +179,7 @@ blocks:
         link: ''
         video: 5X6p-GKsIGU
         time: '8:28'
-        top: 31
+        top: 32
         left: 30
       - image:
           src: /uploads/vod_utkarsh_patel.webp
@@ -805,6 +815,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
