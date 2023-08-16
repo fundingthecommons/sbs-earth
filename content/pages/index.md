@@ -66,7 +66,7 @@ blocks:
       src: /uploads/virtual-label.svg
     label: ''
     headline: Join us to shape a sustainable future
-    subhead: "Today, 10:15 AM Eastern!"
+    subhead: "August 16, 2023"
     body: >
       Welcome to the inaugural virtual Sustainable Blockchain Summit, where
       technology meets sustainability in a groundbreaking digital experience!
@@ -74,8 +74,8 @@ blocks:
       sustainability enthusiasts to explore the power of blockchain in promoting
       a greener and more equitable world.
     buttons:
-      - label: Explore Projects
-        link: '#explore-projects'
+      - label: Watch Replays
+        link: 'https://www.youtube.com/playlist?list=PL_0VrY55uV19YTddVrX99-dLTdoDJ_mO1'
         buttonStyle: outline
       - label: Get Notified About Future SBS Events
         link: 'https://mailchi.mp/90fdbff26d90/sustainable-blockchain-summit'
