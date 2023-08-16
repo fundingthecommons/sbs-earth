@@ -81,131 +81,6 @@ blocks:
         link: 'https://mailchi.mp/90fdbff26d90/sustainable-blockchain-summit'
         buttonStyle: outline
     _template: feature
-  - style:
-      alignment: 'flex-col-reverse items-center '
-      padding: 'pt-20 pb-14 pr-20 pl-20 sm:pt-10 sm:pb-9 sm:pr-5 sm:pl-5'
-      featureImage: '  mx-auto'
-      featureContent: w-full min-h-0 text-left
-      labelStyles: text-black undefined undefined
-      headlineStyles: text-black undefined undefined
-      subheadStyles: text-black undefined undefined
-      textStyles: text-white mg-copy-large mb-3.5
-    background:
-      fillStyles: ' opacity-100'
-      wrapFillStyles: ' opacity-100'
-      animatedBackground: bg-lead-in.jpg
-      src: ''
-      style: bg-cover
-      position: bg-center
-      ornaments:
-        - src: /uploads/dandelions.webp
-          alignment: bottom
-          xOffset: '-608'
-        - src: /uploads/dandelion-seed-1.webp
-          alignment: bottom
-          height: '54'
-          xOffset: '-380'
-          yOffset: '-365'
-          animationType: scroll
-          duration: '2000'
-          scrollOffset: '0'
-          endOffsetY: '-200'
-          endOffsetX: '50'
-          endRotation: '25'
-        - src: /uploads/dandelion-seed-2.webp
-          alignment: bottom
-          height: '54'
-          xOffset: '-293'
-          yOffset: '-325'
-          animationType: scroll
-          duration: '2000'
-          scrollOffset: '0'
-          startRotation: ''
-          endOffsetY: '-160'
-          endOffsetX: '50'
-          endRotation: '45'
-        - src: /uploads/dandelion-seed-2.webp
-          alignment: bottom
-          xOffset: '-380'
-          yOffset: '-430'
-          animationType: scroll
-          duration: '2000'
-          scrollOffset: '0'
-          startOffsetY: '0'
-          startOffsetX: '0'
-          startRotation: '-110'
-          endOffsetY: '-180'
-          endOffsetX: '-40'
-        - src: /uploads/dandelion-seed-1.webp
-          alignment: bottom
-          xOffset: '-380'
-          yOffset: '-260'
-          animationType: scroll
-          duration: '2000'
-          startRotation: '50'
-          endOffsetY: '-160'
-          endOffsetX: '-20'
-        - src: /uploads/dandelion-seed-2.webp
-          alignment: bottom
-          xOffset: '-360'
-          yOffset: '-250'
-          animationType: scroll
-          duration: '2000'
-          startRotation: '45'
-          endOffsetY: '-120'
-          endOffsetX: '20'
-          endRotation: '90'
-        - src: /uploads/dandelion-seed-2.webp
-          alignment: bottom
-          xOffset: '-420'
-          yOffset: '-320'
-          animationType: scroll
-          duration: '2000'
-          startRotation: '10'
-          endOffsetY: '-90'
-          endOffsetX: '40'
-          endRotation: '70'
-        - src: /uploads/dandelion-seed-1.webp
-          alignment: bottom
-          xOffset: '-440'
-          yOffset: '-300'
-          animationType: scroll
-          duration: '2000'
-          endOffsetY: '-120'
-          endOffsetX: '-20'
-          endRotation: '-50'
-        - src: /uploads/dandelion-seed-1.webp
-          alignment: bottom
-          xOffset: '-490'
-          yOffset: '-280'
-          animationType: scroll
-          duration: '2000'
-          startOffsetY: ''
-          startOffsetX: ''
-          startRotation: '-20'
-          endOffsetY: '-100'
-          endOffsetX: '-10'
-          endRotation: '-50'
-        - src: /uploads/dandelion-seed-2.webp
-          alignment: bottom
-          xOffset: '-430'
-          yOffset: '-270'
-          animationType: scroll
-          duration: '2000'
-          endOffsetY: '-130'
-          endOffsetX: '10'
-          endScale: '1.2'
-          endRotation: '25'
-    headline: ''
-    subhead: ''
-    body: >
-      Engage with inspiring keynotes and interactive panels of global experts,
-      and discover how sustainable blockchain solutions can reshape our future.
-
-
-      Register now for this virtual adventure and join the movement to harness
-      blockchain's potential for a cleaner, more sustainable tomorrow.
-    _template: feature
   - background:
       fillStyles: ' opacity-100'
       wrapFillStyles: ' opacity-100'
@@ -327,7 +202,7 @@ blocks:
         time: '7:14'
         top: 41
         left: 27
-    navigationLabel: Explore Projects
+    navigationLabel: 'Watch SBS Earth Content '
     _template: videoPlayer
   - style:
       alignment: flex-col-reverse items-center gap-12
@@ -915,6 +790,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
