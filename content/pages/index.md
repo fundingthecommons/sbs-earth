@@ -158,8 +158,8 @@ blocks:
         left: 30
       - image:
           src: /uploads/vod_utkarsh_patel.webp
-        title: Solarpunk Dao
-        city: Bangalore
+        title: Bangalore
+        city: Solarpunk Dao
         description: Leveraging web3 to Create the Solarpunk Paradigm
         video: ERLwogTNjsA
         time: '4:33'
@@ -790,6 +790,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
