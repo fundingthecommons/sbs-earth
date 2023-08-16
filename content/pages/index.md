@@ -644,7 +644,7 @@ blocks:
       subheadStyles: 'text-accent2 undefined '
       textStyles: text-gray mg-card-title mb-0
     headline: Agenda
-    subhead: SBS Earth will be broadcasted in Eastern Time (ET).
+    subhead: 'SBS Earth was livestreamed on August 16, 2023'
     body: ''
     timelines:
       - label: ''
@@ -790,6 +790,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
