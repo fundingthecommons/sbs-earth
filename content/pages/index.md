@@ -38,32 +38,20 @@ blocks:
     body: ''
     _template: feature
   - style:
-      alignment: flex-col items-start gap-4
+      alignment: 'flex-row-reverse items-start gap-4 sm:flex-col sm:items-start sm:gap-4'
       padding: 'pt-10 pb-14 pr-10 pl-10 sm:pt-10 sm:pb-14 sm:pr-5 sm:pl-5'
       featureImage: '  mr-auto'
-      featureContent: 'w-2/3 min-h-0 text-left sm:w-full sm:min-h-0 sm:text-left'
+      featureContent: 'w-3/5 min-h-0 text-left sm:w-full sm:min-h-0 sm:text-left'
       buttonsLayout: 'flex-wrap gap-4  sm:flex-col sm:gap-4 sm:w-60'
       labelStyles: text-accent3 mg-copy mb-2.5
       headlineStyles: text-white mg-headline-large undefined
       subheadStyles: text-white mg-headline-small mb-20
       textStyles: text-white mg-copy-small mb-12
     background:
-      fillStyles: ' opacity-100'
-      wrapFillStyles: ' opacity-100'
       style: bg-cover
       position: bg-center
-      ornaments:
-        - src: /uploads/earth.webp
-          alignment: center
-          xOffset: '600'
-          yOffset: '-50'
-          animationType: none
-          duration: '2500'
-          scrollOffset: '-500'
-          startRotation: ''
-          endRotation: ''
-    image:
-      src: /uploads/virtual-label.svg
+    videoId: 1nuMk72bytg
+    liveLink: 'https://protocol.zoom.us/j/99205832561'
     label: ''
     headline: Join us to shape a sustainable future
     subhead: 'August 16, 2023'
@@ -77,7 +65,7 @@ blocks:
       - label: Explore Projects
         link: '#explore-projects'
         buttonStyle: outline
-    _template: feature
+    _template: hero
   - style:
       alignment: 'flex-col-reverse items-center '
       padding: 'pt-20 pb-14 pr-20 pl-20 sm:pt-10 sm:pb-9 sm:pr-5 sm:pl-5'
@@ -210,8 +198,7 @@ blocks:
       position: bg-center
     items:
       - image:
-          src: >-
-            /uploads/vod_ankita_bhattacharjee.webp
+          src: /uploads/vod_ankita_bhattacharjee.webp
         title: Topl
         city: Texas
         description: 'The Next Frontier in Impact Funding: Impact Tokens'
@@ -220,8 +207,7 @@ blocks:
         top: 39
         left: 25
       - image:
-          src: >-
-            /uploads/vod_beltran_berrocal.webp
+          src: /uploads/vod_beltran_berrocal.webp
         title: Zero Labs Green
         city: Spain
         description: 'Casting Spells with the Green Wizard '
@@ -529,6 +515,7 @@ blocks:
         label: ''
         headline: "Kristy\tDeiner"
         subhead: SimplexDNA
+        body: ''
       - image:
           src: /uploads/Screenshot 2023-07-12 at 3.59.57 PM.png
         label: ''
@@ -913,6 +900,9 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
+
+
 
 
 
