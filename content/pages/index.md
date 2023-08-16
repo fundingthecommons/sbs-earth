@@ -249,6 +249,15 @@ blocks:
         top: 49
         left: 44
       - image:
+          src: /uploads/Speaker Cards with talk info card - Jon Trask.jpg
+        title: Canada
+        city: Dimitra
+        description: AI's Role in Stopping Deforestation
+        video: jdxFDENv96Y
+        time: '9:14'
+        top: 28
+        left: 24
+      - image:
           src: /uploads/vod_marcus_aurelius.webp
         title: Florida
         city: KlimaDAO
@@ -845,6 +854,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
