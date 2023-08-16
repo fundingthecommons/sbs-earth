@@ -74,8 +74,8 @@ blocks:
       sustainability enthusiasts to explore the power of blockchain in promoting
       a greener and more equitable world.
     buttons:
-      - label: Watch Replays
-        link: 'https://www.youtube.com/playlist?list=PL_0VrY55uV19YTddVrX99-dLTdoDJ_mO1'
+      - label: Livestream Replay
+        link: 'https://www.youtube.com/live/1nuMk72bytg?'
         buttonStyle: outline
       - label: Get Notified About Future SBS Events
         link: 'https://mailchi.mp/90fdbff26d90/sustainable-blockchain-summit'
