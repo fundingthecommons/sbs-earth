@@ -423,17 +423,18 @@ blocks:
         subhead: GainForest
         body: ''
       - image:
+          src: /uploads/elliot_david.webp
+          alt: Elliott D.
+        label: ''
+        headline: Elliot David
+        subhead: Sustainable Bitcoin Protocol
+        body: ''
+      - image:
           src: /uploads/adelaine_bhattacharjee.webp
           alt: Adelaine B.
         label: ''
         headline: Adelaine Bhattacharjee
         subhead: Topl
-        body: ''
-      - image:
-          src: /uploads/brad_van_voorhees.webp
-        label: ''
-        headline: Brad Van Voorhees
-        subhead: Sustainable Bitcoin Protocol
         body: ''
       - image:
           src: /uploads/julia_benz.webp
@@ -465,13 +466,6 @@ blocks:
         label: ''
         headline: Juan Giraldo
         subhead: ReFi Medellín & Green Digital Guardians
-        body: ''
-      - image:
-          src: /uploads/elliot_david.webp
-          alt: Elliott D.
-        label: ''
-        headline: Elliot David
-        subhead: Sustainable Bitcoin Protocol
         body: ''
       - image:
           src: /uploads/kristy_deiner.webp
@@ -616,12 +610,6 @@ blocks:
         label: ''
         headline: Tolga Yaz
         subhead: RegenWise
-        body: ''
-      - image:
-          src: /uploads/akshay_yeleswarapu.webp
-        label: ''
-        headline: Akshay Yeleswarapu
-        subhead: ostrom
         body: ''
     navigationLabel: Speakers
     _template: speakers
@@ -863,6 +851,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
