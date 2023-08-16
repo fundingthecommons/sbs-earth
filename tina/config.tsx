@@ -8,6 +8,7 @@ import { featureBlockSchema } from "../schema/blocks/feature";
 import { cardsBlockSchema } from "../schema/blocks/cards";
 import { accordionBlockSchema } from "../schema/blocks/accordion";
 import { embedBlockSchema } from "../schema/blocks/embed";
+import { heroBlockSchema } from "../schema/blocks/hero";
 import { speakersBlockSchema } from "../schema/blocks/speakers";
 import { sponsorsBlockSchema } from "../schema/blocks/sponsors";
 import { timelineBlockSchema } from "../schema/blocks/timeline"
@@ -15,6 +16,7 @@ import { tailwindFeatureBlockSchema } from "../schema/blocks/tailwind-feature"
 import { tailwindCardsBlockSchema } from "../schema/blocks/tailwind-cards"
 import { eventScheduleBlockSchema } from "../schema/blocks/event-schedule"
 import { eventTimelineBlockSchema } from "../schema/blocks/event-timeline"
+import { videoPlayerBlockSchema } from "../schema/blocks/video-player"
 
 // Collections
 import { eventCollectionSchema } from "../schema/collections/events"
@@ -84,9 +86,11 @@ const config = defineStaticConfig({
               cardsBlockSchema,
               accordionBlockSchema,
               embedBlockSchema,
+              heroBlockSchema,
               speakersBlockSchema,
               sponsorsBlockSchema,
               timelineBlockSchema,
+              videoPlayerBlockSchema,
               tailwindFeatureBlockSchema,
               tailwindCardsBlockSchema,
               eventScheduleBlockSchema,
@@ -192,7 +196,7 @@ const config = defineStaticConfig({
     import("../plugins").then(({ typographyControlFieldPlugin }) => {
       cms.plugins.add(typographyControlFieldPlugin);
     });
-    
+
     return cms
   }
 });

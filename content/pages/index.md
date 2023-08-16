@@ -1,70 +1,58 @@
 ---
 blocks:
   - style:
-      alignment: "flex-row items-start "
+      alignment: 'flex-row items-start '
       padding: pt-11 pb-0 pr-10 pl-8
-      featureImage: "wpx-132 hpx-200 mr-auto sm:wpx-90 sm:hpx- sm:mr-auto"
-      featureContent: "w-1/2 min-h-0 text-right sm:w-3/4 sm:min-h-0 sm:text-right"
-      buttonsLayout: "flex-wrap gap-0 "
-      labelStyles: "text-accent3 mg-headline-small "
-      headlineStyles: "text-white mg-copy  sm:text-white undefined sm:mb-24"
-      subheadStyles: "text-white mg-headline-small "
-      textStyles: "text-white mg-headline-small "
+      featureImage: 'wpx-132 hpx-200 mr-auto sm:wpx-90 sm:hpx- sm:mr-auto'
+      featureContent: 'w-1/2 min-h-0 text-right sm:w-3/4 sm:min-h-0 sm:text-right'
+      buttonsLayout: 'flex-wrap gap-0 '
+      labelStyles: 'text-accent3 mg-headline-small '
+      headlineStyles: 'text-white mg-copy  sm:text-white undefined sm:mb-24'
+      subheadStyles: 'text-white mg-headline-small '
+      textStyles: 'text-white mg-headline-small '
     background:
-      fillStyles: " opacity-100"
-      wrapFillStyles: " opacity-100"
-      src: ""
+      fillStyles: ' opacity-100'
+      wrapFillStyles: ' opacity-100'
+      src: ''
       style: bg-repeat
       position: bg-center
       ornaments:
         - src: /uploads/hero-blob.png
           alignment: center
-          width: "600"
-          xOffset: "-600"
-          yOffset: "-300"
+          width: '600'
+          xOffset: '-600'
+          yOffset: '-300'
           animationType: scroll
-          duration: "2500"
-          scrollOffset: "1200"
-          startScale: "1"
-          startRotation: "0"
-          endOffsetY: "300"
-          endScale: "1.5"
-          endRotation: "-30"
+          duration: '2500'
+          scrollOffset: '1200'
+          startScale: '1'
+          startRotation: '0'
+          endOffsetY: '300'
+          endScale: '1.5'
+          endRotation: '-30'
     image:
       src: /uploads/logo-sbs-earth-vert-light-tall.svg
-    label: ""
-    headline: ""
-    subhead: ""
-    body: ""
+    label: ''
+    headline: ''
+    subhead: ''
+    body: ''
     _template: feature
   - style:
-      alignment: flex-col items-start gap-4
-      padding: "pt-10 pb-14 pr-10 pl-10 sm:pt-10 sm:pb-14 sm:pr-5 sm:pl-5"
-      featureImage: "  mr-auto"
-      featureContent: "w-2/3 min-h-0 text-left sm:w-full sm:min-h-0 sm:text-left"
-      buttonsLayout: "flex-wrap gap-4  sm:flex-col sm:gap-4 sm:w-60"
+      alignment: 'flex-row-reverse items-start gap-4 sm:flex-col sm:items-start sm:gap-4'
+      padding: 'pt-10 pb-14 pr-10 pl-10 sm:pt-10 sm:pb-14 sm:pr-5 sm:pl-5'
+      featureImage: '  mr-auto'
+      featureContent: 'w-3/5 min-h-0 text-left sm:w-full sm:min-h-0 sm:text-left'
+      buttonsLayout: 'flex-wrap gap-4  sm:flex-col sm:gap-4 sm:w-60'
       labelStyles: text-accent3 mg-copy mb-2.5
       headlineStyles: text-white mg-headline-large undefined
       subheadStyles: text-white mg-headline-small mb-20
       textStyles: text-white mg-copy-small mb-12
     background:
-      fillStyles: " opacity-100"
-      wrapFillStyles: " opacity-100"
       style: bg-cover
       position: bg-center
-      ornaments:
-        - src: /uploads/earth.webp
-          alignment: center
-          xOffset: "600"
-          yOffset: "-50"
-          animationType: none
-          duration: "2500"
-          scrollOffset: "-500"
-          startRotation: ""
-          endRotation: ""
-    image:
-      src: /uploads/virtual-label.svg
-    label: ""
+    videoId: 1nuMk72bytg
+    liveLink: 'https://protocol.zoom.us/j/99205832561'
+    label: ''
     headline: Join us to shape a sustainable future
     subhead: "Today, 10 AM Eastern!"
     body: >
@@ -74,131 +62,127 @@ blocks:
       sustainability enthusiasts to explore the power of blockchain in promoting
       a greener and more equitable world.
     buttons:
-      - label: Register
-        link: >-
-          https://www.eventbrite.com/e/sustainable-blockchain-summit-earth-registration-636837918357
+      - label: Explore Projects
+        link: '#explore-projects'
         buttonStyle: outline
-      - label: Sponsor SBS
-        link: "https://airtable.com/shr27EigZgmYiOizE"
-        buttonStyle: outline
-    _template: feature
+    _template: hero
   - style:
-      alignment: "flex-col-reverse items-center "
-      padding: "pt-20 pb-14 pr-20 pl-20 sm:pt-10 sm:pb-9 sm:pr-5 sm:pl-5"
-      featureImage: "  mx-auto"
+      alignment: 'flex-col-reverse items-center '
+      padding: 'pt-20 pb-14 pr-20 pl-20 sm:pt-10 sm:pb-9 sm:pr-5 sm:pl-5'
+      featureImage: '  mx-auto'
       featureContent: w-full min-h-0 text-left
       labelStyles: text-black undefined undefined
       headlineStyles: text-black undefined undefined
       subheadStyles: text-black undefined undefined
       textStyles: text-white mg-copy-large mb-3.5
     background:
-      fillStyles: " opacity-100"
-      wrapFillStyles: " opacity-100"
+      fillStyles: ' opacity-100'
+      wrapFillStyles: ' opacity-100'
       animatedBackground: bg-lead-in.jpg
-      src: ""
+      src: ''
       style: bg-cover
       position: bg-center
       ornaments:
         - src: /uploads/dandelions.webp
           alignment: bottom
-          xOffset: "-608"
+          xOffset: '-608'
         - src: /uploads/dandelion-seed-1.webp
           alignment: bottom
-          height: "54"
-          xOffset: "-380"
-          yOffset: "-365"
+          height: '54'
+          xOffset: '-380'
+          yOffset: '-365'
           animationType: scroll
-          duration: "2000"
-          scrollOffset: "0"
-          endOffsetY: "-200"
-          endOffsetX: "50"
-          endRotation: "25"
+          duration: '2000'
+          scrollOffset: '0'
+          endOffsetY: '-200'
+          endOffsetX: '50'
+          endRotation: '25'
         - src: /uploads/dandelion-seed-2.webp
           alignment: bottom
-          height: "54"
-          xOffset: "-293"
-          yOffset: "-325"
+          height: '54'
+          xOffset: '-293'
+          yOffset: '-325'
           animationType: scroll
-          duration: "2000"
-          scrollOffset: "0"
-          startRotation: ""
-          endOffsetY: "-160"
-          endOffsetX: "50"
-          endRotation: "45"
+          duration: '2000'
+          scrollOffset: '0'
+          startRotation: ''
+          endOffsetY: '-160'
+          endOffsetX: '50'
+          endRotation: '45'
         - src: /uploads/dandelion-seed-2.webp
           alignment: bottom
-          xOffset: "-380"
-          yOffset: "-430"
+          xOffset: '-380'
+          yOffset: '-430'
           animationType: scroll
-          duration: "2000"
-          scrollOffset: "0"
-          startOffsetY: "0"
-          startOffsetX: "0"
-          startRotation: "-110"
-          endOffsetY: "-180"
-          endOffsetX: "-40"
+          duration: '2000'
+          scrollOffset: '0'
+          startOffsetY: '0'
+          startOffsetX: '0'
+          startRotation: '-110'
+          endOffsetY: '-180'
+          endOffsetX: '-40'
         - src: /uploads/dandelion-seed-1.webp
           alignment: bottom
-          xOffset: "-380"
-          yOffset: "-260"
+          xOffset: '-380'
+          yOffset: '-260'
           animationType: scroll
-          duration: "2000"
-          startRotation: "50"
-          endOffsetY: "-160"
-          endOffsetX: "-20"
+          duration: '2000'
+          startRotation: '50'
+          endOffsetY: '-160'
+          endOffsetX: '-20'
         - src: /uploads/dandelion-seed-2.webp
           alignment: bottom
-          xOffset: "-360"
-          yOffset: "-250"
+          xOffset: '-360'
+          yOffset: '-250'
           animationType: scroll
-          duration: "2000"
-          startRotation: "45"
-          endOffsetY: "-120"
-          endOffsetX: "20"
-          endRotation: "90"
+          duration: '2000'
+          startRotation: '45'
+          endOffsetY: '-120'
+          endOffsetX: '20'
+          endRotation: '90'
         - src: /uploads/dandelion-seed-2.webp
           alignment: bottom
-          xOffset: "-420"
-          yOffset: "-320"
+          xOffset: '-420'
+          yOffset: '-320'
           animationType: scroll
-          duration: "2000"
-          startRotation: "10"
-          endOffsetY: "-90"
-          endOffsetX: "40"
-          endRotation: "70"
+          duration: '2000'
+          startRotation: '10'
+          endOffsetY: '-90'
+          endOffsetX: '40'
+          endRotation: '70'
         - src: /uploads/dandelion-seed-1.webp
           alignment: bottom
-          xOffset: "-440"
-          yOffset: "-300"
+          xOffset: '-440'
+          yOffset: '-300'
           animationType: scroll
-          duration: "2000"
-          endOffsetY: "-120"
-          endOffsetX: "-20"
-          endRotation: "-50"
+          duration: '2000'
+          endOffsetY: '-120'
+          endOffsetX: '-20'
+          endRotation: '-50'
         - src: /uploads/dandelion-seed-1.webp
           alignment: bottom
-          xOffset: "-490"
-          yOffset: "-280"
+          xOffset: '-490'
+          yOffset: '-280'
           animationType: scroll
-          duration: "2000"
-          startOffsetY: ""
-          startOffsetX: ""
-          startRotation: "-20"
-          endOffsetY: "-100"
-          endOffsetX: "-10"
-          endRotation: "-50"
+          duration: '2000'
+          startOffsetY: ''
+          startOffsetX: ''
+          startRotation: '-20'
+          endOffsetY: '-100'
+          endOffsetX: '-10'
+          endRotation: '-50'
         - src: /uploads/dandelion-seed-2.webp
           alignment: bottom
-          xOffset: "-430"
-          yOffset: "-270"
+          xOffset: '-430'
+          yOffset: '-270'
           animationType: scroll
-          duration: "2000"
-          endOffsetY: "-130"
-          endOffsetX: "10"
-          endScale: "1.2"
-          endRotation: "25"
-    headline: ""
-    subhead: ""
+          duration: '2000'
+          endOffsetY: '-130'
+          endOffsetX: '10'
+          endScale: '1.2'
+          endRotation: '25'
+    headline: ''
+    subhead: ''
     body: >
       Engage with inspiring keynotes and interactive panels of global experts,
       and discover how sustainable blockchain solutions can reshape our future.
@@ -207,9 +191,132 @@ blocks:
       Register now for this virtual adventure and join the movement to harness
       blockchain's potential for a cleaner, more sustainable tomorrow.
     _template: feature
+  - background:
+      fillStyles: ' opacity-100'
+      wrapFillStyles: ' opacity-100'
+      style: bg-cover
+      position: bg-center
+    items:
+      - image:
+          src: /uploads/vod_ankita_bhattacharjee.webp
+        title: Topl
+        city: Texas
+        description: 'The Next Frontier in Impact Funding: Impact Tokens'
+        video: wGMHQi1XqQ4
+        time: '8:59'
+        top: 39
+        left: 25
+      - image:
+          src: /uploads/vod_beltran_berrocal.webp
+        title: Zero Labs Green
+        city: Spain
+        description: 'Casting Spells with the Green Wizard '
+        link: ''
+        video: sW-CRHEUeKA
+        time: '10:22'
+        top: 37
+        left: 43
+      - image:
+          src: /uploads/vod_jim_jiang.webp
+        title: SXX Future Data
+        city: China
+        description: FVM Makes the Whole Ecosystem Fairer and More Dynamic
+        video: hg_k3sv6epE
+        time: '7:45'
+        top: 43
+        left: 66
+      - image:
+          src: /uploads/vod_julia_benz.webp
+        title: Decentralized Futures Council
+        city: San Francisco
+        description: >-
+          How blockchain’s intersection with sustainability is giving power back
+          to the people
+        link: ''
+        video: ldOwKRtdcVY
+        time: '8:17'
+        top: 36
+        left: 20
+      - image:
+          src: /uploads/vod_laura_angel.webp
+        title: Zondax
+        city: Mexico
+        description: 'Zondaxs green data center, from Zurich to the world'
+        link: ''
+        video: 3UwWpNFaqNc
+        time: '7:06'
+        top: 44
+        left: 23
+      - image:
+          src: /uploads/vod_lyndon_burford.webp
+        title: PATH Collective
+        city: United Kingdom
+        description: 'Decentralized security: blockchain in nuclear disarmament'
+        video: KYFxl1_ALF0
+        time: '7:23'
+        top: 31
+        left: 43
+      - image:
+          src: /uploads/vod_ben_towne.webp
+        title: PREPchain
+        city: Pennsylvania
+        description: Proof of Renewable Electricity Production
+        link: ''
+        video: 5X6p-GKsIGU
+        time: '8:28'
+        top: 31
+        left: 30
+      - image:
+          src: /uploads/vod_utkarsh_patel.webp
+        title: Solarpunk Dao
+        city: Bangalore
+        description: Leveraging web3 to Create the Solarpunk Paradigm
+        video: ERLwogTNjsA
+        time: '4:33'
+        top: 47
+        left: 59
+      - image:
+          src: /uploads/vod_tolga_yaz.webp
+        title: RegenWise
+        city: Istanbul
+        description: What Should We Do RegenWise?
+        link: ''
+        video: GoIhr35BMyk
+        time: '4:49'
+        top: 37
+        left: 49
+      - image:
+          src: /uploads/vod_stenver_jerkku.webp
+        title: Solid World
+        city: Estonia
+        description: Revolutionizing Access to Commodity Production Financing
+        video: Q5B_HRtbXZA
+        time: '10:34'
+        top: 29
+        left: 48
+      - image:
+          src: /uploads/vod_peace_bello.webp
+        title: 'Chemotronix Limited '
+        city: Nigeria
+        description: Developing Voluntary Carbon Markets for Africa
+        video: Dlbk5T83e_Y
+        time: '4:29'
+        top: 49
+        left: 44
+      - image:
+          src: /uploads/vod_marcus_aurelius.webp
+        title: KlimaDAO
+        city: Florida
+        description: Murphy's Law for Carbon Credit Methodologies
+        video: GI8QUBnq9FY
+        time: '7:14'
+        top: 41
+        left: 27
+    navigationLabel: Explore Projects
+    _template: videoPlayer
   - style:
       alignment: flex-col-reverse items-center gap-12
-      padding: "pt-20 pb-20 pr-10 pl-10 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5"
+      padding: 'pt-20 pb-20 pr-10 pl-10 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
       featureContent: w-full min-h-0 text-center
       labelStyles: text-black undefined undefined
       headlineStyles: text-accent3 mg-headline-medium mb-16
@@ -217,7 +324,7 @@ blocks:
       textStyles: text-white mg-copy undefined
     cardStyle:
       fillStyles: bg-white opacity-100
-      grid: "grid-cols-4 justify-start gap-4 sm:grid-cols-2 sm:justify-start sm:gap-4"
+      grid: 'grid-cols-4 justify-start gap-4 sm:grid-cols-2 sm:justify-start sm:gap-4'
       alignment: flex-col items-center  text-center
       image: >-
         wpx-160 hpx-160 object-center object-cover sm:wpx-160 sm:hpx-160
@@ -233,84 +340,84 @@ blocks:
       buttonLayout: undefined
       buttonWidth: undefined
     background:
-      fillStyles: " opacity-100"
-      wrapFillStyles: " opacity-100"
-      src: ""
+      fillStyles: ' opacity-100'
+      wrapFillStyles: ' opacity-100'
+      src: ''
       style: bg-cover
       position: bg-center
       ornaments:
         - src: /uploads/clematis.webp
           alignment: bottom
-          xOffset: "-600"
-          yOffset: "-600"
+          xOffset: '-600'
+          yOffset: '-600'
           animationType: scroll
-          duration: "2500"
-          scrollOffset: "-600"
-          startOffsetY: "0"
-          startScale: ".8"
-          startRotation: "0"
-          endOffsetY: "0"
-          endScale: "1"
-          endRotation: "20"
+          duration: '2500'
+          scrollOffset: '-600'
+          startOffsetY: '0'
+          startScale: '.8'
+          startRotation: '0'
+          endOffsetY: '0'
+          endScale: '1'
+          endRotation: '20'
         - src: /uploads/abstract-1.png
           alignment: top
-          width: "450"
-          xOffset: "-650"
-          yOffset: "170"
+          width: '450'
+          xOffset: '-650'
+          yOffset: '170'
           animationType: scroll
-          duration: "2500"
-          scrollOffset: "-500"
-          startOffsetY: "-50"
-          startScale: ".8"
-          startRotation: "0"
-          endScale: "1"
-          endRotation: "40"
+          duration: '2500'
+          scrollOffset: '-500'
+          startOffsetY: '-50'
+          startScale: '.8'
+          startRotation: '0'
+          endScale: '1'
+          endRotation: '40'
         - src: /uploads/blue-blur.svg
           alignment: top
-          xOffset: "700"
-          yOffset: "200"
+          xOffset: '700'
+          yOffset: '200'
           animationType: scroll
-          duration: "2500"
-          scrollOffset: "-500"
-          startOpacity: "0.7"
-          startScale: ".8"
+          duration: '2500'
+          scrollOffset: '-500'
+          startOpacity: '0.7'
+          startScale: '.8'
           endOffsetY: 5-
-          endOffsetX: "50"
-          endScale: "1.5"
+          endOffsetX: '50'
+          endScale: '1.5'
         - src: /uploads/green-blur.svg
           alignment: top
-          xOffset: "750"
-          yOffset: "-100"
+          xOffset: '750'
+          yOffset: '-100'
           animationType: scroll
-          duration: "2500"
-          scrollOffset: ""
-          startOffsetY: "0"
-          startOffsetX: "0"
-          startOpacity: "0.8"
-          startScale: ".7"
-          startRotation: "0"
-          endOffsetX: "-200"
-          endScale: "1.4"
-          endRotation: "10"
+          duration: '2500'
+          scrollOffset: ''
+          startOffsetY: '0'
+          startOffsetX: '0'
+          startOpacity: '0.8'
+          startScale: '.7'
+          startRotation: '0'
+          endOffsetX: '-200'
+          endScale: '1.4'
+          endRotation: '10'
         - src: /uploads/carnation.webp
           alignment: top
-          xOffset: "600"
-          yOffset: "250"
+          xOffset: '600'
+          yOffset: '250'
           animationType: scroll
-          duration: "2500"
-          scrollOffset: "-500"
-          startOffsetY: ""
-          startScale: ".8"
-          startRotation: "0"
-          endOffsetY: "-100"
-          endScale: "1"
-          endRotation: "-20"
+          duration: '2500'
+          scrollOffset: '-500'
+          startOffsetY: ''
+          startScale: '.8'
+          startRotation: '0'
+          endOffsetY: '-100'
+          endScale: '1'
+          endRotation: '-20'
         - src: /uploads/blue-blur.svg
           alignment: bottom
-          xOffset: "-750"
-    label: ""
+          xOffset: '-750'
+    label: ''
     headline: Speakers
-    subhead: ""
+    subhead: ''
     body: >
       SBS Earth will feature a dynamic group of speakers, featuring prominent
       figures from the legacy energy industry, influential NGOs, experts in
@@ -557,15 +664,15 @@ blocks:
     _template: speakers
   - style:
       alignment: flex-col-reverse items-center gap-12
-      padding: "pt-20 pb-20 pr-10 pl-10 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5"
+      padding: 'pt-20 pb-20 pr-10 pl-10 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
       featureContent: w-full min-h-0 text-center
       labelStyles: text-black undefined undefined
       headlineStyles: text-accent3 mg-headline-medium mb-16
       subheadStyles: text-black undefined undefined
       textStyles: text-white mg-copy undefined
     cardStyle:
-      fillStyles: " opacity-100"
-      grid: "grid-cols-3 justify-start gap-4 sm:grid-cols-1 sm:justify-start sm:gap-4"
+      fillStyles: ' opacity-100'
+      grid: 'grid-cols-3 justify-start gap-4 sm:grid-cols-1 sm:justify-start sm:gap-4'
       alignment: flex-row items-start gap-4 text-left
       image: >-
         wpx-90 hpx-90 object-center object-cover sm:wpx-90 sm:hpx-90
@@ -582,13 +689,13 @@ blocks:
       buttonWidth: undefined
     background:
       fillStyles: bg-accent4 opacity-100
-      wrapFillStyles: " opacity-100"
-      src: ""
+      wrapFillStyles: ' opacity-100'
+      src: ''
       style: bg-repeat
       position: bg-center
-    label: ""
+    label: ''
     headline: Content Committee
-    subhead: ""
+    subhead: ''
     body: >
       The SBS Earth Content Committee features both Web3 and Sustainability
       experts that play a critical role in shaping SBS Earth content and
@@ -634,7 +741,7 @@ blocks:
         body: ''
     _template: speakers
   - style:
-      alignment: "flex-col-reverse items-center "
+      alignment: 'flex-col-reverse items-center '
       padding: pt-20 pb-10 pr-10 pl-10
       featureContent: w-full min-h-0 text-center
       labelStyles: text-black undefined undefined
@@ -644,94 +751,102 @@ blocks:
     timelineStyle:
       labelStyles: text-white mg-copy-small mb-0
       headlineStyles: text-white mg-copy-large mb-2.5
-      subheadStyles: "text-accent2 undefined "
+      subheadStyles: 'text-accent2 undefined '
       textStyles: text-gray mg-card-title mb-0
     headline: Agenda
     subhead: SBS Earth will be broadcasted in Eastern Time (ET).
-    body: ""
+    body: ''
     timelines:
-      - label: ""
+      - label: ''
         headline: Morning
-        subhead: ""
-        body: ""
+        subhead: ''
+        body: ''
         events:
-          - time: "10:00"
+          - time: '10:15'
             headline: Opening Remarks
-            subhead: "Marc Johnson, Filecoin Green"
-          - time: "10:06"
-            headline: Keynote
-            subhead: "Anna Lerner, Climate Collective"
-          - time: "10:21"
-            headline: ReFi Panel
-          - time: "10:46"
-            headline: "Equity and Governance "
-            subhead: "Kendra Leong, she256"
-          - time: "11:08"
+            subhead: 'Marc Johnson, Filecoin Green'
+          - time: '10:21'
+            headline: 'Keynote: Current State of ReFi'
+            subhead: 'Anna Lerner, Climate Collective'
+          - time: '10:32'
+            headline: Leveraging Web3 to Create the Solarpunk Paradigm
+            subhead: 'Utkarsh Patel, Solarpunk Dao'
+          - time: '10:37'
+            headline: 'Zondax''s green data center, from Zurich to the world'
+            subhead: 'Laura Angel, Zondax'
+          - time: '10:44'
+            headline: The Autonomous and Transparent Future of Biodiversity and MRV
+            subhead: 'Kristy Deiner, SimplexDNA | David Dao, GainForest'
+          - time: '11:04'
+            headline: 'Equity and Governance '
+            subhead: 'Kendra Leong, she256'
+          - time: '11:13'
             headline: How Can OpsChainESG Help Corporates On Their Journey to Net-Zero
-            subhead: "Ben Stamm, EY Blockchain"
-          - time: "11:18"
-            headline: Peer2Peer Energy Trading and Renewable Powered Blockchains
-            subhead: "Stefan\tKermer, Dione Protocol"
-          - time: "11:28"
+            subhead: 'Ben Stamm, EY Blockchain'
+          - time: '11:22'
+            headline: 'Proof of Renewable Electricity Production '
+            subhead: "W. Ben\tTowne, PREPchain"
+          - time: '11:31'
             headline: >-
               Digital MRVs - Environmental Assets Tokenization For Regenerative
               Finance
-            subhead: "Cristian Mosella, EnergyLab"
-          - time: "11:41"
+            subhead: 'Cristian Mosella, EnergyLab'
+          - time: '11:44'
             headline: Citizen Science for Rainforest Conservation
-            subhead: "Simeon Max, Gainforest"
-          - time: "11:51"
+            subhead: 'Simeon Max, Gainforest'
+          - time: '11:53'
             headline: >-
               Verity Carbon - Web3 Enabled Digital MRV for Carbon and Co-Benefit
               Projects at Scale
-            subhead: "Justin Baird, Blue Carbon S2C"
+            subhead: 'Justin Baird, Blue Carbon S2C'
       - headline: Afternoon
+        body: ''
         events:
-          - time: "12:01"
+          - time: '12:03'
             headline: Transform.Storage for ReFi
             subhead: "Alan\tRansil, Protocol Labs"
-          - time: "12:11"
+          - time: '12:14'
             headline: >-
               Leveraging Blockchain to Bring Accountability and Integrity to
               Corporate Climate Action
-            subhead: "Saudamini Sharma, Thallo"
-          - time: "12:21"
+            subhead: 'Saudamini Sharma, Thallo'
+          - time: '12:24'
             headline: A Stable Asset Backed by Nature
             subhead: "Tobias\tKuhlmann, Mento Labs"
-          - time: "12:31"
+          - time: '12:34'
             headline: AI's Role in Stopping Deforestation
-            subhead: "Jon Trask, Dimitra"
-          - time: "12:41"
+            subhead: 'Jon Trask, Dimitra'
+          - time: '12:40'
             headline: >-
               Bitcoin: A Potential Solution for Energy Poverty, Financial
               Exclusion, and the Digital Divide
-            subhead: "Elliot David, Sustainable Bitcoin Protocol"
-          - time: "12:51"
+            subhead: 'Elliot David, Sustainable Bitcoin Protocol'
+          - time: '12:53'
             headline: >-
               An IWA Persistence and Tokenization Pattern for Blockchain Based
               CO2 Auditing and Monetization
-            subhead: "Clay Graham, Stealth"
-          - time: "1:05"
-            headline: "Panel: Community, Governance, and ReFi "
+            subhead: 'Clay Graham, Stealth'
+          - time: '1:06'
+            headline: 'Panel: Community, Governance, and ReFi '
             subhead: >-
               John Ellison, ReFi DAO | Magenta Ceiba, Bloom Network | Juan
-              Giraldo, ReFi Medellín | Ester Silva, EthereumBrasil
-          - time: "1:30"
-            headline: Fireside Chat
-            subhead: "Kevin Owocki, Gitcoin & Caitlin Moore, Filecoin Green"
-          - time: "1:50"
+              Giraldo, ReFi Medellín | Ester Silva, AgroChain & ETHBrasil
+          - time: '1:31'
+            headline: 'Fireside Chat: Solving Real World Problems with Kevin Owocki'
+            subhead: 'Kevin Owocki, Gitcoin & Caitlin Moore, Filecoin Green'
+          - time: '1:53'
             headline: Closing Remarks
-            subhead: "Marc Johnson, Filecoin Green"
+            subhead: 'Marc Johnson, Filecoin Green'
     navigationLabel: Agenda
     _template: timeline
   - style:
-      padding: "pt-20 pb-20 pr-20 pl-20 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5"
+      padding: 'pt-20 pb-20 pr-20 pl-20 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
       headlineStyles: text-white mg-headline-medium undefined
     background:
-      fillStyles: " opacity-100"
-      wrapFillStyles: " opacity-100"
+      fillStyles: ' opacity-100'
+      wrapFillStyles: ' opacity-100'
       animatedBackground: bg-sponsors.jpg
-      src: ""
+      src: ''
       style: bg-cover
       position: bg-center
     partners:
@@ -740,11 +855,11 @@ blocks:
       - src: /uploads/filecoin-foundation.svg
     _template: sponsors
   - style:
-      alignment: "flex-col-reverse items-center "
-      padding: "pt-20 pb-5 pr-10 pl-10 sm:pt-10 sm:pb-7 sm:pr-5 sm:pl-5"
-      featureImage: "  mx-auto"
+      alignment: 'flex-col-reverse items-center '
+      padding: 'pt-20 pb-5 pr-10 pl-10 sm:pt-10 sm:pb-7 sm:pr-5 sm:pl-5'
+      featureImage: '  mx-auto'
       featureContent: w-full min-h-0 text-left
-      buttonsLayout: "flex-wrap gap-7  sm:flex-wrap sm:gap-3 sm:"
+      buttonsLayout: 'flex-wrap gap-7  sm:flex-wrap sm:gap-3 sm:'
       labelStyles: text-black undefined undefined
       headlineStyles: text-white mg-copy-small mb-1
       subheadStyles: text-black undefined undefined
@@ -753,17 +868,17 @@ blocks:
       style: bg-cover
       position: bg-center
     headline: Previous SBS Events
-    subhead: ""
-    body: ""
+    subhead: ''
+    body: ''
     buttons:
       - label: SBS Boston
-        link: "https://boston23.sbs.tech/"
+        link: 'https://boston23.sbs.tech/'
         buttonStyle: footer-link
       - label: SBS LATAM
-        link: "https://latam22.sbs.tech/"
+        link: 'https://latam22.sbs.tech/'
         buttonStyle: footer-link
       - label: SBS Paris
-        link: "https://paris22.sbs.tech/"
+        link: 'https://paris22.sbs.tech/'
         buttonStyle: footer-link
       - label: SBS SXSW
         link: >-
@@ -785,3 +900,53 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

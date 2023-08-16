@@ -30,11 +30,13 @@ export const SectionListItemsPlugin = {
         eventSchedule: 'Event Schedule',
         eventTimeline: 'Event Timeline',
         feature: 'Feature',
+        hero: 'Hero',
         speakers: 'Speakers',
         sponsors: 'Sponsors',
         timeline: 'Timeline',
         tailwindCards: 'Cards TW',
         tailwindFeature: 'Feature TW',
+        videoPlayer: 'Video Player',
       }
       const sectionName = item.headline || item.subhead || item.label || item.title || ''
       const sectionNameShort = sectionName.match(/^.{24}\w*/)
@@ -42,7 +44,7 @@ export const SectionListItemsPlugin = {
       const label = sectionLabel ? `${sectionLabel} (${templateNames[item._template]})` : `${templateNames[item._template]}`
       return { ...item, label: label }
     }
-    
+
     const templates = {}
     Object.keys(props.field.templates).forEach((key) => {
       templates[key] = {
@@ -50,7 +52,7 @@ export const SectionListItemsPlugin = {
         itemProps,
       }
     })
-    
+
     return <BlocksFieldPlugin.Component {...props} field={{ ...props.field, templates }} />
   },
   __type: 'field',
