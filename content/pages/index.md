@@ -186,8 +186,8 @@ blocks:
         left: 48
       - image:
           src: /uploads/vod_peace_bello.webp
-        title: 'Chemotronix Limited '
-        city: Nigeria
+        title: Nigeria
+        city: 'Chemotronix Limited '
         description: Developing Voluntary Carbon Markets for Africa
         video: Dlbk5T83e_Y
         time: '4:29'
@@ -790,6 +790,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
