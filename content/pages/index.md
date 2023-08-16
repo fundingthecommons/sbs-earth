@@ -184,6 +184,15 @@ blocks:
         top: 31
         left: 43
       - image:
+          src: /uploads/Speaker Cards with talk info card - Justin Baird.jpg
+        title: Singapore
+        city: Blue Carbon S2C
+        description: Verity Carbon - Web3 Enabled Digital MRV for Carbon Projects
+        video: majT6PbLaWE
+        time: '9:58'
+        top: 53
+        left: 64
+      - image:
           src: /uploads/vod_ben_towne.webp
         title: Pennsylvania
         city: PREPchain
@@ -836,6 +845,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
