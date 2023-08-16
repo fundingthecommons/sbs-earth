@@ -233,8 +233,8 @@ blocks:
         left: 43
       - image:
           src: /uploads/vod_jim_jiang.webp
-        title: SXX Future Data
-        city: China
+        title: China
+        city: SXX Future Data
         description: FVM Makes the Whole Ecosystem Fairer and More Dynamic
         video: hg_k3sv6epE
         time: '7:45'
@@ -242,8 +242,8 @@ blocks:
         left: 66
       - image:
           src: /uploads/vod_julia_benz.webp
-        title: Decentralized Futures Council
-        city: San Francisco
+        title: San Francisco
+        city: Decentralized Futures Council
         description: >-
           How blockchain’s intersection with sustainability is giving power back
           to the people
@@ -254,8 +254,8 @@ blocks:
         left: 20
       - image:
           src: /uploads/vod_laura_angel.webp
-        title: Zondax
-        city: Mexico
+        title: Mexico
+        city: Zondax
         description: 'Zondaxs green data center, from Zurich to the world'
         link: ''
         video: 3UwWpNFaqNc
@@ -915,6 +915,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
