@@ -85,6 +85,15 @@ blocks:
       position: bg-center
     items:
       - image:
+          src: /uploads/Speaker Cards with talk info card - Tobias Kuhlmann.jpg
+        title: Germany
+        city: Mento Labs
+        description: A Stable Asset backed by Nature
+        video: g0qQsYDQanY
+        time: '9:53'
+        top: 35
+        left: 47
+      - image:
           src: /uploads/Speaker Cards with talk info card - Kendra Leong.jpg
         title: Australia
         city: she256
@@ -219,7 +228,7 @@ blocks:
         link: ''
         video: GoIhr35BMyk
         time: '4:49'
-        top: 37
+        top: 38
         left: 49
       - image:
           src: /uploads/vod_jim_jiang.webp
@@ -854,6 +863,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
