@@ -69,7 +69,7 @@ blocks:
     subhead: 'August 16, 2023'
     body: >
       Welcome to the inaugural virtual Sustainable Blockchain Summit, where
-      technology meets sustainability in a groundbreaking digital experience! 
+      technology meets sustainability in a groundbreaking digital experience!
     buttons:
       - label: Livestream Replay
         link: 'https://www.youtube.com/live/1nuMk72bytg?'
@@ -84,6 +84,13 @@ blocks:
       style: bg-cover
       position: bg-center
     items:
+      - title: Switzerland
+        city: GainForest
+        description: Citizen Science for Rainforest Conservation
+        video: tMochgiToow
+        time: '8:40'
+        top: 36
+        left: 45
       - image:
           src: /uploads/vod_ankita_bhattacharjee.webp
         title: Texas
@@ -787,6 +794,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
