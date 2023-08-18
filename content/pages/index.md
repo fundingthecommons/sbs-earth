@@ -85,7 +85,7 @@ blocks:
       position: bg-center
     items:
       - image:
-          src: /uploads/Speaker Cards with talk info card - Kendra Leong.jpg
+          src: /uploads/vod_kendra_leong.webp
         title: Australia
         city: she256
         description: 'Equity and Governance: The Role'
@@ -103,7 +103,7 @@ blocks:
         top: 39
         left: 25
       - image:
-          src: /uploads/Speaker Cards with talk info card - Simeon Max.jpg
+          src: /uploads/vod_simeon_max.webp
         title: Switzerland
         city: GainForest
         description: Citizen Science for Rainforest Conservation
@@ -122,7 +122,7 @@ blocks:
         top: 37
         left: 43
       - image:
-          src: /uploads/Speaker Cards with talk info card - Ben Stamm (2).jpg
+          src: /uploads/vod_ben_stamm.webp
         title: 'New York '
         city: EY Blockchain
         description: How Can OpsChainESG Help Corporates On Their Journey to Net-Zero
@@ -144,7 +144,7 @@ blocks:
         top: 36
         left: 20
       - image:
-          src: /uploads/Speaker Cards with talk info card - Clay Graham (1).jpg
+          src: /uploads/vod_clay_graham.webp
         title: Oregon
         city: Stealth
         description: An IWA Persistence and Tokenization Pattern for Blockchain
@@ -163,7 +163,7 @@ blocks:
         top: 44
         left: 23
       - image:
-          src: /uploads/Speaker Cards with talk info card - Elliot David.jpg
+          src: /uploads/vod_elliot_david.webp
         title: Florida
         city: Sustainable Bitcoin Protocol
         description: >-
@@ -184,7 +184,7 @@ blocks:
         top: 31
         left: 43
       - image:
-          src: /uploads/Speaker Cards with talk info card - Alan Ransil.jpg
+          src: /uploads/vod_alan_ransil.webp
         title: Washington
         city: Filecoin Green
         description: Transform.Storage for ReFi
@@ -202,7 +202,7 @@ blocks:
         top: 29
         left: 48
       - image:
-          src: /uploads/Speaker Cards with talk info card - Justin Baird.jpg
+          src: /uploads/vod_justin_baird.webp
         title: Singapore
         city: Blue Carbon S2C
         description: Verity Carbon - Web3 Enabled Digital MRV for Carbon Projects
@@ -221,7 +221,7 @@ blocks:
         top: 38
         left: 49
       - image:
-          src: /uploads/Speaker Cards with talk info card - Tobias Kuhlmann.jpg
+          src: /uploads/vod_tobias_kuhlmann.webp
         title: Germany
         city: Mento Labs
         description: A Stable Asset backed by Nature
@@ -239,7 +239,7 @@ blocks:
         top: 47
         left: 59
       - image:
-          src: /uploads/Speaker Cards with talk info card - Jon Trask.jpg
+          src: /uploads/vod_jon_trask.webp
         title: Canada
         city: Dimitra
         description: AI's Role in Stopping Deforestation
@@ -257,7 +257,7 @@ blocks:
         top: 43
         left: 66
       - image:
-          src: /uploads/Speaker Cards with talk info card - W. Ben Towne (1).jpg
+          src: /uploads/vod_ben_towne.webp
         title: Pennsylvania
         city: PREPchain
         description: Proof of Renewable Electricity Production
@@ -276,7 +276,7 @@ blocks:
         top: 41
         left: 27
       - image:
-          src: /uploads/Speaker Cards with talk info card - Anna Lerner (1).jpg
+          src: /uploads/vod_anna_lerner.webp
         title: Sweden
         city: Climate Collective
         description: 'Keynote: Current State of ReFi'
