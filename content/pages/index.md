@@ -85,14 +85,14 @@ blocks:
       position: bg-center
     items:
       - image:
-          src: /uploads/Speaker Cards with talk info card - Anna Lerner (1).jpg
-        title: Sweden
-        city: Climate Collective
-        description: 'Keynote: Current State of ReFi'
-        video: 6_YSZ4MOXQs
-        time: '10:59'
-        top: 27
-        left: 46
+          src: /uploads/Speaker Cards with talk info card - Alan Ransil.jpg
+        title: Washington
+        city: Filecoin Green
+        description: Transform.Storage for ReFi
+        video: IE84_4YbqMg
+        time: '10:09'
+        top: 28
+        left: 20
       - image:
           src: /uploads/Speaker Cards with talk info card - Kendra Leong.jpg
         title: Australia
@@ -275,6 +275,15 @@ blocks:
         time: '7:14'
         top: 41
         left: 27
+      - image:
+          src: /uploads/Speaker Cards with talk info card - Anna Lerner (1).jpg
+        title: Sweden
+        city: Climate Collective
+        description: 'Keynote: Current State of ReFi'
+        video: 6_YSZ4MOXQs
+        time: '10:59'
+        top: 27
+        left: 46
       - image:
           src: /uploads/vod_peace_bello.webp
         title: Nigeria
@@ -860,6 +869,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
