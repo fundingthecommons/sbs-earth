@@ -85,15 +85,6 @@ blocks:
       position: bg-center
     items:
       - image:
-          src: /uploads/Speaker Cards with talk info card - Alan Ransil.jpg
-        title: Washington
-        city: Filecoin Green
-        description: Transform.Storage for ReFi
-        video: IE84_4YbqMg
-        time: '10:09'
-        top: 28
-        left: 20
-      - image:
           src: /uploads/Speaker Cards with talk info card - Kendra Leong.jpg
         title: Australia
         city: she256
@@ -192,6 +183,15 @@ blocks:
         time: '7:23'
         top: 31
         left: 43
+      - image:
+          src: /uploads/Speaker Cards with talk info card - Alan Ransil.jpg
+        title: Washington
+        city: Filecoin Green
+        description: Transform.Storage for ReFi
+        video: IE84_4YbqMg
+        time: '10:09'
+        top: 28
+        left: 20
       - image:
           src: /uploads/vod_stenver_jerkku.webp
         title: Estonia
@@ -869,6 +869,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
