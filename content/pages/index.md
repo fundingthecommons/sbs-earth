@@ -86,6 +86,15 @@ blocks:
       position: bg-center
     items:
       - image:
+          src: /uploads/Speaker Cards with talk info card - Stefan Kermer.jpg
+        title: Austria
+        city: Dione Protocol
+        description: Peer2Peer Energy Trading and renewable powered blockchains
+        video: 58YCJoC85bY
+        time: '8:10'
+        top: 37
+        left: 47
+      - image:
           src: /uploads/vod_kendra_leong.webp
         title: Australia
         city: she256
@@ -870,6 +879,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
