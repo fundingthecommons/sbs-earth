@@ -85,6 +85,15 @@ blocks:
       style: bg-cover
       position: bg-center
     items:
+      - title: Colombia
+        city: Green Digital Guardians
+        description: >-
+          Preserving the Planet with NFTs: Exploring the Intersection of
+          Technology and Conservation
+        video: jcf6Kl4-Om4
+        time: '12:04'
+        top: 52
+        left: 29
       - image:
           src: /uploads/Speaker Cards with talk info card - Stefan Kermer.jpg
         title: Austria
@@ -879,6 +888,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
