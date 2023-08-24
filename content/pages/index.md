@@ -85,6 +85,15 @@ blocks:
       style: bg-cover
       position: bg-center
     items:
+      - title: India
+        city: Thallo
+        description: >-
+          Leveraging blockchain to bring accountability and integrity to
+          Corporate climate action in light of the EU Green Claims
+        video: SdjJkzt21lo?si=JGzvjj4H-A-bEWp4
+        time: '11:11'
+        top: 49
+        left: 59
       - image:
           src: /uploads/Speaker Cards with talk info card - Stefan Kermer.jpg
         title: Austria
@@ -890,6 +899,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
