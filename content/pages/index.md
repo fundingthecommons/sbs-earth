@@ -85,7 +85,9 @@ blocks:
       style: bg-cover
       position: bg-center
     items:
-      - title: India
+      - image:
+          src: /uploads/Speaker Cards with talk info card - Saudamini Sharma.jpg
+        title: India
         city: Thallo
         description: >-
           Leveraging blockchain to bring accountability and integrity to
@@ -899,6 +901,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
